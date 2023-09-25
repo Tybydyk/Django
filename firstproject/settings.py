@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'firstapp.apps.FirstappConfig',
     'firstmainapp',
     'first_about_me_app',
+    'second_app',
 ]
 
 MIDDLEWARE = [
