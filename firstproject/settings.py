@@ -43,6 +43,8 @@ INSTALLED_APPS = [
     'firstmainapp',
     'first_about_me_app',
     'second_app',
+    'lesson_2_app',
+    'hw2_store_app',
 ]
 
 MIDDLEWARE = [
@@ -157,15 +159,25 @@ LOGGING = {
             'class': 'logging.FileHandler',
             'encoding': "utf-8",
             'filename': './log/django.log',
-            # 'backupCount': 7,
-            'formatter': 'simple',  # Используем созданный форматер без цветов
+            'formatter': 'simple',
         },
         'file_hw1': {
             'class': 'logging.FileHandler',
             'encoding': "utf-8",
             'filename': './log/django_hw1.log',
-            # 'backupCount': 7,
-            'formatter': 'simple',  # Используем созданный форматер без цветов
+            'formatter': 'simple',
+        },
+        'file2': {
+            'class': 'logging.FileHandler',
+            'encoding': "utf-8",
+            'filename': './log/django_file2.log',
+            'formatter': 'simple',
+        },
+        'file_hw2': {
+            'class': 'logging.FileHandler',
+            'encoding': "utf-8",
+            'filename': './log/django_hw2.log',
+            'formatter': 'simple',
         },
     },
     'loggers': {
@@ -185,6 +197,16 @@ LOGGING = {
         },
         'first_about_me_app': {
             'handlers': ['console', 'file_hw1'],
+            'level': 'DEBUG',
+            'propagate': True,
+        },
+        'lesson_2_app': {
+            'handlers': ['console', 'file2'],
+            'level': 'DEBUG',
+            'propagate': True,
+        },
+        'hw2_store_app': {
+            'handlers': ['console', 'file_hw2'],
             'level': 'DEBUG',
             'propagate': True,
         },

@@ -23,4 +23,6 @@ urlpatterns = [
     path('main/', include('firstmainapp.urls')),
     path('about_me/', include('first_about_me_app.urls')),
     path('second/', include('second_app.urls')),
+    path('lesson2/', include('lesson_2_app.urls')),
+    path('hw2/', include('hw2_store_app.urls')),
     ]

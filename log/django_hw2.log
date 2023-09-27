@@ -1,0 +1,7 @@
+INFO 26-09-2023 14:44:39 views <WSGIRequest: GET '/hw2/'>Index page accessed
+INFO 26-09-2023 16:45:03 views <WSGIRequest: GET '/hw2/orders/'>users page accessed
+INFO 26-09-2023 16:45:13 views <WSGIRequest: GET '/hw2/products/'>users page accessed
+INFO 26-09-2023 16:45:24 views <WSGIRequest: GET '/hw2/users/'>users page accessed
+INFO 26-09-2023 17:42:58 views <WSGIRequest: GET '/hw2/users/'>users page accessed
+INFO 26-09-2023 21:26:18 views <WSGIRequest: GET '/hw2/users/'>users page accessed
+INFO 26-09-2023 21:26:26 views <WSGIRequest: GET '/hw2/orders/'>users page accessed

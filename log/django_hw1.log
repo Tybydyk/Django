@@ -4,3 +4,4 @@ INFO 22-09-2023 10:19:08 views <WSGIRequest: GET '/about2/'>HW_1_2 page accessed
 INFO 22-09-2023 10:24:42 views <WSGIRequest: GET '/about_me/'>HW_1_2 page accessed
 INFO 22-09-2023 10:26:20 views <WSGIRequest: GET '/about_me/'>HW_1_2 page accessed
 INFO 22-09-2023 10:26:29 views <WSGIRequest: GET '/main/'>HW_1_1 page accessed
+INFO 25-09-2023 14:28:34 views <WSGIRequest: GET '/main/'>HW_1_1 page accessed

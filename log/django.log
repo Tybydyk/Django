@@ -112,3 +112,635 @@ INFO 22-09-2023 10:26:20 basehttp "GET /about_me/ HTTP/1.1" 200 529
 INFO 22-09-2023 10:26:29 basehttp "GET /main/ HTTP/1.1" 200 453
 INFO 22-09-2023 10:27:20 autoreload /Users/syscom/PycharmProjects/Django/firstproject/first_about_me_app/views.py changed, reloading.
 INFO 22-09-2023 10:27:21 autoreload Watching for file changes with StatReloader
+INFO 25-09-2023 14:28:27 autoreload Watching for file changes with StatReloader
+INFO 25-09-2023 14:28:34 basehttp "GET /main/ HTTP/1.1" 200 453
+WARNING 25-09-2023 14:28:34 log Not Found: /favicon.ico
+WARNING 25-09-2023 14:28:34 basehttp "GET /favicon.ico HTTP/1.1" 404 3389
+WARNING 25-09-2023 14:28:44 log Not Found: /seminar2
+WARNING 25-09-2023 14:28:44 basehttp "GET /seminar2 HTTP/1.1" 404 3380
+INFO 25-09-2023 14:29:07 basehttp "GET /lesson2 HTTP/1.1" 301 0
+INFO 25-09-2023 14:29:07 basehttp "GET /lesson2/ HTTP/1.1" 200 8
+INFO 25-09-2023 14:29:28 basehttp "GET /lesson2/heads_tails HTTP/1.1" 301 0
+ERROR 25-09-2023 14:29:28 log Internal Server Error: /lesson2/heads_tails/
+Traceback (most recent call last):
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/firstproject/lesson_2_app/views.py", line 18, in heads_tails
+    res_w.save()
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/base.py", line 877, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/base.py", line 1020, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/base.py", line 1061, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1821, in execute_sql
+    for sql, params in self.as_sql():
+                       ^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1745, in as_sql
+    value_rows = [
+                 ^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1746, in <listcomp>
+    [
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1747, in <listcomp>
+    self.prepare_value(field, self.pre_save_val(field, obj))
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1686, in prepare_value
+    return field.get_db_prep_save(value, connection=self.connection)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py", line 954, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py", line 1607, in get_db_prep_value
+    value = self.get_prep_value(value)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py", line 1585, in get_prep_value
+    value = super().get_prep_value(value)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py", line 1464, in get_prep_value
+    return self.to_python(value)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py", line 1546, in to_python
+    parsed = parse_datetime(value)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/utils/dateparse.py", line 114, in parse_datetime
+    return datetime.datetime.fromisoformat(value)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: fromisoformat: argument must be str
+ERROR 25-09-2023 14:29:28 basehttp "GET /lesson2/heads_tails/ HTTP/1.1" 500 139018
+INFO 25-09-2023 14:35:17 autoreload /Users/syscom/PycharmProjects/Django/firstproject/lesson_2_app/views.py changed, reloading.
+INFO 25-09-2023 14:35:17 autoreload Watching for file changes with StatReloader
+ERROR 25-09-2023 14:35:24 log Internal Server Error: /lesson2/heads_tails/
+Traceback (most recent call last):
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/firstproject/lesson_2_app/views.py", line 18, in heads_tails
+    models.HeadsTails.save(res_w)
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/base.py", line 877, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/base.py", line 1020, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/base.py", line 1061, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1821, in execute_sql
+    for sql, params in self.as_sql():
+                       ^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1745, in as_sql
+    value_rows = [
+                 ^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1746, in <listcomp>
+    [
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1747, in <listcomp>
+    self.prepare_value(field, self.pre_save_val(field, obj))
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1686, in prepare_value
+    return field.get_db_prep_save(value, connection=self.connection)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py", line 954, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py", line 1607, in get_db_prep_value
+    value = self.get_prep_value(value)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py", line 1585, in get_prep_value
+    value = super().get_prep_value(value)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py", line 1464, in get_prep_value
+    return self.to_python(value)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py", line 1546, in to_python
+    parsed = parse_datetime(value)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/utils/dateparse.py", line 114, in parse_datetime
+    return datetime.datetime.fromisoformat(value)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: fromisoformat: argument must be str
+ERROR 25-09-2023 14:35:24 basehttp "GET /lesson2/heads_tails/ HTTP/1.1" 500 139223
+INFO 25-09-2023 14:38:07 autoreload /Users/syscom/PycharmProjects/Django/firstproject/lesson_2_app/views.py changed, reloading.
+INFO 25-09-2023 14:38:07 autoreload Watching for file changes with StatReloader
+ERROR 25-09-2023 14:38:27 log Internal Server Error: /lesson2/heads_tails/
+Traceback (most recent call last):
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/firstproject/lesson_2_app/views.py", line 18, in heads_tails
+    models.HeadsTails.save(res_w)
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/base.py", line 877, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/base.py", line 1020, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/base.py", line 1061, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1821, in execute_sql
+    for sql, params in self.as_sql():
+                       ^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1745, in as_sql
+    value_rows = [
+                 ^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1746, in <listcomp>
+    [
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1747, in <listcomp>
+    self.prepare_value(field, self.pre_save_val(field, obj))
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1686, in prepare_value
+    return field.get_db_prep_save(value, connection=self.connection)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py", line 954, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py", line 1607, in get_db_prep_value
+    value = self.get_prep_value(value)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py", line 1585, in get_prep_value
+    value = super().get_prep_value(value)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py", line 1464, in get_prep_value
+    return self.to_python(value)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py", line 1546, in to_python
+    parsed = parse_datetime(value)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/utils/dateparse.py", line 114, in parse_datetime
+    return datetime.datetime.fromisoformat(value)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: fromisoformat: argument must be str
+ERROR 25-09-2023 14:38:27 basehttp "GET /lesson2/heads_tails/ HTTP/1.1" 500 139225
+INFO 25-09-2023 14:41:24 autoreload /Users/syscom/PycharmProjects/Django/firstproject/lesson_2_app/views.py changed, reloading.
+INFO 25-09-2023 14:41:24 autoreload Watching for file changes with StatReloader
+ERROR 25-09-2023 14:41:32 log Internal Server Error: /lesson2/heads_tails/
+Traceback (most recent call last):
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/firstproject/lesson_2_app/views.py", line 18, in heads_tails
+    res_w.save()
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/base.py", line 877, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/base.py", line 1020, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/base.py", line 1061, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1821, in execute_sql
+    for sql, params in self.as_sql():
+                       ^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1745, in as_sql
+    value_rows = [
+                 ^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1746, in <listcomp>
+    [
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1747, in <listcomp>
+    self.prepare_value(field, self.pre_save_val(field, obj))
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1686, in prepare_value
+    return field.get_db_prep_save(value, connection=self.connection)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py", line 954, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py", line 1607, in get_db_prep_value
+    value = self.get_prep_value(value)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py", line 1585, in get_prep_value
+    value = super().get_prep_value(value)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py", line 1464, in get_prep_value
+    return self.to_python(value)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py", line 1546, in to_python
+    parsed = parse_datetime(value)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/utils/dateparse.py", line 114, in parse_datetime
+    return datetime.datetime.fromisoformat(value)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: fromisoformat: argument must be str
+ERROR 25-09-2023 14:41:32 basehttp "GET /lesson2/heads_tails/ HTTP/1.1" 500 139157
+INFO 25-09-2023 14:50:11 autoreload /Users/syscom/PycharmProjects/Django/firstproject/lesson_2_app/models.py changed, reloading.
+INFO 25-09-2023 14:50:11 autoreload Watching for file changes with StatReloader
+ERROR 25-09-2023 14:50:33 log Internal Server Error: /lesson2/heads_tails/
+Traceback (most recent call last):
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/firstproject/lesson_2_app/views.py", line 18, in heads_tails
+    res_w.save()
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/base.py", line 877, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/base.py", line 1020, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/base.py", line 1061, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1821, in execute_sql
+    for sql, params in self.as_sql():
+                       ^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1745, in as_sql
+    value_rows = [
+                 ^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1746, in <listcomp>
+    [
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1747, in <listcomp>
+    self.prepare_value(field, self.pre_save_val(field, obj))
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1686, in prepare_value
+    return field.get_db_prep_save(value, connection=self.connection)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py", line 954, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py", line 1607, in get_db_prep_value
+    value = self.get_prep_value(value)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py", line 1585, in get_prep_value
+    value = super().get_prep_value(value)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py", line 1464, in get_prep_value
+    return self.to_python(value)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py", line 1546, in to_python
+    parsed = parse_datetime(value)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/utils/dateparse.py", line 114, in parse_datetime
+    return datetime.datetime.fromisoformat(value)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: fromisoformat: argument must be str
+ERROR 25-09-2023 14:50:33 basehttp "GET /lesson2/heads_tails/ HTTP/1.1" 500 139157
+ERROR 25-09-2023 14:50:42 log Internal Server Error: /lesson2/heads_tails/
+Traceback (most recent call last):
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/firstproject/lesson_2_app/views.py", line 18, in heads_tails
+    res_w.save()
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/base.py", line 877, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/base.py", line 1020, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/base.py", line 1061, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1821, in execute_sql
+    for sql, params in self.as_sql():
+                       ^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1745, in as_sql
+    value_rows = [
+                 ^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1746, in <listcomp>
+    [
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1747, in <listcomp>
+    self.prepare_value(field, self.pre_save_val(field, obj))
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1686, in prepare_value
+    return field.get_db_prep_save(value, connection=self.connection)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py", line 954, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py", line 1607, in get_db_prep_value
+    value = self.get_prep_value(value)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py", line 1585, in get_prep_value
+    value = super().get_prep_value(value)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py", line 1464, in get_prep_value
+    return self.to_python(value)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py", line 1546, in to_python
+    parsed = parse_datetime(value)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/utils/dateparse.py", line 114, in parse_datetime
+    return datetime.datetime.fromisoformat(value)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: fromisoformat: argument must be str
+ERROR 25-09-2023 14:50:42 basehttp "GET /lesson2/heads_tails/ HTTP/1.1" 500 139157
+INFO 25-09-2023 14:51:21 autoreload /Users/syscom/PycharmProjects/Django/firstproject/lesson_2_app/views.py changed, reloading.
+INFO 25-09-2023 14:51:22 autoreload Watching for file changes with StatReloader
+ERROR 25-09-2023 14:51:26 log Internal Server Error: /lesson2/heads_tails/
+Traceback (most recent call last):
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/firstproject/lesson_2_app/views.py", line 19, in heads_tails
+    data = models.HeadsTails.statistic(n)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/firstproject/lesson_2_app/models.py", line 19, in statistic
+    if 'Heads' in item:
+       ^^^^^^^^^^^^^^^
+TypeError: argument of type 'HeadsTails' is not iterable
+ERROR 25-09-2023 14:51:26 basehttp "GET /lesson2/heads_tails/ HTTP/1.1" 500 65949
+ERROR 25-09-2023 14:51:32 log Internal Server Error: /lesson2/heads_tails/
+Traceback (most recent call last):
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/firstproject/lesson_2_app/views.py", line 19, in heads_tails
+    data = models.HeadsTails.statistic(n)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/firstproject/lesson_2_app/models.py", line 19, in statistic
+    if 'Heads' in item:
+       ^^^^^^^^^^^^^^^
+TypeError: argument of type 'HeadsTails' is not iterable
+ERROR 25-09-2023 14:51:32 basehttp "GET /lesson2/heads_tails/ HTTP/1.1" 500 66093
+INFO 25-09-2023 14:52:52 autoreload /Users/syscom/PycharmProjects/Django/firstproject/lesson_2_app/models.py changed, reloading.
+INFO 25-09-2023 14:52:53 autoreload Watching for file changes with StatReloader
+INFO 25-09-2023 14:52:56 basehttp "GET /lesson2/heads_tails/ HTTP/1.1" 200 24
+INFO 25-09-2023 14:53:01 basehttp "GET /lesson2/heads_tails/ HTTP/1.1" 200 24
+INFO 25-09-2023 14:53:02 basehttp "GET /lesson2/heads_tails/ HTTP/1.1" 200 24
+INFO 25-09-2023 14:53:03 basehttp "GET /lesson2/heads_tails/ HTTP/1.1" 200 24
+INFO 25-09-2023 14:53:03 basehttp "GET /lesson2/heads_tails/ HTTP/1.1" 200 24
+INFO 25-09-2023 14:53:04 basehttp "GET /lesson2/heads_tails/ HTTP/1.1" 200 24
+INFO 25-09-2023 14:53:06 basehttp "GET /lesson2/heads_tails/ HTTP/1.1" 200 24
+INFO 25-09-2023 14:53:08 basehttp "GET /lesson2/heads_tails/ HTTP/1.1" 200 24
+INFO 25-09-2023 14:53:10 basehttp "GET /lesson2/heads_tails/ HTTP/1.1" 200 24
+INFO 25-09-2023 14:53:15 basehttp "GET /lesson2/heads_tails/ HTTP/1.1" 200 24
+WARNING 25-09-2023 14:53:32 log Not Found: /lesson2/heads_tails/3
+WARNING 25-09-2023 14:53:32 basehttp "GET /lesson2/heads_tails/3 HTTP/1.1" 404 3667
+INFO 25-09-2023 14:53:45 basehttp "GET /lesson2/heads_tails/ HTTP/1.1" 200 24
+INFO 25-09-2023 14:53:56 basehttp "GET /lesson2/heads_tails/ HTTP/1.1" 200 24
+INFO 25-09-2023 14:53:57 basehttp "GET /lesson2/heads_tails/ HTTP/1.1" 200 24
+INFO 25-09-2023 14:53:59 basehttp "GET /lesson2/heads_tails/ HTTP/1.1" 200 24
+INFO 25-09-2023 14:54:00 basehttp "GET /lesson2/heads_tails/ HTTP/1.1" 200 24
+INFO 25-09-2023 14:54:00 basehttp "GET /lesson2/heads_tails/ HTTP/1.1" 200 24
+INFO 25-09-2023 14:54:02 basehttp "GET /lesson2/heads_tails/ HTTP/1.1" 200 24
+INFO 25-09-2023 14:54:03 basehttp "GET /lesson2/heads_tails/ HTTP/1.1" 200 24
+INFO 25-09-2023 14:54:04 basehttp "GET /lesson2/heads_tails/ HTTP/1.1" 200 24
+INFO 25-09-2023 14:54:04 basehttp "GET /lesson2/heads_tails/ HTTP/1.1" 200 24
+INFO 25-09-2023 14:54:05 basehttp "GET /lesson2/heads_tails/ HTTP/1.1" 200 24
+INFO 25-09-2023 14:54:06 basehttp "GET /lesson2/heads_tails/ HTTP/1.1" 200 24
+INFO 25-09-2023 14:54:07 basehttp "GET /lesson2/heads_tails/ HTTP/1.1" 200 24
+INFO 25-09-2023 14:54:07 basehttp "GET /lesson2/heads_tails/ HTTP/1.1" 200 24
+INFO 25-09-2023 14:54:08 basehttp "GET /lesson2/heads_tails/ HTTP/1.1" 200 24
+INFO 25-09-2023 14:54:09 basehttp "GET /lesson2/heads_tails/ HTTP/1.1" 200 24
+INFO 25-09-2023 14:54:09 basehttp "GET /lesson2/heads_tails/ HTTP/1.1" 200 24
+INFO 25-09-2023 14:54:48 autoreload /Users/syscom/PycharmProjects/Django/firstproject/lesson_2_app/views.py changed, reloading.
+INFO 25-09-2023 14:54:48 autoreload Watching for file changes with StatReloader
+INFO 25-09-2023 14:54:49 basehttp "GET /lesson2/heads_tails/ HTTP/1.1" 200 24
+INFO 25-09-2023 14:54:50 basehttp "GET /lesson2/heads_tails/ HTTP/1.1" 200 24
+INFO 25-09-2023 14:54:51 basehttp "GET /lesson2/heads_tails/ HTTP/1.1" 200 24
+INFO 25-09-2023 14:54:52 basehttp "GET /lesson2/heads_tails/ HTTP/1.1" 200 24
+INFO 25-09-2023 14:54:52 basehttp "GET /lesson2/heads_tails/ HTTP/1.1" 200 24
+INFO 25-09-2023 14:54:53 basehttp "GET /lesson2/heads_tails/ HTTP/1.1" 200 24
+INFO 25-09-2023 14:55:37 basehttp "GET /lesson2/heads_tails/ HTTP/1.1" 200 24
+INFO 25-09-2023 14:55:38 basehttp "GET /lesson2/heads_tails/ HTTP/1.1" 200 24
+INFO 25-09-2023 15:00:03 basehttp "GET /lesson2/heads_tails/?/1 HTTP/1.1" 200 24
+INFO 25-09-2023 15:00:07 basehttp "GET /lesson2/heads_tails/?/1 HTTP/1.1" 200 24
+INFO 25-09-2023 15:00:08 basehttp "GET /lesson2/heads_tails/?/1 HTTP/1.1" 200 24
+INFO 25-09-2023 15:00:10 basehttp "GET /lesson2/heads_tails/?/1 HTTP/1.1" 200 24
+INFO 25-09-2023 15:00:11 basehttp "GET /lesson2/heads_tails/?/1 HTTP/1.1" 200 24
+INFO 25-09-2023 15:00:12 basehttp "GET /lesson2/heads_tails/?/1 HTTP/1.1" 200 24
+INFO 25-09-2023 15:00:14 basehttp "GET /lesson2/heads_tails/?/1 HTTP/1.1" 200 24
+INFO 25-09-2023 15:00:14 basehttp "GET /lesson2/heads_tails/?/1 HTTP/1.1" 200 24
+INFO 25-09-2023 15:00:25 basehttp "GET /lesson2/heads_tails/?/1 HTTP/1.1" 200 24
+INFO 25-09-2023 15:00:26 basehttp "GET /lesson2/heads_tails/?/1 HTTP/1.1" 200 24
+INFO 25-09-2023 15:00:28 basehttp "GET /lesson2/heads_tails/?/1 HTTP/1.1" 200 24
+INFO 25-09-2023 15:00:37 basehttp "GET /lesson2/heads_tails/?/10 HTTP/1.1" 200 24
+INFO 25-09-2023 15:00:39 basehttp "GET /lesson2/heads_tails/?/10 HTTP/1.1" 200 24
+INFO 25-09-2023 15:00:41 basehttp "GET /lesson2/heads_tails/?/10 HTTP/1.1" 200 24
+INFO 25-09-2023 15:00:41 basehttp "GET /lesson2/heads_tails/?/10 HTTP/1.1" 200 24
+INFO 25-09-2023 15:00:42 basehttp "GET /lesson2/heads_tails/?/10 HTTP/1.1" 200 24
+INFO 25-09-2023 15:00:43 basehttp "GET /lesson2/heads_tails/?/10 HTTP/1.1" 200 24
+INFO 25-09-2023 15:00:44 basehttp "GET /lesson2/heads_tails/?/10 HTTP/1.1" 200 24
+INFO 25-09-2023 15:00:44 basehttp "GET /lesson2/heads_tails/?/10 HTTP/1.1" 200 24
+INFO 25-09-2023 15:00:50 basehttp "GET /lesson2/heads_tails/ HTTP/1.1" 200 24
+INFO 25-09-2023 15:09:24 autoreload /Users/syscom/PycharmProjects/Django/firstproject/lesson_2_app/models.py changed, reloading.
+INFO 25-09-2023 15:09:24 autoreload Watching for file changes with StatReloader
+INFO 25-09-2023 15:09:59 autoreload /Users/syscom/PycharmProjects/Django/firstproject/lesson_2_app/models.py changed, reloading.
+INFO 25-09-2023 15:09:59 autoreload Watching for file changes with StatReloader
+INFO 25-09-2023 15:10:40 autoreload /Users/syscom/PycharmProjects/Django/firstproject/lesson_2_app/models.py changed, reloading.
+INFO 25-09-2023 15:10:41 autoreload Watching for file changes with StatReloader
+INFO 25-09-2023 15:16:33 autoreload /Users/syscom/PycharmProjects/Django/firstproject/lesson_2_app/models.py changed, reloading.
+INFO 25-09-2023 15:16:34 autoreload Watching for file changes with StatReloader
+INFO 25-09-2023 15:19:23 autoreload /Users/syscom/PycharmProjects/Django/firstproject/lesson_2_app/views.py changed, reloading.
+INFO 25-09-2023 15:19:24 autoreload Watching for file changes with StatReloader
+INFO 25-09-2023 15:21:04 autoreload /Users/syscom/PycharmProjects/Django/firstproject/lesson_2_app/views.py changed, reloading.
+INFO 25-09-2023 15:21:04 autoreload Watching for file changes with StatReloader
+INFO 25-09-2023 15:22:08 autoreload /Users/syscom/PycharmProjects/Django/firstproject/lesson_2_app/views.py changed, reloading.
+INFO 25-09-2023 15:22:08 autoreload Watching for file changes with StatReloader
+INFO 25-09-2023 15:22:58 autoreload /Users/syscom/PycharmProjects/Django/firstproject/lesson_2_app/urls.py changed, reloading.
+INFO 25-09-2023 15:22:58 autoreload Watching for file changes with StatReloader
+INFO 25-09-2023 15:37:35 autoreload Watching for file changes with StatReloader
+INFO 25-09-2023 15:37:56 basehttp "GET /lesson2/authors HTTP/1.1" 301 0
+INFO 25-09-2023 15:37:56 basehttp "GET /lesson2/authors/ HTTP/1.1" 200 0
+INFO 25-09-2023 15:38:04 basehttp "GET /lesson2/authors/ HTTP/1.1" 200 0
+INFO 25-09-2023 15:38:15 basehttp "GET /lesson2/articles HTTP/1.1" 301 0
+INFO 25-09-2023 15:38:15 basehttp "GET /lesson2/articles/ HTTP/1.1" 200 0
+INFO 25-09-2023 15:50:12 autoreload Watching for file changes with StatReloader
+INFO 26-09-2023 07:21:42 autoreload Watching for file changes with StatReloader
+INFO 26-09-2023 07:35:47 autoreload Watching for file changes with StatReloader
+INFO 26-09-2023 08:05:35 autoreload Watching for file changes with StatReloader
+INFO 26-09-2023 08:05:49 basehttp "GET /lesson2/articles/ HTTP/1.1" 200 968
+WARNING 26-09-2023 08:06:14 log Not Found: /lesson2/authors_read
+WARNING 26-09-2023 08:06:14 basehttp "GET /lesson2/authors_read HTTP/1.1" 404 4023
+INFO 26-09-2023 08:06:26 basehttp "GET /lesson2/authors/ HTTP/1.1" 200 395
+INFO 26-09-2023 10:24:27 autoreload /Users/syscom/PycharmProjects/Django/firstproject/lesson_2_app/views.py changed, reloading.
+INFO 26-09-2023 10:24:27 autoreload Watching for file changes with StatReloader
+WARNING 26-09-2023 10:25:08 log Not Found: /lesson2/article_by_author
+WARNING 26-09-2023 10:25:08 basehttp "GET /lesson2/article_by_author HTTP/1.1" 404 4038
+INFO 26-09-2023 10:26:26 autoreload /Users/syscom/PycharmProjects/Django/firstproject/lesson_2_app/urls.py changed, reloading.
+INFO 26-09-2023 10:26:26 autoreload Watching for file changes with StatReloader
+INFO 26-09-2023 10:26:32 basehttp "GET /lesson2/article_by_author HTTP/1.1" 301 0
+ERROR 26-09-2023 10:26:32 log Internal Server Error: /lesson2/article_by_author/
+Traceback (most recent call last):
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/firstproject/lesson_2_app/views.py", line 35, in article_by_author
+    author_id = Author.objects.filter(name=name).first()
+                ^^^^^^
+NameError: name 'Author' is not defined
+ERROR 26-09-2023 10:26:32 basehttp "GET /lesson2/article_by_author/ HTTP/1.1" 500 61445
+WARNING 26-09-2023 10:27:02 log Not Found: /lesson2/article_by_authorName5
+WARNING 26-09-2023 10:27:02 basehttp "GET /lesson2/article_by_authorName5 HTTP/1.1" 404 4252
+WARNING 26-09-2023 10:27:25 log Not Found: /lesson2/article_by_authorName5
+WARNING 26-09-2023 10:27:25 basehttp "GET /lesson2/article_by_authorName5 HTTP/1.1" 404 4252
+WARNING 26-09-2023 10:27:38 log Not Found: /lesson2/article_by_author/name='Name5'
+WARNING 26-09-2023 10:27:38 basehttp "GET /lesson2/article_by_author/name='Name5' HTTP/1.1" 404 4308
+ERROR 26-09-2023 10:29:35 log Internal Server Error: /lesson2/article_by_author/
+Traceback (most recent call last):
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/firstproject/lesson_2_app/views.py", line 35, in article_by_author
+    author_id = Author.objects.filter(name=name).first()
+                ^^^^^^
+NameError: name 'Author' is not defined
+ERROR 26-09-2023 10:29:35 basehttp "GET /lesson2/article_by_author/?name=Name5 HTTP/1.1" 500 61676
+ERROR 26-09-2023 10:30:56 log Internal Server Error: /lesson2/article_by_author/
+Traceback (most recent call last):
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/firstproject/lesson_2_app/views.py", line 35, in article_by_author
+    author_id = Author.objects.filter(name=name).first()
+                ^^^^^^
+NameError: name 'Author' is not defined
+ERROR 26-09-2023 10:30:56 basehttp "GET /lesson2/article_by_author/?name=Name8 HTTP/1.1" 500 61676
+INFO 26-09-2023 10:35:28 autoreload /Users/syscom/PycharmProjects/Django/firstproject/lesson_2_app/views.py changed, reloading.
+INFO 26-09-2023 10:35:29 autoreload Watching for file changes with StatReloader
+ERROR 26-09-2023 10:35:34 log Internal Server Error: /lesson2/article_by_author/
+Traceback (most recent call last):
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/firstproject/lesson_2_app/views.py", line 36, in article_by_author
+    articles = models.Article.objects.filter(autor=author_id).all()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/sql/query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/sql/query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/sql/query.py", line 1426, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/sql/query.py", line 1236, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/sql/query.py", line 1724, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'autor' into field. Choices are: author, author_id, category, content, id, is_published, published, show_count, title
+ERROR 26-09-2023 10:35:34 basehttp "GET /lesson2/article_by_author/?name=Name5 HTTP/1.1" 500 108604
+INFO 26-09-2023 10:36:18 autoreload /Users/syscom/PycharmProjects/Django/firstproject/lesson_2_app/views.py changed, reloading.
+INFO 26-09-2023 10:36:18 autoreload Watching for file changes with StatReloader
+INFO 26-09-2023 10:36:22 basehttp "GET /lesson2/article_by_author/?name=Name5 HTTP/1.1" 200 121
+INFO 26-09-2023 10:36:31 basehttp "GET /lesson2/article_by_author/?name=Name8 HTTP/1.1" 200 121
+INFO 26-09-2023 10:38:16 autoreload /Users/syscom/PycharmProjects/Django/firstproject/lesson_2_app/models.py changed, reloading.
+INFO 26-09-2023 10:38:16 autoreload Watching for file changes with StatReloader
+INFO 26-09-2023 10:41:19 autoreload /Users/syscom/PycharmProjects/Django/firstproject/lesson_2_app/views.py changed, reloading.
+INFO 26-09-2023 10:41:19 autoreload Watching for file changes with StatReloader
+INFO 26-09-2023 10:41:20 basehttp "GET /lesson2/article_by_author/?name=Name8 HTTP/1.1" 200 43
+INFO 26-09-2023 10:41:43 basehttp "GET /lesson2/article_by_author/?name=Name5 HTTP/1.1" 200 43
+INFO 26-09-2023 10:42:25 autoreload /Users/syscom/PycharmProjects/Django/firstproject/lesson_2_app/views.py changed, reloading.
+INFO 26-09-2023 10:42:26 autoreload Watching for file changes with StatReloader
+INFO 26-09-2023 10:42:30 basehttp "GET /lesson2/article_by_author/?name=Name5 HTTP/1.1" 200 346
+INFO 26-09-2023 10:43:14 autoreload /Users/syscom/PycharmProjects/Django/firstproject/lesson_2_app/views.py changed, reloading.
+INFO 26-09-2023 10:43:14 autoreload Watching for file changes with StatReloader
+INFO 26-09-2023 10:43:17 basehttp "GET /lesson2/article_by_author/?name=Name5 HTTP/1.1" 200 303
+INFO 26-09-2023 10:43:39 autoreload /Users/syscom/PycharmProjects/Django/firstproject/lesson_2_app/views.py changed, reloading.
+INFO 26-09-2023 10:43:39 autoreload Watching for file changes with StatReloader
+INFO 26-09-2023 10:43:42 basehttp "GET /lesson2/article_by_author/?name=Name5 HTTP/1.1" 200 161
+INFO 26-09-2023 10:44:55 autoreload /Users/syscom/PycharmProjects/Django/firstproject/lesson_2_app/models.py changed, reloading.
+INFO 26-09-2023 10:44:55 autoreload Watching for file changes with StatReloader
+INFO 26-09-2023 10:45:00 basehttp "GET /lesson2/article_by_author/?name=Name5 HTTP/1.1" 200 701
+INFO 26-09-2023 10:46:38 autoreload /Users/syscom/PycharmProjects/Django/firstproject/lesson_2_app/models.py changed, reloading.
+INFO 26-09-2023 10:46:38 autoreload Watching for file changes with StatReloader
+INFO 26-09-2023 10:46:42 basehttp "GET /lesson2/article_by_author/?name=Name5 HTTP/1.1" 200 321
+INFO 26-09-2023 14:42:49 autoreload Watching for file changes with StatReloader
+INFO 26-09-2023 14:44:25 autoreload Watching for file changes with StatReloader
+INFO 26-09-2023 14:44:39 basehttp "GET /hw2 HTTP/1.1" 301 0
+INFO 26-09-2023 14:44:39 basehttp "GET /hw2/ HTTP/1.1" 200 15
+INFO 26-09-2023 16:44:51 autoreload Watching for file changes with StatReloader
+INFO 26-09-2023 16:45:03 basehttp "GET /hw2/orders HTTP/1.1" 301 0
+INFO 26-09-2023 16:45:03 basehttp "GET /hw2/orders/ HTTP/1.1" 200 0
+INFO 26-09-2023 16:45:13 basehttp "GET /hw2/products/ HTTP/1.1" 200 0
+INFO 26-09-2023 16:45:24 basehttp "GET /hw2/users/ HTTP/1.1" 200 0
+INFO 26-09-2023 17:42:50 autoreload Watching for file changes with StatReloader
+INFO 26-09-2023 17:42:58 basehttp "GET /hw2/users/ HTTP/1.1" 200 495
+INFO 26-09-2023 21:26:13 autoreload Watching for file changes with StatReloader
+INFO 26-09-2023 21:26:18 basehttp "GET /hw2/users/ HTTP/1.1" 200 440
+INFO 26-09-2023 21:26:26 basehttp "GET /hw2/orders/ HTTP/1.1" 200 286
