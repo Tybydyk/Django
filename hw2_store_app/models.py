@@ -45,8 +45,7 @@ class Product(models.Model):
     date_added = models.DateField(auto_now_add=True)
 
     def __str__(self):
-        return f'Product: {self.product_name}, price: {self.price}, ' \
-               f'quantity: {self.quantity}, available: {self.available}'
+        return f' Product: {self.product_name}, price: {self.price} '
 
 
 STATUS_CHOICES = [
@@ -63,4 +62,4 @@ class Order(models.Model):
     status = models.CharField(choices=STATUS_CHOICES, max_length=10, default='INWORK')
 
     def __str__(self):
-        return f'Customer: {self.customer.name}, total_price: {self.total_price}'
+        return f'order_id:{self.id}, Customer:{self.customer.name}, total_price: {self.total_price} '

@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block content %}
+    {% for item in articles %}
+        <div class="users_list">
+            {% if item.published %}
+                <a href="view_article/{{ item.id }}">
+            {% endif %}
+            {{ item.title }}, количество просмотров {{ item.show_count }}
+            {% if item.published %}
+                </a>
+            {% endif %}
+            <span> <a href="/delete_article/{{ a.id }}">удалить</a></span>
+        </div>
+    {% empty %}
+        <h3>статей не найдено</h3>
+    {% endfor %}
+{% endblock %}

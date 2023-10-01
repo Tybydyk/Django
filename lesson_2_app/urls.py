@@ -7,4 +7,6 @@ urlpatterns = [
     path('authors/', views.author_read, name='autors'),
     path('articles/', views.articles, name='articles'),
     path('article_by_author/', views.article_by_author, name='article_by_author'),
+    path('view_article/<int:id_article>', views.view_article, name='view_article'),
+    path('view_all_articles/', views.view_all_articles, name='view_all_articles'),
 ]

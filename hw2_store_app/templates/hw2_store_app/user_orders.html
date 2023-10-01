@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block title %}{{ user.name }}{% endblock %}
+{% block content %}
+<h3>User {{ user.name }} orders:</h3>
+    <table>
+        {% for key, value in orders_dict.items %}
+            <tr>
+                <td><p><b>{{ key }}</b></p></td>
+              <td><p>{{ value }}</p></td>
+            </tr>
+        {% endfor %}
+    </table>
+{% endblock %}

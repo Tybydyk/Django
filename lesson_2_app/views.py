@@ -1,5 +1,8 @@
 import logging
 import random
+
+from django.template.response import TemplateResponse
+
 from . import models
 from django.http import HttpResponse
 
@@ -34,3 +37,22 @@ def article_by_author(request):
     author_id = models.Author.objects.filter(f_name=name).first()
     articles = models.Article.objects.filter(author=author_id).all()
     return HttpResponse(articles)
+
+def view_all_articles(request):
+    articles = models.Article.objects.all()
+    context = {'title': 'Список статей',
+               'articles': articles}
+    return TemplateResponse(request, 'lesson_2_app/template_articles_list.html', context)
+
+def view_article(request, id_article):
+    try:
+        article = models.Article.objects.get(pk=id_article)
+        context = {'title': article.title,
+                   'text': article.content}
+        article.show_count += 1
+        article.save()
+    except:
+        context = {'title': f"article {id_article}",
+                   'text': 'does not exist'}
+    finally:
+        return TemplateResponse(request, 'lesson_2_app/template_article.html', context)

@@ -47,3 +47,4 @@ INFO 26-09-2023 10:43:17 views <WSGIRequest: GET '/lesson2/article_by_author/?na
 INFO 26-09-2023 10:43:42 views <WSGIRequest: GET '/lesson2/article_by_author/?name=Name5'>articles by author
 INFO 26-09-2023 10:45:00 views <WSGIRequest: GET '/lesson2/article_by_author/?name=Name5'>articles by author
 INFO 26-09-2023 10:46:42 views <WSGIRequest: GET '/lesson2/article_by_author/?name=Name5'>articles by author
+INFO 28-09-2023 09:27:10 views <WSGIRequest: GET '/lesson2/article_by_author/?name=Name5'>articles by author

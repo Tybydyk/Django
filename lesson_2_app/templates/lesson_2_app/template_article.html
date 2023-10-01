@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="content">
+        <h3>{{ title }}</h3>
+    </div>
+    <div class="one_item_text" style="margin-bottom: 100px; font-size: 16pt;">
+        {% block simple_text %}
+            {{ text }}
+        {% endblock %}
+    </div>
+
+{% endblock content %}
