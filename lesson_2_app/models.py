@@ -56,7 +56,8 @@ class Author(models.Model):
         return f'{self.f_name} {self.l_name}'
 
     def __str__(self):
-        return f'Name: {self.full_name()}, email: {self.email}'
+        # return f'Name: {self.full_name()}, email: {self.email}'
+        return self.full_name()
 
 class Article(models.Model):
     title = models.CharField(max_length=200)

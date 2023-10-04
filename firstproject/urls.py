@@ -27,4 +27,7 @@ urlpatterns = [
     path('hw2/', include('hw2_store_app.urls')),
     path('third/', include('s_third_app.urls')),
     path('lesson3/', include('lesson_3_app.urls')),
+    path('fourth/', include('s_t_fourth_app.urls')),
+    path('lesson4/', include('lesson_4_app.urls')),
+    path('hw4/', include('hw4_store_app.urls')),
     ]

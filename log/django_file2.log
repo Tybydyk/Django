@@ -48,3 +48,6 @@ INFO 26-09-2023 10:43:42 views <WSGIRequest: GET '/lesson2/article_by_author/?na
 INFO 26-09-2023 10:45:00 views <WSGIRequest: GET '/lesson2/article_by_author/?name=Name5'>articles by author
 INFO 26-09-2023 10:46:42 views <WSGIRequest: GET '/lesson2/article_by_author/?name=Name5'>articles by author
 INFO 28-09-2023 09:27:10 views <WSGIRequest: GET '/lesson2/article_by_author/?name=Name5'>articles by author
+INFO 02-10-2023 18:13:35 views <WSGIRequest: GET '/lesson2/'>Index page accessed
+INFO 02-10-2023 18:20:17 views <WSGIRequest: GET '/lesson2/'>Index page accessed
+INFO 03-10-2023 05:22:06 views <WSGIRequest: GET '/lesson2/'>Index page accessed

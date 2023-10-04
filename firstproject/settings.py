@@ -47,6 +47,9 @@ INSTALLED_APPS = [
     'hw2_store_app',
     's_third_app',
     'lesson_3_app',
+    's_t_fourth_app',
+    'lesson_4_app',
+    'hw4_store_app',
 ]
 
 MIDDLEWARE = [
@@ -131,6 +134,9 @@ USE_TZ = True
 STATIC_URL = 'static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 STATICFILES_DIRS = []
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = BASE_DIR / 'media'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
@@ -217,6 +223,20 @@ LOGGING = {
             'level': 'DEBUG',
             'propagate': True,
         },
-    },
-
+        's_t_fourth_app': {
+            'handlers': ['console'],
+            'level': 'DEBUG',
+            'propagate': True,
+        },
+        'lesson_4_app': {
+            'handlers': ['console'],
+            'level': 'DEBUG',
+            'propagate': True,
+        },
+        'hw4_store_app': {
+            'handlers': ['console'],
+            'level': 'DEBUG',
+            'propagate': True,
+        },
+    }
 }

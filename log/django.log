@@ -2021,3 +2021,1022 @@ ERROR 01-10-2023 13:12:09 basehttp "GET /hw2/user_products_per_time/3/yeaR HTTP/
 INFO 01-10-2023 13:13:39 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw2_store_app/views.py changed, reloading.
 INFO 01-10-2023 13:13:40 autoreload Watching for file changes with StatReloader
 INFO 01-10-2023 13:13:45 basehttp "GET /hw2/user_products_per_time/3/yeaR HTTP/1.1" 200 536
+INFO 01-10-2023 19:41:23 autoreload Watching for file changes with StatReloader
+INFO 01-10-2023 19:41:34 basehttp "GET /hw2/user_products_per_time/3/yeaR HTTP/1.1" 200 536
+WARNING 01-10-2023 19:41:34 log Not Found: /favicon.ico
+WARNING 01-10-2023 19:41:34 basehttp "GET /favicon.ico HTTP/1.1" 404 3814
+INFO 01-10-2023 19:41:35 basehttp "GET /hw2/user_products_per_time/3/yeaR HTTP/1.1" 200 536
+WARNING 01-10-2023 19:41:53 log Not Found: /fourth
+WARNING 01-10-2023 19:41:53 basehttp "GET /fourth HTTP/1.1" 404 3799
+INFO 01-10-2023 19:42:17 basehttp "GET /fourth/user/add HTTP/1.1" 301 0
+ERROR 01-10-2023 19:42:17 log Internal Server Error: /fourth/user/add/
+Traceback (most recent call last):
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/firstproject/s_t_fourth_app/views.py", line 18, in user_form
+    return render(request, 's_t_fourth_app/user_form.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: s_t_fourth_app/user_form.html
+ERROR 01-10-2023 19:42:17 basehttp "GET /fourth/user/add/ HTTP/1.1" 500 79173
+INFO 01-10-2023 19:45:59 autoreload Watching for file changes with StatReloader
+INFO 01-10-2023 19:46:05 basehttp "GET /fourth/user/add/ HTTP/1.1" 200 684
+INFO 01-10-2023 19:47:07 basehttp "GET /fourth/user/add/ HTTP/1.1" 200 902
+INFO 01-10-2023 19:47:19 basehttp "POST /fourth/user/add/ HTTP/1.1" 200 964
+INFO 01-10-2023 19:56:17 autoreload /Users/syscom/PycharmProjects/Django/firstproject/s_t_fourth_app/forms.py changed, reloading.
+INFO 01-10-2023 19:56:18 autoreload Watching for file changes with StatReloader
+INFO 01-10-2023 19:56:34 autoreload /Users/syscom/PycharmProjects/Django/firstproject/s_t_fourth_app/forms.py changed, reloading.
+INFO 01-10-2023 19:56:34 autoreload Watching for file changes with StatReloader
+INFO 01-10-2023 19:58:09 autoreload /Users/syscom/PycharmProjects/Django/firstproject/s_t_fourth_app/views.py changed, reloading.
+INFO 01-10-2023 19:58:09 autoreload Watching for file changes with StatReloader
+INFO 01-10-2023 19:59:13 autoreload /Users/syscom/PycharmProjects/Django/firstproject/s_t_fourth_app/urls.py changed, reloading.
+INFO 01-10-2023 19:59:13 autoreload Watching for file changes with StatReloader
+INFO 01-10-2023 19:59:48 autoreload Watching for file changes with StatReloader
+INFO 01-10-2023 20:00:10 autoreload /Users/syscom/PycharmProjects/Django/firstproject/s_t_fourth_app/urls.py changed, reloading.
+INFO 01-10-2023 20:00:11 autoreload Watching for file changes with StatReloader
+INFO 01-10-2023 20:00:25 basehttp "GET /fourth/forms HTTP/1.1" 301 0
+ERROR 01-10-2023 20:00:25 log Internal Server Error: /fourth/forms/
+Traceback (most recent call last):
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/firstproject/s_t_fourth_app/views.py", line 27, in many_fields_form
+    form = ManyFieldsForm()
+           ^^^^^^^^^^^^^^
+NameError: name 'ManyFieldsForm' is not defined
+ERROR 01-10-2023 20:00:25 basehttp "GET /fourth/forms/ HTTP/1.1" 500 62394
+INFO 01-10-2023 20:01:42 autoreload /Users/syscom/PycharmProjects/Django/firstproject/s_t_fourth_app/views.py changed, reloading.
+INFO 01-10-2023 20:01:43 autoreload Watching for file changes with StatReloader
+ERROR 01-10-2023 20:01:47 log Internal Server Error: /fourth/forms/
+Traceback (most recent call last):
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/firstproject/s_t_fourth_app/views.py", line 28, in many_fields_form
+    return render(request, 'myapp4/many_fields_form.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp4/many_fields_form.html
+ERROR 01-10-2023 20:01:47 basehttp "GET /fourth/forms/ HTTP/1.1" 500 79969
+INFO 01-10-2023 20:02:19 autoreload /Users/syscom/PycharmProjects/Django/firstproject/s_t_fourth_app/views.py changed, reloading.
+INFO 01-10-2023 20:02:19 autoreload Watching for file changes with StatReloader
+INFO 01-10-2023 20:02:34 basehttp "GET /fourth/forms/ HTTP/1.1" 200 1445
+ERROR 01-10-2023 20:03:05 log Internal Server Error: /fourth/forms/
+Traceback (most recent call last):
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view s_t_fourth_app.views.many_fields_form didn't return an HttpResponse object. It returned None instead.
+ERROR 01-10-2023 20:03:05 basehttp "POST /fourth/forms/ HTTP/1.1" 500 65851
+INFO 01-10-2023 20:06:09 autoreload /Users/syscom/PycharmProjects/Django/firstproject/s_t_fourth_app/views.py changed, reloading.
+INFO 01-10-2023 20:06:10 autoreload Watching for file changes with StatReloader
+INFO 01-10-2023 20:06:13 basehttp "POST /fourth/forms/ HTTP/1.1" 200 1537
+INFO 01-10-2023 20:06:15 basehttp "POST /fourth/forms/ HTTP/1.1" 200 1537
+INFO 01-10-2023 20:19:01 autoreload /Users/syscom/PycharmProjects/Django/firstproject/s_t_fourth_app/forms.py changed, reloading.
+INFO 01-10-2023 20:19:01 autoreload Watching for file changes with StatReloader
+INFO 01-10-2023 20:19:03 basehttp "POST /fourth/forms/ HTTP/1.1" 200 1537
+INFO 01-10-2023 20:19:05 basehttp "POST /fourth/forms/ HTTP/1.1" 200 1537
+INFO 01-10-2023 20:19:29 autoreload Watching for file changes with StatReloader
+INFO 01-10-2023 20:22:17 autoreload /Users/syscom/PycharmProjects/Django/firstproject/s_t_fourth_app/forms.py changed, reloading.
+INFO 01-10-2023 20:22:17 autoreload Watching for file changes with StatReloader
+INFO 01-10-2023 20:22:21 basehttp "POST /fourth/forms/ HTTP/1.1" 200 2216
+INFO 01-10-2023 20:22:51 basehttp "POST /fourth/forms/ HTTP/1.1" 200 2166
+INFO 01-10-2023 20:24:46 autoreload /Users/syscom/PycharmProjects/Django/firstproject/s_t_fourth_app/forms.py changed, reloading.
+INFO 01-10-2023 20:24:46 autoreload Watching for file changes with StatReloader
+INFO 01-10-2023 20:24:56 basehttp "POST /fourth/forms/ HTTP/1.1" 200 2166
+INFO 02-10-2023 06:56:13 autoreload /Users/syscom/PycharmProjects/Django/firstproject/s_t_fourth_app/forms.py changed, reloading.
+INFO 02-10-2023 06:56:14 autoreload Watching for file changes with StatReloader
+INFO 02-10-2023 06:58:17 autoreload /Users/syscom/PycharmProjects/Django/firstproject/s_t_fourth_app/forms.py changed, reloading.
+INFO 02-10-2023 06:58:18 autoreload Watching for file changes with StatReloader
+INFO 02-10-2023 06:59:02 autoreload /Users/syscom/PycharmProjects/Django/firstproject/s_t_fourth_app/forms.py changed, reloading.
+INFO 02-10-2023 06:59:02 autoreload Watching for file changes with StatReloader
+INFO 02-10-2023 07:01:04 autoreload /Users/syscom/PycharmProjects/Django/firstproject/s_t_fourth_app/models.py changed, reloading.
+INFO 02-10-2023 07:01:04 autoreload Watching for file changes with StatReloader
+INFO 02-10-2023 07:05:08 autoreload /Users/syscom/PycharmProjects/Django/firstproject/s_t_fourth_app/forms.py changed, reloading.
+INFO 02-10-2023 07:05:09 autoreload Watching for file changes with StatReloader
+INFO 02-10-2023 07:06:43 autoreload /Users/syscom/PycharmProjects/Django/firstproject/s_t_fourth_app/views.py changed, reloading.
+INFO 02-10-2023 07:06:44 autoreload Watching for file changes with StatReloader
+INFO 02-10-2023 07:07:06 autoreload /Users/syscom/PycharmProjects/Django/firstproject/s_t_fourth_app/views.py changed, reloading.
+INFO 02-10-2023 07:07:07 autoreload Watching for file changes with StatReloader
+INFO 02-10-2023 07:07:50 autoreload /Users/syscom/PycharmProjects/Django/firstproject/s_t_fourth_app/views.py changed, reloading.
+INFO 02-10-2023 07:07:50 autoreload Watching for file changes with StatReloader
+INFO 02-10-2023 07:08:49 autoreload /Users/syscom/PycharmProjects/Django/firstproject/s_t_fourth_app/views.py changed, reloading.
+INFO 02-10-2023 07:08:49 autoreload Watching for file changes with StatReloader
+INFO 02-10-2023 07:09:38 autoreload /Users/syscom/PycharmProjects/Django/firstproject/s_t_fourth_app/views.py changed, reloading.
+INFO 02-10-2023 07:09:39 autoreload Watching for file changes with StatReloader
+INFO 02-10-2023 07:14:59 autoreload /Users/syscom/PycharmProjects/Django/firstproject/s_t_fourth_app/urls.py changed, reloading.
+INFO 02-10-2023 07:14:59 autoreload Watching for file changes with StatReloader
+INFO 02-10-2023 07:15:09 autoreload Watching for file changes with StatReloader
+INFO 02-10-2023 07:15:31 basehttp "GET /fourth/user HTTP/1.1" 301 0
+INFO 02-10-2023 07:15:31 basehttp "GET /fourth/user/ HTTP/1.1" 200 880
+INFO 02-10-2023 07:15:57 basehttp "POST /fourth/user/ HTTP/1.1" 200 1136
+INFO 02-10-2023 07:16:21 basehttp "POST /fourth/user/ HTTP/1.1" 200 949
+INFO 02-10-2023 07:18:06 basehttp "POST /fourth/user/ HTTP/1.1" 200 944
+INFO 02-10-2023 07:20:22 basehttp "POST /fourth/user/ HTTP/1.1" 200 943
+INFO 02-10-2023 07:24:43 autoreload /Users/syscom/PycharmProjects/Django/firstproject/firstproject/settings.py changed, reloading.
+INFO 02-10-2023 07:24:44 autoreload Watching for file changes with StatReloader
+INFO 02-10-2023 07:25:07 autoreload /Users/syscom/PycharmProjects/Django/firstproject/firstproject/settings.py changed, reloading.
+INFO 02-10-2023 07:25:07 autoreload Watching for file changes with StatReloader
+INFO 02-10-2023 07:34:30 autoreload /Users/syscom/PycharmProjects/Django/firstproject/s_t_fourth_app/views.py changed, reloading.
+INFO 02-10-2023 07:34:31 autoreload Watching for file changes with StatReloader
+INFO 02-10-2023 07:34:54 autoreload /Users/syscom/PycharmProjects/Django/firstproject/s_t_fourth_app/views.py changed, reloading.
+INFO 02-10-2023 07:34:55 autoreload Watching for file changes with StatReloader
+INFO 02-10-2023 07:36:40 autoreload /Users/syscom/PycharmProjects/Django/firstproject/s_t_fourth_app/views.py changed, reloading.
+INFO 02-10-2023 07:36:41 autoreload Watching for file changes with StatReloader
+INFO 02-10-2023 07:40:08 autoreload Watching for file changes with StatReloader
+INFO 02-10-2023 07:41:09 autoreload /Users/syscom/PycharmProjects/Django/firstproject/s_t_fourth_app/forms.py changed, reloading.
+INFO 02-10-2023 07:41:10 autoreload Watching for file changes with StatReloader
+INFO 02-10-2023 07:41:50 autoreload /Users/syscom/PycharmProjects/Django/firstproject/s_t_fourth_app/forms.py changed, reloading.
+INFO 02-10-2023 07:41:50 autoreload Watching for file changes with StatReloader
+INFO 02-10-2023 07:43:49 autoreload /Users/syscom/PycharmProjects/Django/firstproject/s_t_fourth_app/forms.py changed, reloading.
+INFO 02-10-2023 07:43:49 autoreload Watching for file changes with StatReloader
+INFO 02-10-2023 07:44:05 autoreload /Users/syscom/PycharmProjects/Django/firstproject/s_t_fourth_app/views.py changed, reloading.
+INFO 02-10-2023 07:44:05 autoreload Watching for file changes with StatReloader
+INFO 02-10-2023 07:44:12 basehttp "GET /fourth/upload HTTP/1.1" 301 0
+INFO 02-10-2023 07:44:12 basehttp "GET /fourth/upload/ HTTP/1.1" 200 596
+INFO 02-10-2023 07:44:29 basehttp "POST /fourth/upload/ HTTP/1.1" 200 596
+INFO 02-10-2023 13:58:33 autoreload Watching for file changes with StatReloader
+INFO 02-10-2023 14:00:21 autoreload /Users/syscom/PycharmProjects/Django/firstproject/firstproject/settings.py changed, reloading.
+INFO 02-10-2023 14:00:21 autoreload Watching for file changes with StatReloader
+INFO 02-10-2023 14:17:00 autoreload Watching for file changes with StatReloader
+INFO 02-10-2023 14:35:00 autoreload Watching for file changes with StatReloader
+INFO 02-10-2023 14:35:58 autoreload /Users/syscom/PycharmProjects/Django/firstproject/firstproject/settings.py changed, reloading.
+INFO 02-10-2023 14:35:59 autoreload Watching for file changes with StatReloader
+INFO 02-10-2023 14:36:17 basehttp "GET /lesson4 HTTP/1.1" 301 0
+INFO 02-10-2023 14:36:17 basehttp "GET /lesson4/ HTTP/1.1" 200 18
+INFO 02-10-2023 14:36:27 basehttp "GET /lesson4/games HTTP/1.1" 301 0
+ERROR 02-10-2023 14:36:27 log Internal Server Error: /lesson4/games/
+Traceback (most recent call last):
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/firstproject/lesson_4_app/views.py", line 39, in games
+    logger.info(f'{form.choice} {form.count} accessed')
+                   ^^^^^^^^^^^
+AttributeError: 'GameForm' object has no attribute 'choice'
+ERROR 02-10-2023 14:36:27 basehttp "GET /lesson4/games/ HTTP/1.1" 500 63662
+INFO 02-10-2023 14:37:18 autoreload /Users/syscom/PycharmProjects/Django/firstproject/lesson_4_app/views.py changed, reloading.
+INFO 02-10-2023 14:37:19 autoreload Watching for file changes with StatReloader
+ERROR 02-10-2023 14:37:24 log Internal Server Error: /lesson4/games/
+Traceback (most recent call last):
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/firstproject/lesson_4_app/views.py", line 41, in games
+    count = int(form.data('count'))
+                ^^^^^^^^^^^^^^^^^^
+TypeError: 'QueryDict' object is not callable
+ERROR 02-10-2023 14:37:24 basehttp "GET /lesson4/games/ HTTP/1.1" 500 63663
+INFO 02-10-2023 14:39:50 autoreload /Users/syscom/PycharmProjects/Django/firstproject/lesson_4_app/views.py changed, reloading.
+INFO 02-10-2023 14:39:51 autoreload Watching for file changes with StatReloader
+ERROR 02-10-2023 14:39:57 log Internal Server Error: /lesson4/games/
+Traceback (most recent call last):
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/firstproject/lesson_4_app/views.py", line 41, in games
+    count = int(form.cleaned_data['count'])
+                ^^^^^^^^^^^^^^^^^
+AttributeError: 'GameForm' object has no attribute 'cleaned_data'
+ERROR 02-10-2023 14:39:57 basehttp "GET /lesson4/games/ HTTP/1.1" 500 63815
+INFO 02-10-2023 14:49:07 autoreload /Users/syscom/PycharmProjects/Django/firstproject/lesson_4_app/views.py changed, reloading.
+INFO 02-10-2023 14:49:07 autoreload Watching for file changes with StatReloader
+ERROR 02-10-2023 14:49:12 log Internal Server Error: /lesson4/games/
+Traceback (most recent call last):
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/utils/datastructures.py", line 84, in __getitem__
+    list_ = super().__getitem__(key)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'count'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/firstproject/lesson_4_app/views.py", line 41, in games
+    count = int(form.data['count'])
+                ~~~~~~~~~^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/utils/datastructures.py", line 86, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'count'
+ERROR 02-10-2023 14:49:12 basehttp "GET /lesson4/games/ HTTP/1.1" 500 71753
+INFO 02-10-2023 14:54:00 autoreload /Users/syscom/PycharmProjects/Django/firstproject/lesson_4_app/views.py changed, reloading.
+INFO 02-10-2023 14:54:00 autoreload Watching for file changes with StatReloader
+ERROR 02-10-2023 14:54:05 log Internal Server Error: /lesson4/games/
+Traceback (most recent call last):
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view lesson_4_app.views.games didn't return an HttpResponse object. It returned None instead.
+ERROR 02-10-2023 14:54:05 basehttp "GET /lesson4/games/ HTTP/1.1" 500 64454
+WARNING 02-10-2023 14:55:55 log Not Found: /lesson4/games/1
+WARNING 02-10-2023 14:55:55 basehttp "GET /lesson4/games/1 HTTP/1.1" 404 4172
+ERROR 02-10-2023 15:04:35 log Internal Server Error: /lesson4/games/
+Traceback (most recent call last):
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view lesson_4_app.views.games didn't return an HttpResponse object. It returned None instead.
+ERROR 02-10-2023 15:04:35 basehttp "GET /lesson4/games/ HTTP/1.1" 500 64317
+WARNING 02-10-2023 15:22:27 log Not Found: /lesson3/
+WARNING 02-10-2023 15:22:27 basehttp "GET /lesson3/ HTTP/1.1" 404 4734
+WARNING 02-10-2023 15:23:06 log Not Found: /gp/2
+WARNING 02-10-2023 15:23:06 basehttp "GET /gp/2 HTTP/1.1" 404 3901
+WARNING 02-10-2023 15:23:34 log Not Found: /gp/
+WARNING 02-10-2023 15:23:34 basehttp "GET /gp/?%272 HTTP/1.1" 404 3903
+WARNING 02-10-2023 15:23:47 log Not Found: /gp/
+WARNING 02-10-2023 15:23:47 basehttp "GET /gp/?%272%27 HTTP/1.1" 404 3906
+WARNING 02-10-2023 15:23:54 log Not Found: /gp/10
+WARNING 02-10-2023 15:23:54 basehttp "GET /gp/10 HTTP/1.1" 404 3904
+WARNING 02-10-2023 15:24:09 log Not Found: /gp/10
+WARNING 02-10-2023 15:24:09 basehttp "GET /gp/10 HTTP/1.1" 404 3904
+WARNING 02-10-2023 15:25:27 log Not Found: /gp/10/
+WARNING 02-10-2023 15:25:27 basehttp "GET /gp/10/ HTTP/1.1" 404 3907
+WARNING 02-10-2023 15:25:38 log Not Found: /cube/10/
+WARNING 02-10-2023 15:25:38 basehttp "GET /cube/10/ HTTP/1.1" 404 3913
+WARNING 02-10-2023 15:25:54 log Not Found: /lesson3/cube/10/
+WARNING 02-10-2023 15:25:54 basehttp "GET /lesson3/cube/10/ HTTP/1.1" 404 4758
+WARNING 02-10-2023 15:26:05 log Not Found: /lesson3/cube/
+WARNING 02-10-2023 15:26:05 basehttp "GET /lesson3/cube/ HTTP/1.1" 404 4749
+INFO 02-10-2023 15:28:08 basehttp "GET /lesson3/dice/4 HTTP/1.1" 200 154
+INFO 02-10-2023 15:28:28 basehttp "GET /lesson3/rand/19 HTTP/1.1" 200 216
+WARNING 02-10-2023 15:28:34 log Not Found: /lesson3/
+WARNING 02-10-2023 15:28:34 basehttp "GET /lesson3/ HTTP/1.1" 404 4734
+INFO 02-10-2023 15:28:48 basehttp "GET /lesson3/gp/18 HTTP/1.1" 200 603
+ERROR 02-10-2023 15:29:01 log Internal Server Error: /lesson4/games/
+Traceback (most recent call last):
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view lesson_4_app.views.games didn't return an HttpResponse object. It returned None instead.
+ERROR 02-10-2023 15:29:01 basehttp "GET /lesson4/games/ HTTP/1.1" 500 64317
+INFO 02-10-2023 15:29:07 basehttp "GET /lesson4/ HTTP/1.1" 200 18
+ERROR 02-10-2023 15:29:17 log Internal Server Error: /lesson4/games/
+Traceback (most recent call last):
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view lesson_4_app.views.games didn't return an HttpResponse object. It returned None instead.
+ERROR 02-10-2023 15:29:17 basehttp "GET /lesson4/games/ HTTP/1.1" 500 64317
+INFO 02-10-2023 15:30:47 autoreload /Users/syscom/PycharmProjects/Django/firstproject/lesson_4_app/views.py changed, reloading.
+INFO 02-10-2023 15:30:47 autoreload Watching for file changes with StatReloader
+ERROR 02-10-2023 15:30:56 log Internal Server Error: /lesson4/games/
+Traceback (most recent call last):
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view lesson_4_app.views.games didn't return an HttpResponse object. It returned None instead.
+ERROR 02-10-2023 15:30:56 basehttp "GET /lesson4/games/ HTTP/1.1" 500 64454
+INFO 02-10-2023 15:32:01 autoreload /Users/syscom/PycharmProjects/Django/firstproject/lesson_4_app/views.py changed, reloading.
+INFO 02-10-2023 15:32:01 autoreload Watching for file changes with StatReloader
+ERROR 02-10-2023 15:32:06 log Internal Server Error: /lesson4/games/
+Traceback (most recent call last):
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view lesson_4_app.views.games didn't return an HttpResponse object. It returned None instead.
+ERROR 02-10-2023 15:32:06 basehttp "GET /lesson4/games/ HTTP/1.1" 500 64454
+WARNING 02-10-2023 15:32:11 log Not Found: /lesson4/games/5
+WARNING 02-10-2023 15:32:11 basehttp "GET /lesson4/games/5 HTTP/1.1" 404 4172
+ERROR 02-10-2023 15:32:33 log Internal Server Error: /lesson4/games/
+Traceback (most recent call last):
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view lesson_4_app.views.games didn't return an HttpResponse object. It returned None instead.
+ERROR 02-10-2023 15:32:33 basehttp "GET /lesson4/games/ HTTP/1.1" 500 64317
+INFO 02-10-2023 15:38:07 autoreload /Users/syscom/PycharmProjects/Django/firstproject/lesson_4_app/views.py changed, reloading.
+INFO 02-10-2023 15:38:08 autoreload Watching for file changes with StatReloader
+INFO 02-10-2023 15:38:13 basehttp "GET /lesson4/games/ HTTP/1.1" 200 750
+INFO 02-10-2023 15:38:20 basehttp "POST /lesson4/games/ HTTP/1.1" 200 154
+INFO 02-10-2023 15:38:24 basehttp "POST /lesson4/games/ HTTP/1.1" 200 154
+INFO 02-10-2023 15:38:26 basehttp "GET /lesson4/games/ HTTP/1.1" 200 750
+INFO 02-10-2023 15:38:34 basehttp "POST /lesson4/games/ HTTP/1.1" 200 273
+INFO 02-10-2023 15:38:48 basehttp "GET /lesson4/games/ HTTP/1.1" 200 750
+INFO 02-10-2023 15:42:53 autoreload /Users/syscom/PycharmProjects/Django/firstproject/lesson_4_app/views.py changed, reloading.
+INFO 02-10-2023 15:42:54 autoreload Watching for file changes with StatReloader
+INFO 02-10-2023 15:44:47 autoreload /Users/syscom/PycharmProjects/Django/firstproject/lesson_4_app/views.py changed, reloading.
+INFO 02-10-2023 15:44:48 autoreload Watching for file changes with StatReloader
+INFO 02-10-2023 15:44:52 basehttp "POST /lesson4/games/ HTTP/1.1" 200 221
+INFO 02-10-2023 15:45:37 autoreload /Users/syscom/PycharmProjects/Django/firstproject/lesson_4_app/views.py changed, reloading.
+INFO 02-10-2023 15:45:37 autoreload Watching for file changes with StatReloader
+INFO 02-10-2023 16:57:19 autoreload /Users/syscom/PycharmProjects/Django/firstproject/lesson_4_app/views.py changed, reloading.
+INFO 02-10-2023 16:57:20 autoreload Watching for file changes with StatReloader
+INFO 02-10-2023 17:15:39 autoreload /Users/syscom/PycharmProjects/Django/firstproject/lesson_4_app/views.py changed, reloading.
+INFO 02-10-2023 17:15:39 autoreload Watching for file changes with StatReloader
+INFO 02-10-2023 17:17:47 autoreload /Users/syscom/PycharmProjects/Django/firstproject/lesson_4_app/views.py changed, reloading.
+INFO 02-10-2023 17:17:48 autoreload Watching for file changes with StatReloader
+INFO 02-10-2023 17:18:39 autoreload /Users/syscom/PycharmProjects/Django/firstproject/lesson_4_app/views.py changed, reloading.
+INFO 02-10-2023 17:18:40 autoreload Watching for file changes with StatReloader
+INFO 02-10-2023 17:46:30 autoreload /Users/syscom/PycharmProjects/Django/firstproject/lesson_4_app/views.py changed, reloading.
+INFO 02-10-2023 17:46:30 autoreload Watching for file changes with StatReloader
+INFO 02-10-2023 17:47:05 autoreload /Users/syscom/PycharmProjects/Django/firstproject/lesson_4_app/forms.py changed, reloading.
+INFO 02-10-2023 17:47:05 autoreload Watching for file changes with StatReloader
+INFO 02-10-2023 17:47:59 autoreload /Users/syscom/PycharmProjects/Django/firstproject/lesson_4_app/forms.py changed, reloading.
+INFO 02-10-2023 17:48:00 autoreload Watching for file changes with StatReloader
+INFO 02-10-2023 17:53:45 autoreload /Users/syscom/PycharmProjects/Django/firstproject/lesson_4_app/views.py changed, reloading.
+INFO 02-10-2023 17:53:45 autoreload Watching for file changes with StatReloader
+INFO 02-10-2023 17:54:32 autoreload /Users/syscom/PycharmProjects/Django/firstproject/lesson_4_app/views.py changed, reloading.
+INFO 02-10-2023 17:54:32 autoreload Watching for file changes with StatReloader
+INFO 02-10-2023 17:55:24 autoreload /Users/syscom/PycharmProjects/Django/firstproject/lesson_4_app/views.py changed, reloading.
+INFO 02-10-2023 17:55:25 autoreload Watching for file changes with StatReloader
+INFO 02-10-2023 18:01:46 autoreload Watching for file changes with StatReloader
+INFO 02-10-2023 18:04:28 autoreload /Users/syscom/PycharmProjects/Django/firstproject/lesson_2_app/views.py changed, reloading.
+INFO 02-10-2023 18:04:28 autoreload Watching for file changes with StatReloader
+INFO 02-10-2023 18:09:26 autoreload /Users/syscom/PycharmProjects/Django/firstproject/lesson_2_app/views.py changed, reloading.
+INFO 02-10-2023 18:09:27 autoreload Watching for file changes with StatReloader
+INFO 02-10-2023 18:11:42 autoreload /Users/syscom/PycharmProjects/Django/firstproject/lesson_2_app/views.py changed, reloading.
+INFO 02-10-2023 18:11:43 autoreload Watching for file changes with StatReloader
+INFO 02-10-2023 18:12:37 autoreload /Users/syscom/PycharmProjects/Django/firstproject/lesson_4_app/views.py changed, reloading.
+INFO 02-10-2023 18:12:37 autoreload Watching for file changes with StatReloader
+INFO 02-10-2023 18:13:18 autoreload /Users/syscom/PycharmProjects/Django/firstproject/lesson_4_app/views.py changed, reloading.
+INFO 02-10-2023 18:13:18 autoreload Watching for file changes with StatReloader
+INFO 02-10-2023 18:13:35 basehttp "GET /lesson2 HTTP/1.1" 301 0
+INFO 02-10-2023 18:13:35 basehttp "GET /lesson2/ HTTP/1.1" 200 8
+INFO 02-10-2023 18:13:45 basehttp "GET /lesson2/create_author HTTP/1.1" 301 0
+ERROR 02-10-2023 18:13:45 log Internal Server Error: /lesson2/create_author/
+Traceback (most recent call last):
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view lesson_2_app.views.create_author didn't return an HttpResponse object. It returned None instead.
+ERROR 02-10-2023 18:13:45 basehttp "GET /lesson2/create_author/ HTTP/1.1" 500 64461
+INFO 02-10-2023 18:14:39 autoreload /Users/syscom/PycharmProjects/Django/firstproject/lesson_2_app/views.py changed, reloading.
+INFO 02-10-2023 18:14:40 autoreload Watching for file changes with StatReloader
+ERROR 02-10-2023 18:14:40 log Internal Server Error: /lesson2/create_author/
+Traceback (most recent call last):
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/firstproject/lesson_2_app/views.py", line 81, in create_author
+    return render(request, 'autor_form.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: autor_form.html
+ERROR 02-10-2023 18:14:40 basehttp "GET /lesson2/create_author/ HTTP/1.1" 500 80477
+INFO 02-10-2023 18:15:09 autoreload /Users/syscom/PycharmProjects/Django/firstproject/lesson_2_app/views.py changed, reloading.
+INFO 02-10-2023 18:15:10 autoreload Watching for file changes with StatReloader
+ERROR 02-10-2023 18:15:18 log Internal Server Error: /lesson2/create_author/
+Traceback (most recent call last):
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/firstproject/lesson_2_app/views.py", line 81, in create_author
+    return render(request, 'author_form.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: author_form.html
+ERROR 02-10-2023 18:15:18 basehttp "GET /lesson2/create_author/ HTTP/1.1" 500 80507
+ERROR 02-10-2023 18:15:38 log Internal Server Error: /lesson2/create_author/
+Traceback (most recent call last):
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/firstproject/lesson_2_app/views.py", line 81, in create_author
+    return render(request, 'author_form.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: author_form.html
+ERROR 02-10-2023 18:15:38 basehttp "GET /lesson2/create_author/ HTTP/1.1" 500 80507
+ERROR 02-10-2023 18:17:06 log Internal Server Error: /lesson2/create_author/
+Traceback (most recent call last):
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/firstproject/lesson_2_app/views.py", line 81, in create_author
+    return render(request, 'author_form.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: author_form.html
+ERROR 02-10-2023 18:17:06 basehttp "GET /lesson2/create_author/ HTTP/1.1" 500 80507
+INFO 02-10-2023 18:18:31 autoreload /Users/syscom/PycharmProjects/Django/firstproject/lesson_2_app/views.py changed, reloading.
+INFO 02-10-2023 18:18:32 autoreload Watching for file changes with StatReloader
+ERROR 02-10-2023 18:18:33 log Internal Server Error: /lesson2/create_author/
+Traceback (most recent call last):
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/firstproject/lesson_2_app/views.py", line 81, in create_author
+    return render(request, 'lesson_2_app/author_form.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: lesson_2_app/author_form.html
+ERROR 02-10-2023 18:18:33 basehttp "GET /lesson2/create_author/ HTTP/1.1" 500 80897
+INFO 02-10-2023 18:20:07 autoreload Watching for file changes with StatReloader
+ERROR 02-10-2023 18:20:11 log Internal Server Error: /lesson2/create_author/
+Traceback (most recent call last):
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/firstproject/lesson_2_app/views.py", line 81, in create_author
+    return render(request, 'lesson_2_app/author_form.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: lesson_2_app/author_form.html
+ERROR 02-10-2023 18:20:11 basehttp "GET /lesson2/create_author/ HTTP/1.1" 500 80897
+INFO 02-10-2023 18:20:17 basehttp "GET /lesson2/ HTTP/1.1" 200 8
+ERROR 02-10-2023 18:20:32 log Internal Server Error: /lesson2/create_author/
+Traceback (most recent call last):
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/firstproject/lesson_2_app/views.py", line 81, in create_author
+    return render(request, 'lesson_2_app/author_form.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: lesson_2_app/author_form.html
+ERROR 02-10-2023 18:20:32 basehttp "GET /lesson2/create_author/ HTTP/1.1" 500 80760
+INFO 02-10-2023 18:22:08 autoreload Watching for file changes with StatReloader
+INFO 02-10-2023 18:22:11 basehttp "GET /lesson2/create_author/ HTTP/1.1" 200 1184
+INFO 02-10-2023 18:23:44 autoreload /Users/syscom/PycharmProjects/Django/firstproject/lesson_2_app/forms.py changed, reloading.
+INFO 02-10-2023 18:23:44 autoreload Watching for file changes with StatReloader
+INFO 02-10-2023 18:23:45 basehttp "GET /lesson2/create_author/ HTTP/1.1" 200 1225
+ERROR 02-10-2023 18:24:55 log Internal Server Error: /lesson2/create_author/
+Traceback (most recent call last):
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/firstproject/lesson_2_app/views.py", line 75, in create_author
+    biography=form.cleaned_data['biography'],
+              ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+KeyError: 'biography'
+ERROR 02-10-2023 18:24:55 basehttp "POST /lesson2/create_author/ HTTP/1.1" 500 65459
+ERROR 02-10-2023 18:25:59 log Internal Server Error: /lesson2/create_author/
+Traceback (most recent call last):
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/firstproject/lesson_2_app/views.py", line 75, in create_author
+    biography=form.cleaned_data['biography'],
+              ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+KeyError: 'biography'
+ERROR 02-10-2023 18:25:59 basehttp "POST /lesson2/create_author/ HTTP/1.1" 500 65457
+INFO 02-10-2023 18:27:09 autoreload /Users/syscom/PycharmProjects/Django/firstproject/lesson_2_app/forms.py changed, reloading.
+INFO 02-10-2023 18:27:09 autoreload Watching for file changes with StatReloader
+INFO 02-10-2023 18:27:25 basehttp "POST /lesson2/create_author/ HTTP/1.1" 200 1307
+INFO 02-10-2023 18:27:57 basehttp "POST /lesson2/create_author/ HTTP/1.1" 200 1271
+INFO 02-10-2023 18:30:09 autoreload /Users/syscom/PycharmProjects/Django/firstproject/lesson_2_app/views.py changed, reloading.
+INFO 02-10-2023 18:30:09 autoreload Watching for file changes with StatReloader
+INFO 02-10-2023 18:30:48 basehttp "POST /lesson2/create_author/ HTTP/1.1" 200 1270
+INFO 02-10-2023 18:30:50 basehttp "POST /lesson2/create_author/ HTTP/1.1" 200 1270
+INFO 02-10-2023 18:32:20 autoreload /Users/syscom/PycharmProjects/Django/firstproject/lesson_2_app/forms.py changed, reloading.
+INFO 02-10-2023 18:32:20 autoreload Watching for file changes with StatReloader
+INFO 02-10-2023 18:32:48 basehttp "POST /lesson2/create_author/ HTTP/1.1" 200 1270
+INFO 03-10-2023 04:27:37 autoreload Watching for file changes with StatReloader
+INFO 03-10-2023 04:27:43 basehttp "POST /lesson2/create_author/ HTTP/1.1" 200 1270
+WARNING 03-10-2023 04:27:44 log Not Found: /favicon.ico
+WARNING 03-10-2023 04:27:44 basehttp "GET /favicon.ico HTTP/1.1" 404 3922
+INFO 03-10-2023 04:28:46 basehttp "POST /lesson2/create_author/ HTTP/1.1" 200 1270
+INFO 03-10-2023 05:15:00 basehttp "POST /lesson2/create_author/ HTTP/1.1" 200 1270
+INFO 03-10-2023 05:15:08 views <WSGIRequest: GET '/'>Index page accessed
+INFO 03-10-2023 05:15:08 basehttp "GET / HTTP/1.1" 200 10
+WARNING 03-10-2023 05:15:31 log Not Found: /s_t_fourth_app
+WARNING 03-10-2023 05:15:31 basehttp "GET /s_t_fourth_app HTTP/1.1" 404 3931
+WARNING 03-10-2023 05:15:51 log Not Found: /fourth
+WARNING 03-10-2023 05:15:51 basehttp "GET /fourth HTTP/1.1" 404 3907
+WARNING 03-10-2023 05:16:08 log Not Found: /fourth/about
+WARNING 03-10-2023 05:16:08 basehttp "GET /fourth/about HTTP/1.1" 404 4542
+INFO 03-10-2023 05:16:20 basehttp "GET /fourth/forms/ HTTP/1.1" 200 2066
+INFO 03-10-2023 05:22:06 basehttp "GET /lesson2/ HTTP/1.1" 200 8
+INFO 03-10-2023 05:22:27 basehttp "GET /lesson2/create_author/ HTTP/1.1" 200 1543
+INFO 03-10-2023 05:25:27 basehttp "GET /lesson2/create_author/ HTTP/1.1" 200 1221
+INFO 03-10-2023 05:27:08 basehttp "POST /lesson2/create_author/ HTTP/1.1" 200 1348
+INFO 03-10-2023 08:19:31 basehttp "POST /lesson2/create_author/ HTTP/1.1" 200 1348
+INFO 03-10-2023 08:24:24 basehttp "POST /lesson2/create_author/ HTTP/1.1" 200 1344
+INFO 03-10-2023 08:24:36 basehttp "POST /lesson2/create_author/ HTTP/1.1" 200 1344
+INFO 03-10-2023 08:24:38 basehttp "POST /lesson2/create_author/ HTTP/1.1" 200 1344
+INFO 03-10-2023 09:02:23 basehttp "POST /lesson2/create_author/ HTTP/1.1" 200 1345
+INFO 03-10-2023 14:51:31 autoreload Watching for file changes with StatReloader
+INFO 03-10-2023 14:51:49 basehttp "POST /lesson2/create_author/ HTTP/1.1" 200 1369
+WARNING 03-10-2023 14:51:49 log Not Found: /favicon.ico
+WARNING 03-10-2023 14:51:49 basehttp "GET /favicon.ico HTTP/1.1" 404 3922
+INFO 03-10-2023 14:55:55 autoreload /Users/syscom/PycharmProjects/Django/firstproject/lesson_2_app/views.py changed, reloading.
+INFO 03-10-2023 14:55:56 autoreload Watching for file changes with StatReloader
+INFO 03-10-2023 15:03:49 autoreload /Users/syscom/PycharmProjects/Django/firstproject/lesson_2_app/views.py changed, reloading.
+INFO 03-10-2023 15:03:50 autoreload Watching for file changes with StatReloader
+INFO 03-10-2023 15:04:51 autoreload /Users/syscom/PycharmProjects/Django/firstproject/lesson_2_app/views.py changed, reloading.
+INFO 03-10-2023 15:04:52 autoreload Watching for file changes with StatReloader
+INFO 03-10-2023 15:05:23 autoreload /Users/syscom/PycharmProjects/Django/firstproject/lesson_2_app/views.py changed, reloading.
+INFO 03-10-2023 15:05:23 autoreload Watching for file changes with StatReloader
+INFO 03-10-2023 15:05:33 autoreload /Users/syscom/PycharmProjects/Django/firstproject/lesson_2_app/views.py changed, reloading.
+INFO 03-10-2023 15:05:33 autoreload Watching for file changes with StatReloader
+INFO 03-10-2023 15:08:11 autoreload /Users/syscom/PycharmProjects/Django/firstproject/lesson_2_app/views.py changed, reloading.
+INFO 03-10-2023 15:08:12 autoreload Watching for file changes with StatReloader
+INFO 03-10-2023 15:12:26 autoreload /Users/syscom/PycharmProjects/Django/firstproject/lesson_2_app/forms.py changed, reloading.
+INFO 03-10-2023 15:12:27 autoreload Watching for file changes with StatReloader
+INFO 03-10-2023 15:13:08 autoreload /Users/syscom/PycharmProjects/Django/firstproject/lesson_2_app/forms.py changed, reloading.
+INFO 03-10-2023 15:13:09 autoreload Watching for file changes with StatReloader
+INFO 03-10-2023 15:13:34 autoreload /Users/syscom/PycharmProjects/Django/firstproject/lesson_2_app/forms.py changed, reloading.
+INFO 03-10-2023 15:13:35 autoreload Watching for file changes with StatReloader
+INFO 03-10-2023 15:14:29 autoreload /Users/syscom/PycharmProjects/Django/firstproject/lesson_2_app/forms.py changed, reloading.
+INFO 03-10-2023 15:14:29 autoreload Watching for file changes with StatReloader
+INFO 03-10-2023 15:15:46 basehttp "GET /lesson2/create_article HTTP/1.1" 301 0
+ERROR 03-10-2023 15:15:46 log Internal Server Error: /lesson2/create_article/
+Traceback (most recent call last):
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view lesson_2_app.views.create_article didn't return an HttpResponse object. It returned None instead.
+ERROR 03-10-2023 15:15:46 basehttp "GET /lesson2/create_article/ HTTP/1.1" 500 64741
+INFO 03-10-2023 15:17:47 autoreload /Users/syscom/PycharmProjects/Django/firstproject/lesson_2_app/views.py changed, reloading.
+INFO 03-10-2023 15:17:48 autoreload Watching for file changes with StatReloader
+INFO 03-10-2023 15:18:05 basehttp "GET /lesson2/create_article/ HTTP/1.1" 200 1620
+INFO 03-10-2023 15:18:59 autoreload /Users/syscom/PycharmProjects/Django/firstproject/lesson_2_app/forms.py changed, reloading.
+INFO 03-10-2023 15:19:00 autoreload Watching for file changes with StatReloader
+INFO 03-10-2023 15:19:05 basehttp "GET /lesson2/create_article/ HTTP/1.1" 200 1632
+INFO 03-10-2023 15:19:17 basehttp "POST /lesson2/create_article/ HTTP/1.1" 200 1674
+INFO 03-10-2023 15:22:47 autoreload /Users/syscom/PycharmProjects/Django/firstproject/lesson_2_app/views.py changed, reloading.
+INFO 03-10-2023 15:22:48 autoreload Watching for file changes with StatReloader
+INFO 03-10-2023 15:28:27 autoreload /Users/syscom/PycharmProjects/Django/firstproject/lesson_2_app/forms.py changed, reloading.
+INFO 03-10-2023 15:28:27 autoreload Watching for file changes with StatReloader
+INFO 03-10-2023 15:29:00 autoreload /Users/syscom/PycharmProjects/Django/firstproject/lesson_2_app/forms.py changed, reloading.
+INFO 03-10-2023 15:29:01 autoreload Watching for file changes with StatReloader
+INFO 03-10-2023 15:29:02 basehttp "POST /lesson2/create_article/ HTTP/1.1" 200 1751
+INFO 03-10-2023 15:29:45 autoreload /Users/syscom/PycharmProjects/Django/firstproject/lesson_2_app/forms.py changed, reloading.
+INFO 03-10-2023 15:29:46 autoreload Watching for file changes with StatReloader
+INFO 03-10-2023 15:29:51 basehttp "POST /lesson2/create_article/ HTTP/1.1" 200 1747
+INFO 03-10-2023 15:30:22 basehttp "POST /lesson2/create_article/ HTTP/1.1" 200 1747
+INFO 03-10-2023 15:30:23 autoreload /Users/syscom/PycharmProjects/Django/firstproject/lesson_2_app/forms.py changed, reloading.
+INFO 03-10-2023 15:30:23 autoreload Watching for file changes with StatReloader
+INFO 03-10-2023 15:30:32 basehttp "POST /lesson2/create_article/ HTTP/1.1" 200 1751
+INFO 03-10-2023 15:48:02 autoreload /Users/syscom/PycharmProjects/Django/firstproject/lesson_2_app/forms.py changed, reloading.
+INFO 03-10-2023 15:48:03 autoreload Watching for file changes with StatReloader
+INFO 03-10-2023 15:52:44 autoreload Watching for file changes with StatReloader
+WARNING 03-10-2023 15:52:59 log Not Found: /lesson2/create_article_form/
+WARNING 03-10-2023 15:52:59 basehttp "GET /lesson2/create_article_form/ HTTP/1.1" 404 5573
+INFO 03-10-2023 15:53:46 autoreload /Users/syscom/PycharmProjects/Django/firstproject/lesson_2_app/urls.py changed, reloading.
+INFO 03-10-2023 15:53:47 autoreload Watching for file changes with StatReloader
+INFO 03-10-2023 15:53:49 basehttp "GET /lesson2/create_article_form/ HTTP/1.1" 200 1863
+INFO 03-10-2023 15:58:32 autoreload /Users/syscom/PycharmProjects/Django/firstproject/lesson_2_app/views.py changed, reloading.
+INFO 03-10-2023 15:58:33 autoreload Watching for file changes with StatReloader
+INFO 03-10-2023 15:59:18 basehttp "POST /lesson2/create_article_form/ HTTP/1.1" 200 1894
+INFO 03-10-2023 15:59:51 autoreload /Users/syscom/PycharmProjects/Django/firstproject/lesson_2_app/views.py changed, reloading.
+INFO 03-10-2023 15:59:52 autoreload Watching for file changes with StatReloader
+INFO 03-10-2023 16:00:12 basehttp "POST /lesson2/create_article_form/ HTTP/1.1" 200 2004
+INFO 04-10-2023 16:00:13 autoreload Watching for file changes with StatReloader
+INFO 04-10-2023 16:03:51 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/forms.py changed, reloading.
+INFO 04-10-2023 16:03:51 autoreload Watching for file changes with StatReloader
+INFO 04-10-2023 16:04:18 basehttp "POST /lesson2/create_article_form/ HTTP/1.1" 200 2004
+WARNING 04-10-2023 16:04:19 log Not Found: /favicon.ico
+WARNING 04-10-2023 16:04:19 basehttp "GET /favicon.ico HTTP/1.1" 404 4026
+WARNING 04-10-2023 16:04:26 log Not Found: /рц4
+WARNING 04-10-2023 16:04:26 basehttp "GET /%D1%80%D1%864 HTTP/1.1" 404 4016
+INFO 04-10-2023 16:04:39 basehttp "GET /hw4 HTTP/1.1" 301 0
+INFO 04-10-2023 16:04:39 basehttp "GET /hw4/ HTTP/1.1" 200 15
+INFO 04-10-2023 16:04:55 basehttp "GET /hw4/get_product_id HTTP/1.1" 301 0
+ERROR 04-10-2023 16:04:55 log Internal Server Error: /hw4/get_product_id/
+Traceback (most recent call last):
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/views.py", line 36, in get_product_id
+    return render(request, 'hw4_store_app/get_product_id.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: hw4_store_app/get_product_id.html
+ERROR 04-10-2023 16:04:55 basehttp "GET /hw4/get_product_id/ HTTP/1.1" 500 82452
+INFO 04-10-2023 16:07:22 basehttp "GET /hw4/get_product_id/ HTTP/1.1" 200 2138
+INFO 04-10-2023 16:09:19 basehttp "GET /hw4/get_product_id/ HTTP/1.1" 200 2187
+INFO 04-10-2023 16:12:58 basehttp "POST /hw4/get_product_id/ HTTP/1.1" 302 0
+WARNING 04-10-2023 16:12:58 log Not Found: /hw4_store_app/product_update/6
+WARNING 04-10-2023 16:12:58 basehttp "GET /hw4_store_app/product_update/6 HTTP/1.1" 404 4083
+INFO 04-10-2023 16:24:29 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/views.py changed, reloading.
+INFO 04-10-2023 16:24:30 autoreload Watching for file changes with StatReloader
+INFO 04-10-2023 16:51:03 basehttp "GET /hw4/get_product_id/ HTTP/1.1" 200 2187
+INFO 04-10-2023 16:51:08 basehttp "POST /hw4/get_product_id/ HTTP/1.1" 302 0
+WARNING 04-10-2023 16:51:08 log Not Found: /hw4_store_app/product_update/6
+WARNING 04-10-2023 16:51:08 basehttp "GET /hw4_store_app/product_update/6 HTTP/1.1" 404 4083
+WARNING 04-10-2023 16:51:20 log Not Found: /hw4_store_app/product_update/6/
+WARNING 04-10-2023 16:51:20 basehttp "GET /hw4_store_app/product_update/6/ HTTP/1.1" 404 4086
+INFO 04-10-2023 16:53:17 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/views.py changed, reloading.
+INFO 04-10-2023 16:53:17 autoreload Watching for file changes with StatReloader
+INFO 04-10-2023 16:55:03 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/urls.py changed, reloading.
+INFO 04-10-2023 16:55:04 autoreload Watching for file changes with StatReloader
+ERROR 04-10-2023 16:55:32 log Internal Server Error: /hw4/get_product_id/
+Traceback (most recent call last):
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/views.py", line 36, in get_product_id
+    return render(request, 'hw4/get_product_id.html/', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: hw4/get_product_id.html/
+ERROR 04-10-2023 16:55:32 basehttp "GET /hw4/get_product_id/ HTTP/1.1" 500 82134
+INFO 04-10-2023 16:58:23 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/views.py changed, reloading.
+INFO 04-10-2023 16:58:23 autoreload Watching for file changes with StatReloader
+INFO 04-10-2023 16:58:28 basehttp "GET /hw4/get_product_id/ HTTP/1.1" 200 2187
+INFO 04-10-2023 16:58:33 basehttp "POST /hw4/get_product_id/ HTTP/1.1" 302 0
+INFO 04-10-2023 16:58:33 basehttp "GET /hw4/product_update/5 HTTP/1.1" 301 0
+INFO 04-10-2023 16:58:33 basehttp "GET /hw4/product_update/5/ HTTP/1.1" 200 1255
+INFO 04-10-2023 16:59:52 basehttp "POST /hw4/get_product_id/ HTTP/1.1" 302 0
+INFO 04-10-2023 16:59:52 basehttp "GET /hw4/product_update/23 HTTP/1.1" 301 0
+INFO 04-10-2023 16:59:52 basehttp "GET /hw4/product_update/23/ HTTP/1.1" 200 1255
+INFO 04-10-2023 17:05:20 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/views.py changed, reloading.
+INFO 04-10-2023 17:05:20 autoreload Watching for file changes with StatReloader
+INFO 04-10-2023 17:05:31 basehttp "POST /hw4/get_product_id/ HTTP/1.1" 302 0
+INFO 04-10-2023 17:05:31 basehttp "GET /hw4/product_update/29 HTTP/1.1" 301 0
+INFO 04-10-2023 17:05:31 basehttp "GET /hw4/product_update/29/ HTTP/1.1" 200 1255
+INFO 04-10-2023 17:14:39 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/views.py changed, reloading.
+INFO 04-10-2023 17:14:40 autoreload Watching for file changes with StatReloader
+INFO 04-10-2023 18:41:16 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/views.py changed, reloading.
+INFO 04-10-2023 18:41:17 autoreload Watching for file changes with StatReloader
+INFO 04-10-2023 18:41:53 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/forms.py changed, reloading.
+INFO 04-10-2023 18:41:54 autoreload Watching for file changes with StatReloader
+INFO 04-10-2023 18:42:56 autoreload Watching for file changes with StatReloader
+INFO 04-10-2023 18:46:23 autoreload Watching for file changes with StatReloader
+INFO 04-10-2023 18:47:15 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/forms.py changed, reloading.
+INFO 04-10-2023 18:47:16 autoreload Watching for file changes with StatReloader
+INFO 04-10-2023 18:47:46 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/forms.py changed, reloading.
+INFO 04-10-2023 18:47:46 autoreload Watching for file changes with StatReloader
+INFO 04-10-2023 18:48:07 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/forms.py changed, reloading.
+INFO 04-10-2023 18:48:07 autoreload Watching for file changes with StatReloader
+WARNING 04-10-2023 18:48:12 log Not Found: /hw4_store_app/product_update/6
+WARNING 04-10-2023 18:48:12 basehttp "GET /hw4_store_app/product_update/6 HTTP/1.1" 404 4083
+ERROR 04-10-2023 18:48:27 log Internal Server Error: /hw4/get_product_id/
+Traceback (most recent call last):
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/views.py", line 40, in get_product_id
+    form = GetProductId()
+           ^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/forms/forms.py", line 107, in __init__
+    self.fields = copy.deepcopy(self.base_fields)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/copy.py", line 146, in deepcopy
+    y = copier(x, memo)
+        ^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/copy.py", line 231, in _deepcopy_dict
+    y[deepcopy(key, memo)] = deepcopy(value, memo)
+                             ^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/copy.py", line 153, in deepcopy
+    y = copier(memo)
+        ^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/forms/fields.py", line 867, in __deepcopy__
+    result._choices = copy.deepcopy(self._choices, memo)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/copy.py", line 146, in deepcopy
+    y = copier(x, memo)
+        ^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/copy.py", line 206, in _deepcopy_list
+    append(deepcopy(a, memo))
+           ^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/copy.py", line 161, in deepcopy
+    rv = reductor(4)
+         ^^^^^^^^^^^
+TypeError: cannot pickle 'generator' object
+ERROR 04-10-2023 18:48:27 basehttp "GET /hw4/get_product_id/ HTTP/1.1" 500 102409
+INFO 04-10-2023 18:50:41 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/forms.py changed, reloading.
+INFO 04-10-2023 18:50:42 autoreload Watching for file changes with StatReloader
+INFO 04-10-2023 18:56:30 autoreload Watching for file changes with StatReloader
+INFO 04-10-2023 18:58:32 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/forms.py changed, reloading.
+INFO 04-10-2023 18:58:32 autoreload Watching for file changes with StatReloader
+INFO 04-10-2023 18:58:39 basehttp "GET /hw4/get_product_id/ HTTP/1.1" 200 2187
+ERROR 04-10-2023 18:58:45 log Internal Server Error: /hw4/get_product_id/
+Traceback (most recent call last):
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/views.py", line 30, in get_product_id
+    product_id = form.cleaned_data.get()
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: get expected at least 1 argument, got 0
+ERROR 04-10-2023 18:58:45 basehttp "POST /hw4/get_product_id/ HTTP/1.1" 500 64885
+INFO 04-10-2023 19:01:15 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/views.py changed, reloading.
+INFO 04-10-2023 19:01:16 autoreload Watching for file changes with StatReloader
+ERROR 04-10-2023 19:01:23 log Internal Server Error: /hw4/get_product_id/
+Traceback (most recent call last):
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/views.py", line 30, in get_product_id
+    prod_id = form.cleaned_data.get()
+              ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: get expected at least 1 argument, got 0
+ERROR 04-10-2023 19:01:23 basehttp "POST /hw4/get_product_id/ HTTP/1.1" 500 64855
+INFO 04-10-2023 19:04:39 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/views.py changed, reloading.
+INFO 04-10-2023 19:04:40 autoreload Watching for file changes with StatReloader
+INFO 04-10-2023 19:04:47 basehttp "POST /hw4/get_product_id/ HTTP/1.1" 302 0
+INFO 04-10-2023 19:04:47 basehttp "GET /hw4/product_update/31 HTTP/1.1" 301 0
+INFO 04-10-2023 19:04:47 basehttp "GET /hw4/product_update/31/ HTTP/1.1" 200 1255
+INFO 04-10-2023 19:07:10 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/views.py changed, reloading.
+INFO 04-10-2023 19:07:11 autoreload Watching for file changes with StatReloader
+INFO 04-10-2023 19:09:34 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/views.py changed, reloading.
+INFO 04-10-2023 19:09:34 autoreload Watching for file changes with StatReloader
+INFO 04-10-2023 19:09:40 basehttp "POST /hw4/get_product_id/ HTTP/1.1" 302 0
+WARNING 04-10-2023 19:09:40 log Not Found: /hw4_store_app/product_update/29
+WARNING 04-10-2023 19:09:40 basehttp "GET /hw4_store_app/product_update/29 HTTP/1.1" 404 4086
+INFO 04-10-2023 19:10:08 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/views.py changed, reloading.
+INFO 04-10-2023 19:10:09 autoreload Watching for file changes with StatReloader
+INFO 04-10-2023 19:10:51 basehttp "POST /hw4/get_product_id/ HTTP/1.1" 302 0
+INFO 04-10-2023 19:10:51 basehttp "GET /hw4/product_update/31 HTTP/1.1" 301 0
+INFO 04-10-2023 19:10:51 basehttp "GET /hw4/product_update/31/ HTTP/1.1" 200 1255
+INFO 04-10-2023 19:13:37 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/views.py changed, reloading.
+INFO 04-10-2023 19:13:37 autoreload Watching for file changes with StatReloader
+INFO 04-10-2023 19:14:33 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/views.py changed, reloading.
+INFO 04-10-2023 19:14:34 autoreload Watching for file changes with StatReloader
+INFO 04-10-2023 19:14:45 basehttp "POST /hw4/get_product_id/ HTTP/1.1" 302 0
+INFO 04-10-2023 19:14:45 basehttp "GET /hw4/product_update/29 HTTP/1.1" 301 0
+INFO 04-10-2023 19:14:45 basehttp "GET /hw4/product_update/29/ HTTP/1.1" 200 1255
+INFO 04-10-2023 19:15:25 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/views.py changed, reloading.
+INFO 04-10-2023 19:15:26 autoreload Watching for file changes with StatReloader
+INFO 04-10-2023 19:15:31 basehttp "POST /hw4/get_product_id/ HTTP/1.1" 302 0
+INFO 04-10-2023 19:15:31 basehttp "GET /hw4/product_update/29 HTTP/1.1" 301 0
+INFO 04-10-2023 19:15:31 basehttp "GET /hw4/product_update/29/ HTTP/1.1" 200 1255
+ERROR 04-10-2023 19:17:10 log Internal Server Error: /hw4/product_update/29/
+Traceback (most recent call last):
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/views.py", line 44, in product_update
+    logger.info(f'Получили {form.cleaned_data=}.')
+                            ^^^^^^^^^^^^^^^^^
+AttributeError: 'ProductUpdate' object has no attribute 'cleaned_data'
+ERROR 04-10-2023 19:17:10 basehttp "POST /hw4/product_update/29/ HTTP/1.1" 500 66356
+INFO 04-10-2023 19:27:19 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/forms.py changed, reloading.
+INFO 04-10-2023 19:27:20 autoreload Watching for file changes with StatReloader
+INFO 04-10-2023 19:29:58 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/views.py changed, reloading.
+INFO 04-10-2023 19:29:58 autoreload Watching for file changes with StatReloader
+INFO 04-10-2023 19:34:50 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/views.py changed, reloading.
+INFO 04-10-2023 19:34:50 autoreload Watching for file changes with StatReloader
+INFO 04-10-2023 19:37:46 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/views.py changed, reloading.
+INFO 04-10-2023 19:37:46 autoreload Watching for file changes with StatReloader
+INFO 04-10-2023 19:38:14 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/views.py changed, reloading.
+INFO 04-10-2023 19:38:14 autoreload Watching for file changes with StatReloader
+ERROR 04-10-2023 19:38:23 log Internal Server Error: /hw4/product_update/29/
+Traceback (most recent call last):
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/views.py", line 44, in product_update
+    logger.info(f'Получили {form.cleaned_data=}.')
+                            ^^^^^^^^^^^^^^^^^
+AttributeError: 'ProductUpdate' object has no attribute 'cleaned_data'
+ERROR 04-10-2023 19:38:23 basehttp "POST /hw4/product_update/29/ HTTP/1.1" 500 66356
+INFO 04-10-2023 19:38:31 basehttp "GET /hw4/prod_edit HTTP/1.1" 301 0
+ERROR 04-10-2023 19:38:31 log Internal Server Error: /hw4/prod_edit/
+Traceback (most recent call last):
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/views.py", line 93, in prod_edit
+    return render(request, 'prod_edit.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: prod_edit.html
+ERROR 04-10-2023 19:38:31 basehttp "GET /hw4/prod_edit/ HTTP/1.1" 500 80780
+INFO 04-10-2023 19:40:07 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/views.py changed, reloading.
+INFO 04-10-2023 19:40:08 autoreload Watching for file changes with StatReloader
+INFO 04-10-2023 19:40:12 basehttp "GET /hw4/prod_edit/ HTTP/1.1" 200 4174
+INFO 04-10-2023 19:41:16 basehttp "POST /hw4/prod_edit/ HTTP/1.1" 200 164
+INFO 04-10-2023 19:57:49 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/views.py changed, reloading.
+INFO 04-10-2023 19:57:50 autoreload Watching for file changes with StatReloader
+WARNING 04-10-2023 19:58:36 log Not Found: /hw4/prod_edit/
+WARNING 04-10-2023 19:58:36 basehttp "GET /hw4/prod_edit/ HTTP/1.1" 404 5022
+WARNING 04-10-2023 19:58:38 log Not Found: /hw4/prod_edit/
+WARNING 04-10-2023 19:58:38 basehttp "GET /hw4/prod_edit/ HTTP/1.1" 404 5022
+INFO 04-10-2023 19:58:49 basehttp "GET /hw4/prod_upd/ HTTP/1.1" 200 4166
+INFO 04-10-2023 20:02:14 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/views.py changed, reloading.
+INFO 04-10-2023 20:02:15 autoreload Watching for file changes with StatReloader
+INFO 04-10-2023 20:02:59 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/views.py changed, reloading.
+INFO 04-10-2023 20:02:59 autoreload Watching for file changes with StatReloader
+INFO 04-10-2023 20:03:18 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/urls.py changed, reloading.
+INFO 04-10-2023 20:03:18 autoreload Watching for file changes with StatReloader
+ERROR 04-10-2023 20:04:29 log Internal Server Error: /hw4/prod_upd/
+Traceback (most recent call last):
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/utils/datastructures.py", line 84, in __getitem__
+    list_ = super().__getitem__(key)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'img'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/views.py", line 86, in prod_upd
+    img = request.FILES['img']
+          ~~~~~~~~~~~~~^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/utils/datastructures.py", line 86, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'img'
+ERROR 04-10-2023 20:04:29 basehttp "POST /hw4/prod_upd/ HTTP/1.1" 500 75169
+INFO 04-10-2023 20:07:35 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/views.py changed, reloading.
+INFO 04-10-2023 20:07:36 autoreload Watching for file changes with StatReloader
+INFO 04-10-2023 20:14:09 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/urls.py changed, reloading.
+INFO 04-10-2023 20:14:09 autoreload Watching for file changes with StatReloader
+INFO 04-10-2023 20:14:57 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/views.py changed, reloading.
+INFO 04-10-2023 20:14:58 autoreload Watching for file changes with StatReloader
+INFO 04-10-2023 20:14:59 basehttp "GET /hw4/prod_upd/ HTTP/1.1" 200 4166
+INFO 04-10-2023 20:17:38 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/models.py changed, reloading.
+INFO 04-10-2023 20:17:38 autoreload Watching for file changes with StatReloader
+INFO 04-10-2023 20:17:40 basehttp "GET /hw4/prod_upd/ HTTP/1.1" 200 4679
+INFO 04-10-2023 20:19:33 basehttp "POST /hw4/prod_upd/ HTTP/1.1" 200 154
+INFO 04-10-2023 20:21:21 basehttp "POST /hw4/prod_upd/ HTTP/1.1" 200 154
+INFO 04-10-2023 20:21:22 basehttp "GET /hw4/prod_upd/ HTTP/1.1" 200 4673
+INFO 04-10-2023 20:23:51 basehttp "POST /hw4/prod_upd/ HTTP/1.1" 200 154
+INFO 04-10-2023 20:29:35 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/views.py changed, reloading.
+INFO 04-10-2023 20:29:35 autoreload Watching for file changes with StatReloader

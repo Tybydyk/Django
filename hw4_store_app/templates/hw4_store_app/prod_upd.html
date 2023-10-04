@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block title %}Product update{% endblock %}
+{% block content %}
+      {% if not message %}
+    <form action="" method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <input type="submit" value="Send">
+    </form>
+      {% else %}
+       {{ message }}
+    {% endif %}
+{% endblock %}
