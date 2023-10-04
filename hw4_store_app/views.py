@@ -33,7 +33,6 @@ def prod_upd(request):
             quantity = form.data['quantity']
             product_id = form.data['product']
             product = Product.objects.filter(id=product_id).first()
-
             product.product_name = product_name
             product.description = description
             product.price = price
