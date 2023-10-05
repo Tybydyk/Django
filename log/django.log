@@ -3040,3 +3040,120 @@ INFO 04-10-2023 20:21:22 basehttp "GET /hw4/prod_upd/ HTTP/1.1" 200 4673
 INFO 04-10-2023 20:23:51 basehttp "POST /hw4/prod_upd/ HTTP/1.1" 200 154
 INFO 04-10-2023 20:29:35 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/views.py changed, reloading.
 INFO 04-10-2023 20:29:35 autoreload Watching for file changes with StatReloader
+INFO 05-10-2023 06:09:53 autoreload Watching for file changes with StatReloader
+ERROR 05-10-2023 06:10:19 log Internal Server Error: /hw4/prod_upd/
+Traceback (most recent call last):
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py", line 2053, in get_prep_value
+    return int(value)
+           ^^^^^^^^^^
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'Product'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/views.py", line 35, in prod_upd
+    product = Product.objects.filter(id=product_id).first()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/sql/query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/sql/query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/sql/query.py", line 1491, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/sql/query.py", line 1318, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/lookups.py", line 341, in get_prep_lookup
+    return super().get_prep_lookup()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/lookups.py", line 85, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py", line 2055, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got <Product:  Product: P_31, price: 980.52, quantity: 22>.
+ERROR 05-10-2023 06:10:19 basehttp "POST /hw4/prod_upd/ HTTP/1.1" 500 133831
+INFO 05-10-2023 06:11:02 basehttp "GET /hw4/ HTTP/1.1" 200 15
+WARNING 05-10-2023 06:11:12 log Not Found: /hw4/prod_update
+WARNING 05-10-2023 06:11:12 basehttp "GET /hw4/prod_update HTTP/1.1" 404 4624
+INFO 05-10-2023 06:11:24 basehttp "GET /hw4/prod_upd HTTP/1.1" 301 0
+INFO 05-10-2023 06:11:24 basehttp "GET /hw4/prod_upd/ HTTP/1.1" 200 4667
+ERROR 05-10-2023 06:12:46 log Internal Server Error: /hw4/prod_upd/
+Traceback (most recent call last):
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py", line 2053, in get_prep_value
+    return int(value)
+           ^^^^^^^^^^
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'Product'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/views.py", line 35, in prod_upd
+    product = Product.objects.filter(id=product_id).first()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/sql/query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/sql/query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/sql/query.py", line 1491, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/sql/query.py", line 1318, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/lookups.py", line 341, in get_prep_lookup
+    return super().get_prep_lookup()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/lookups.py", line 85, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py", line 2055, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got <Product:  Product: Product_20, price: 1.00, quantity: 38>.
+ERROR 05-10-2023 06:12:46 basehttp "POST /hw4/prod_upd/ HTTP/1.1" 500 133883
+INFO 05-10-2023 06:14:38 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/views.py changed, reloading.
+INFO 05-10-2023 06:14:38 autoreload Watching for file changes with StatReloader
+INFO 05-10-2023 06:14:45 basehttp "POST /hw4/prod_upd/ HTTP/1.1" 200 154
