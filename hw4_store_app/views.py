@@ -27,10 +27,10 @@ def prod_upd(request):
     if request.method == 'POST':
         form = ProductUpd(request.POST, request.FILES)
         if form.is_valid():
-            product_name = form.data['product_name']
-            description = form.data['description']
-            price = form.data['price']
-            quantity = form.data['quantity']
+            product_name = form.cleaned_data['product_name']
+            description = form.cleaned_data['description']
+            price = form.cleaned_data['price']
+            quantity = form.cleaned_data['quantity']
             product_id = form.data['product']
             product = Product.objects.filter(id=product_id).first()
             product.product_name = product_name
