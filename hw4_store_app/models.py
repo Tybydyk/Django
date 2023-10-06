@@ -21,7 +21,7 @@ class Product(models.Model):
     image = models.ImageField(upload_to='images/')
 
     def __str__(self):
-        return f' Product: {self.product_name}, price: {self.price}, quantity: {self.quantity}'
+        return f' Product: {self.product_name}, price: {self.price}'
 
 
 STATUS_CHOICES = [

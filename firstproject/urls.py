@@ -30,4 +30,6 @@ urlpatterns = [
     path('fourth/', include('s_t_fourth_app.urls')),
     path('lesson4/', include('lesson_4_app.urls')),
     path('hw4/', include('hw4_store_app.urls')),
+    path('fifth/', include('s_fifth_app.urls')),
+    path('lesson5/', include('lesson_5_app.urls')),
     ]

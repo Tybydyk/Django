@@ -3157,3 +3157,1391 @@ ERROR 05-10-2023 06:12:46 basehttp "POST /hw4/prod_upd/ HTTP/1.1" 500 133883
 INFO 05-10-2023 06:14:38 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/views.py changed, reloading.
 INFO 05-10-2023 06:14:38 autoreload Watching for file changes with StatReloader
 INFO 05-10-2023 06:14:45 basehttp "POST /hw4/prod_upd/ HTTP/1.1" 200 154
+INFO 05-10-2023 07:58:05 autoreload Watching for file changes with StatReloader
+INFO 05-10-2023 08:02:43 autoreload Watching for file changes with StatReloader
+INFO 05-10-2023 08:19:28 autoreload Watching for file changes with StatReloader
+INFO 05-10-2023 08:21:19 autoreload /Users/syscom/PycharmProjects/Django/firstproject/s_fifth_app/urls.py changed, reloading.
+INFO 05-10-2023 08:21:19 autoreload Watching for file changes with StatReloader
+INFO 05-10-2023 08:21:46 basehttp "GET /hw4/prod_upd/ HTTP/1.1" 200 4667
+WARNING 05-10-2023 08:21:55 log Not Found: /lesson5
+WARNING 05-10-2023 08:21:55 basehttp "GET /lesson5 HTTP/1.1" 404 4120
+INFO 05-10-2023 08:22:33 autoreload /Users/syscom/PycharmProjects/Django/firstproject/firstproject/urls.py changed, reloading.
+INFO 05-10-2023 08:22:33 autoreload Watching for file changes with StatReloader
+INFO 05-10-2023 08:22:38 basehttp "GET /lesson5 HTTP/1.1" 301 0
+INFO 05-10-2023 08:22:38 basehttp "GET /lesson5/ HTTP/1.1" 200 12
+INFO 05-10-2023 08:22:46 basehttp "GET /lesson5/ HTTP/1.1" 200 12
+DEBUG 05-10-2023 08:22:51 views About page accessed
+INFO 05-10-2023 08:22:51 basehttp "GET /about/ HTTP/1.1" 200 51
+INFO 05-10-2023 08:22:53 basehttp "GET /admin HTTP/1.1" 301 0
+INFO 05-10-2023 08:22:53 basehttp "GET /admin/ HTTP/1.1" 302 0
+INFO 05-10-2023 08:22:53 basehttp "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4181
+INFO 05-10-2023 08:22:53 basehttp "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+INFO 05-10-2023 08:22:53 basehttp "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+INFO 05-10-2023 08:22:53 basehttp "GET /static/admin/css/login.css HTTP/1.1" 200 958
+INFO 05-10-2023 08:22:53 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 200 18533
+INFO 05-10-2023 08:22:53 basehttp "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+INFO 05-10-2023 08:22:53 basehttp "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 05-10-2023 08:22:53 basehttp "GET /static/admin/css/base.css HTTP/1.1" 200 21207
+INFO 05-10-2023 08:23:02 basehttp "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4342
+INFO 05-10-2023 08:25:38 autoreload /Users/syscom/PycharmProjects/Django/firstproject/firstproject/settings.py changed, reloading.
+INFO 05-10-2023 08:25:39 autoreload Watching for file changes with StatReloader
+INFO 05-10-2023 08:26:27 autoreload /Users/syscom/PycharmProjects/Django/firstproject/firstproject/settings.py changed, reloading.
+INFO 05-10-2023 11:26:27 autoreload Watching for file changes with StatReloader
+INFO 05-10-2023 11:26:29 basehttp "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4538
+INFO 05-10-2023 11:26:31 basehttp "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4538
+INFO 05-10-2023 11:33:15 autoreload Watching for file changes with StatReloader
+INFO 05-10-2023 11:33:45 basehttp "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 05-10-2023 11:33:45 basehttp "GET /admin/ HTTP/1.1" 200 5856
+INFO 05-10-2023 11:33:46 basehttp "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 05-10-2023 11:33:46 basehttp "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 05-10-2023 11:33:46 basehttp "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 05-10-2023 13:06:39 basehttp "GET /admin/auth/user/add/ HTTP/1.1" 200 10992
+INFO 05-10-2023 13:06:39 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 05-10-2023 13:06:39 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 13:06:39 basehttp "GET /static/admin/js/core.js HTTP/1.1" 200 5682
+INFO 05-10-2023 13:06:39 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943
+INFO 05-10-2023 13:06:39 basehttp "GET /static/admin/css/forms.css HTTP/1.1" 200 9047
+INFO 05-10-2023 13:06:39 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 05-10-2023 13:06:39 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+INFO 05-10-2023 13:06:40 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+INFO 05-10-2023 13:06:40 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 05-10-2023 13:06:40 basehttp "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 05-10-2023 13:06:40 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 05-10-2023 13:06:40 basehttp "GET /static/admin/css/widgets.css HTTP/1.1" 200 11900
+INFO 05-10-2023 13:06:40 basehttp "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 05-10-2023 13:06:57 basehttp "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+INFO 05-10-2023 13:06:57 basehttp "GET /admin/auth/user/2/change/ HTTP/1.1" 200 26699
+INFO 05-10-2023 13:06:57 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 13:06:57 basehttp "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4530
+INFO 05-10-2023 13:06:57 basehttp "GET /static/admin/js/calendar.js HTTP/1.1" 200 8466
+INFO 05-10-2023 13:06:57 basehttp "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+INFO 05-10-2023 13:06:57 basehttp "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 15292
+INFO 05-10-2023 13:06:57 basehttp "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 05-10-2023 13:06:57 basehttp "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 05-10-2023 13:06:57 basehttp "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 05-10-2023 13:06:57 basehttp "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+INFO 05-10-2023 13:06:57 basehttp "GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+INFO 05-10-2023 13:06:57 basehttp "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+INFO 05-10-2023 13:06:57 basehttp "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+INFO 05-10-2023 13:08:44 basehttp "POST /admin/logout/ HTTP/1.1" 200 3713
+INFO 05-10-2023 13:08:46 basehttp "GET /admin/ HTTP/1.1" 302 0
+INFO 05-10-2023 13:08:46 basehttp "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4271
+INFO 05-10-2023 13:08:56 basehttp "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4537
+INFO 05-10-2023 13:09:07 basehttp "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4537
+INFO 05-10-2023 13:09:24 basehttp "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 05-10-2023 13:09:24 basehttp "GET /admin/ HTTP/1.1" 200 6179
+INFO 05-10-2023 13:09:27 basehttp "GET /admin/auth/user/ HTTP/1.1" 200 11691
+INFO 05-10-2023 13:09:27 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 13:09:27 basehttp "GET /static/admin/css/changelists.css HTTP/1.1" 200 6566
+INFO 05-10-2023 13:09:27 basehttp "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 05-10-2023 13:09:27 basehttp "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+INFO 05-10-2023 13:09:27 basehttp "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+INFO 05-10-2023 13:09:27 basehttp "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 05-10-2023 13:09:30 basehttp "GET /admin/auth/user/2/change/ HTTP/1.1" 200 26403
+INFO 05-10-2023 13:09:30 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 13:10:07 basehttp "GET /admin/auth/user/ HTTP/1.1" 200 11691
+INFO 05-10-2023 13:10:07 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 13:10:13 basehttp "POST /admin/auth/user/ HTTP/1.1" 302 0
+INFO 05-10-2023 13:10:13 basehttp "GET /admin/auth/user/ HTTP/1.1" 200 11961
+INFO 05-10-2023 13:10:13 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 13:10:13 basehttp "GET /static/admin/img/icon-alert.svg HTTP/1.1" 200 504
+INFO 05-10-2023 13:10:20 basehttp "GET /admin/auth/user/2/change/ HTTP/1.1" 200 26403
+INFO 05-10-2023 13:10:20 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 13:10:30 basehttp "GET /admin/auth/user/2/password/ HTTP/1.1" 200 7772
+INFO 05-10-2023 13:10:44 basehttp "POST /admin/auth/user/2/password/ HTTP/1.1" 302 0
+INFO 05-10-2023 13:10:44 basehttp "GET /admin/auth/user/2/change/ HTTP/1.1" 200 26552
+INFO 05-10-2023 13:10:44 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 13:10:47 basehttp "POST /admin/logout/ HTTP/1.1" 200 3713
+INFO 05-10-2023 13:10:49 basehttp "GET /admin/ HTTP/1.1" 302 0
+INFO 05-10-2023 13:10:49 basehttp "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4271
+INFO 05-10-2023 13:10:58 basehttp "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4537
+INFO 05-10-2023 13:11:43 basehttp "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 05-10-2023 13:11:43 basehttp "GET /admin/ HTTP/1.1" 200 6478
+INFO 05-10-2023 13:11:52 basehttp "GET /admin/auth/user/2/change/ HTTP/1.1" 200 26403
+INFO 05-10-2023 13:11:52 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 13:12:04 basehttp "POST /admin/auth/user/2/change/ HTTP/1.1" 302 0
+INFO 05-10-2023 13:12:04 basehttp "GET /admin/auth/user/ HTTP/1.1" 200 11911
+INFO 05-10-2023 13:12:04 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 13:12:07 basehttp "POST /admin/logout/ HTTP/1.1" 200 3713
+INFO 05-10-2023 13:12:09 basehttp "GET /admin/ HTTP/1.1" 302 0
+INFO 05-10-2023 13:12:10 basehttp "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4271
+INFO 05-10-2023 13:12:18 basehttp "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 05-10-2023 13:12:18 basehttp "GET /admin/ HTTP/1.1" 200 4801
+INFO 05-10-2023 13:14:44 autoreload /Users/syscom/PycharmProjects/Django/firstproject/s_fifth_app/models.py changed, reloading.
+INFO 05-10-2023 13:14:44 autoreload Watching for file changes with StatReloader
+INFO 05-10-2023 13:16:21 autoreload Watching for file changes with StatReloader
+INFO 05-10-2023 13:16:33 basehttp "GET /admin/ HTTP/1.1" 200 4801
+INFO 05-10-2023 13:16:37 basehttp "GET /admin/ HTTP/1.1" 200 4801
+INFO 05-10-2023 13:16:38 basehttp "GET /admin/ HTTP/1.1" 200 4801
+INFO 05-10-2023 13:16:43 basehttp "POST /admin/logout/ HTTP/1.1" 200 3713
+INFO 05-10-2023 13:16:46 basehttp "GET /admin/ HTTP/1.1" 302 0
+INFO 05-10-2023 13:16:46 basehttp "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4271
+INFO 05-10-2023 13:16:56 basehttp "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 05-10-2023 13:16:56 basehttp "GET /admin/ HTTP/1.1" 200 7967
+INFO 05-10-2023 13:17:14 basehttp "GET /admin/auth/user/2/change/ HTTP/1.1" 200 27935
+INFO 05-10-2023 13:17:14 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 13:17:22 basehttp "GET /admin/ HTTP/1.1" 200 7967
+INFO 05-10-2023 13:18:11 basehttp "GET /admin/s_fifth_app/product/add/ HTTP/1.1" 200 10835
+INFO 05-10-2023 13:18:11 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 13:18:11 basehttp "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 05-10-2023 13:18:22 basehttp "POST /admin/s_fifth_app/product/add/ HTTP/1.1" 200 11006
+INFO 05-10-2023 13:18:22 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 13:18:33 basehttp "GET /admin/s_fifth_app/category/add/?_to_field=id&_popup=1 HTTP/1.1" 200 4487
+INFO 05-10-2023 13:18:33 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 13:18:42 basehttp "POST /admin/s_fifth_app/category/add/?_to_field=id&_popup=1 HTTP/1.1" 200 403
+INFO 05-10-2023 13:18:42 basehttp "GET /static/admin/js/popup_response.js HTTP/1.1" 200 551
+INFO 05-10-2023 13:18:45 basehttp "GET /admin/s_fifth_app/category/add/?_to_field=id&_popup=1 HTTP/1.1" 200 4487
+INFO 05-10-2023 13:18:45 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 13:18:55 basehttp "POST /admin/s_fifth_app/category/add/?_to_field=id&_popup=1 HTTP/1.1" 200 458
+INFO 05-10-2023 13:18:58 basehttp "GET /admin/s_fifth_app/category/add/?_to_field=id&_popup=1 HTTP/1.1" 200 4487
+INFO 05-10-2023 13:18:58 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 13:19:08 basehttp "POST /admin/s_fifth_app/category/add/?_to_field=id&_popup=1 HTTP/1.1" 200 446
+INFO 05-10-2023 13:19:13 basehttp "POST /admin/s_fifth_app/product/add/ HTTP/1.1" 302 0
+INFO 05-10-2023 13:19:13 basehttp "GET /admin/s_fifth_app/product/ HTTP/1.1" 200 9672
+INFO 05-10-2023 13:19:13 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 13:19:22 basehttp "GET /admin/s_fifth_app/product/add/ HTTP/1.1" 200 11004
+INFO 05-10-2023 13:19:22 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 13:19:36 basehttp "POST /admin/s_fifth_app/product/add/ HTTP/1.1" 302 0
+INFO 05-10-2023 13:19:37 basehttp "GET /admin/s_fifth_app/product/add/ HTTP/1.1" 200 11298
+INFO 05-10-2023 13:19:37 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 13:19:46 basehttp "POST /admin/s_fifth_app/product/add/ HTTP/1.1" 302 0
+INFO 05-10-2023 13:19:46 basehttp "GET /admin/s_fifth_app/product/ HTTP/1.1" 200 10115
+INFO 05-10-2023 13:19:46 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 13:19:48 basehttp "GET /admin/s_fifth_app/product/add/ HTTP/1.1" 200 11004
+INFO 05-10-2023 13:19:48 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 13:19:57 basehttp "POST /admin/s_fifth_app/product/add/ HTTP/1.1" 302 0
+INFO 05-10-2023 13:19:57 basehttp "GET /admin/s_fifth_app/product/ HTTP/1.1" 200 10329
+INFO 05-10-2023 13:19:57 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 13:20:06 basehttp "GET /admin/s_fifth_app/product/add/ HTTP/1.1" 200 11004
+INFO 05-10-2023 13:20:06 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 13:20:16 basehttp "POST /admin/s_fifth_app/product/add/ HTTP/1.1" 302 0
+INFO 05-10-2023 13:20:16 basehttp "GET /admin/s_fifth_app/product/ HTTP/1.1" 200 10553
+INFO 05-10-2023 13:20:16 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 13:20:19 basehttp "GET /admin/s_fifth_app/product/5/change/ HTTP/1.1" 200 11262
+INFO 05-10-2023 13:20:19 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 13:28:11 autoreload /Users/syscom/PycharmProjects/Django/firstproject/s_fifth_app/models.py changed, reloading.
+INFO 05-10-2023 13:28:12 autoreload Watching for file changes with StatReloader
+INFO 05-10-2023 13:28:54 autoreload /Users/syscom/PycharmProjects/Django/firstproject/s_fifth_app/models.py changed, reloading.
+INFO 05-10-2023 13:28:54 autoreload Watching for file changes with StatReloader
+INFO 05-10-2023 13:30:33 autoreload Watching for file changes with StatReloader
+INFO 05-10-2023 13:30:36 basehttp "GET /admin/s_fifth_app/product/5/change/ HTTP/1.1" 200 13786
+INFO 05-10-2023 13:30:36 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 13:30:45 basehttp "GET /admin/s_fifth_app/ HTTP/1.1" 200 5829
+INFO 05-10-2023 13:30:49 basehttp "GET /admin/s_fifth_app/ HTTP/1.1" 200 5829
+INFO 05-10-2023 13:30:53 basehttp "GET /admin/s_fifth_app/product/ HTTP/1.1" 200 10332
+INFO 05-10-2023 13:30:53 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 13:31:02 basehttp "POST /admin/logout/ HTTP/1.1" 200 3713
+INFO 05-10-2023 13:31:04 basehttp "GET /admin/ HTTP/1.1" 302 0
+INFO 05-10-2023 13:31:04 basehttp "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4271
+INFO 05-10-2023 13:31:12 basehttp "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4538
+INFO 05-10-2023 13:31:18 basehttp "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 05-10-2023 13:31:18 basehttp "GET /admin/ HTTP/1.1" 200 10091
+INFO 05-10-2023 13:31:29 basehttp "GET /admin/s_fifth_app/product/ HTTP/1.1" 200 10332
+INFO 05-10-2023 13:31:29 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 13:31:31 basehttp "GET /admin/s_fifth_app/product/5/change/ HTTP/1.1" 200 13786
+INFO 05-10-2023 13:31:31 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 13:32:23 basehttp "POST /admin/s_fifth_app/product/5/change/ HTTP/1.1" 302 0
+INFO 05-10-2023 13:32:23 basehttp "GET /admin/s_fifth_app/product/add/ HTTP/1.1" 200 13804
+INFO 05-10-2023 13:32:23 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 13:32:30 basehttp "GET /admin/s_fifth_app/product/ HTTP/1.1" 200 10332
+INFO 05-10-2023 13:32:30 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 13:32:33 basehttp "GET /admin/s_fifth_app/product/4/change/ HTTP/1.1" 200 13770
+INFO 05-10-2023 13:32:34 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 13:33:12 basehttp "POST /admin/s_fifth_app/product/4/change/ HTTP/1.1" 302 0
+INFO 05-10-2023 13:33:12 basehttp "GET /admin/s_fifth_app/product/4/change/ HTTP/1.1" 200 14099
+INFO 05-10-2023 13:33:12 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 13:33:34 basehttp "POST /admin/s_fifth_app/product/4/change/ HTTP/1.1" 302 0
+INFO 05-10-2023 13:33:34 basehttp "GET /admin/s_fifth_app/product/ HTTP/1.1" 200 10551
+INFO 05-10-2023 13:33:34 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 13:33:36 basehttp "GET /admin/s_fifth_app/product/3/change/ HTTP/1.1" 200 13778
+INFO 05-10-2023 13:33:36 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 13:34:07 basehttp "POST /admin/s_fifth_app/product/3/change/ HTTP/1.1" 302 0
+INFO 05-10-2023 13:34:07 basehttp "GET /admin/s_fifth_app/product/ HTTP/1.1" 200 10553
+INFO 05-10-2023 13:34:07 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 13:34:09 basehttp "GET /admin/s_fifth_app/product/2/change/ HTTP/1.1" 200 13786
+INFO 05-10-2023 13:34:09 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 13:34:46 basehttp "POST /admin/s_fifth_app/product/2/change/ HTTP/1.1" 302 0
+INFO 05-10-2023 13:34:46 basehttp "GET /admin/s_fifth_app/product/ HTTP/1.1" 200 10555
+INFO 05-10-2023 13:34:46 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 13:34:50 basehttp "GET /admin/s_fifth_app/product/1/change/ HTTP/1.1" 200 13762
+INFO 05-10-2023 13:34:50 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 13:35:25 basehttp "POST /admin/s_fifth_app/product/1/change/ HTTP/1.1" 302 0
+INFO 05-10-2023 13:35:25 basehttp "GET /admin/s_fifth_app/product/ HTTP/1.1" 200 10549
+INFO 05-10-2023 13:35:25 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 13:36:51 autoreload /Users/syscom/PycharmProjects/Django/firstproject/s_fifth_app/admin.py changed, reloading.
+INFO 05-10-2023 13:36:51 autoreload Watching for file changes with StatReloader
+INFO 05-10-2023 13:37:12 autoreload /Users/syscom/PycharmProjects/Django/firstproject/s_fifth_app/admin.py changed, reloading.
+INFO 05-10-2023 13:37:13 autoreload Watching for file changes with StatReloader
+INFO 05-10-2023 13:37:28 autoreload /Users/syscom/PycharmProjects/Django/firstproject/s_fifth_app/admin.py changed, reloading.
+INFO 05-10-2023 13:37:29 autoreload Watching for file changes with StatReloader
+INFO 05-10-2023 13:37:59 autoreload /Users/syscom/PycharmProjects/Django/firstproject/s_fifth_app/admin.py changed, reloading.
+INFO 05-10-2023 13:38:00 autoreload Watching for file changes with StatReloader
+INFO 05-10-2023 13:38:20 autoreload /Users/syscom/PycharmProjects/Django/firstproject/s_fifth_app/admin.py changed, reloading.
+INFO 05-10-2023 13:38:20 autoreload Watching for file changes with StatReloader
+INFO 05-10-2023 13:40:13 autoreload /Users/syscom/PycharmProjects/Django/firstproject/s_fifth_app/admin.py changed, reloading.
+INFO 05-10-2023 13:40:14 autoreload Watching for file changes with StatReloader
+INFO 05-10-2023 13:40:15 basehttp "POST /admin/logout/ HTTP/1.1" 200 3713
+INFO 05-10-2023 13:40:17 basehttp "GET /admin/ HTTP/1.1" 302 0
+INFO 05-10-2023 13:40:17 basehttp "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4271
+INFO 05-10-2023 13:40:33 basehttp "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 05-10-2023 13:40:33 basehttp "GET /admin/ HTTP/1.1" 200 10059
+INFO 05-10-2023 13:40:38 basehttp "GET /admin/s_fifth_app/product/ HTTP/1.1" 200 13886
+INFO 05-10-2023 13:40:38 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 13:40:55 basehttp "GET /admin/s_fifth_app/product/?price=12.50 HTTP/1.1" 200 13157
+INFO 05-10-2023 13:40:55 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 13:40:58 basehttp "GET /admin/s_fifth_app/product/? HTTP/1.1" 200 13886
+INFO 05-10-2023 13:40:58 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 13:41:18 basehttp "GET /admin/s_fifth_app/product/?q=%D0%BC%D0%BE%D0%BB HTTP/1.1" 200 11243
+INFO 05-10-2023 13:41:18 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 13:41:34 basehttp "GET /admin/s_fifth_app/product/?q=%D0%BA%D0%B5%D1%84 HTTP/1.1" 200 13282
+INFO 05-10-2023 13:41:34 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 13:41:39 basehttp "GET /admin/s_fifth_app/product/4/change/?_changelist_filters=q%3D%25D0%25BA%25D0%25B5%25D1%2584 HTTP/1.1" 200 13976
+INFO 05-10-2023 13:41:39 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 13:41:47 basehttp "GET /admin/s_fifth_app/product/ HTTP/1.1" 200 13886
+INFO 05-10-2023 13:41:47 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 13:41:59 basehttp "POST /admin/s_fifth_app/product/ HTTP/1.1" 302 0
+INFO 05-10-2023 13:41:59 basehttp "GET /admin/s_fifth_app/product/ HTTP/1.1" 200 13885
+INFO 05-10-2023 13:41:59 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 13:42:09 basehttp "GET /admin/s_fifth_app/product/?o=-3 HTTP/1.1" 200 13699
+INFO 05-10-2023 13:42:09 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 13:42:13 basehttp "GET /admin/s_fifth_app/product/?o=3 HTTP/1.1" 200 13679
+INFO 05-10-2023 13:42:13 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 13:42:14 basehttp "GET /admin/s_fifth_app/product/?o=-3 HTTP/1.1" 200 13699
+INFO 05-10-2023 13:42:14 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 13:42:17 basehttp "GET /admin/s_fifth_app/product/?o=2.-3 HTTP/1.1" 200 14219
+INFO 05-10-2023 13:42:17 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 13:42:18 basehttp "GET /admin/s_fifth_app/product/?o=-2.-3 HTTP/1.1" 200 14241
+INFO 05-10-2023 13:42:18 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 13:42:29 basehttp "GET /admin/s_fifth_app/product/?o=2.-3 HTTP/1.1" 200 14219
+INFO 05-10-2023 13:42:29 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 13:42:38 basehttp "GET /admin/s_fifth_app/product/?o=-2.-3 HTTP/1.1" 200 14241
+INFO 05-10-2023 13:42:38 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 13:42:43 basehttp "GET /admin/s_fifth_app/product/?o=-2.3 HTTP/1.1" 200 14219
+INFO 05-10-2023 13:42:43 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 13:42:45 basehttp "GET /admin/s_fifth_app/product/?o=-2.-3 HTTP/1.1" 200 14241
+INFO 05-10-2023 13:42:45 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 13:46:45 autoreload /Users/syscom/PycharmProjects/Django/firstproject/s_fifth_app/admin.py changed, reloading.
+INFO 05-10-2023 13:46:46 autoreload Watching for file changes with StatReloader
+INFO 05-10-2023 13:48:31 autoreload /Users/syscom/PycharmProjects/Django/firstproject/s_fifth_app/admin.py changed, reloading.
+INFO 05-10-2023 13:48:31 autoreload Watching for file changes with StatReloader
+INFO 05-10-2023 13:49:00 autoreload /Users/syscom/PycharmProjects/Django/firstproject/s_fifth_app/admin.py changed, reloading.
+INFO 05-10-2023 13:49:00 autoreload Watching for file changes with StatReloader
+INFO 05-10-2023 13:49:39 autoreload /Users/syscom/PycharmProjects/Django/firstproject/s_fifth_app/admin.py changed, reloading.
+INFO 05-10-2023 13:49:39 autoreload Watching for file changes with StatReloader
+INFO 05-10-2023 13:53:32 autoreload /Users/syscom/PycharmProjects/Django/firstproject/s_fifth_app/admin.py changed, reloading.
+INFO 05-10-2023 13:53:33 autoreload Watching for file changes with StatReloader
+INFO 05-10-2023 13:53:58 autoreload Watching for file changes with StatReloader
+INFO 05-10-2023 13:54:31 autoreload /Users/syscom/PycharmProjects/Django/firstproject/s_fifth_app/admin.py changed, reloading.
+INFO 05-10-2023 13:54:32 autoreload Watching for file changes with StatReloader
+INFO 05-10-2023 13:54:37 basehttp "POST /admin/logout/ HTTP/1.1" 200 3713
+INFO 05-10-2023 13:54:40 basehttp "GET /admin/ HTTP/1.1" 302 0
+INFO 05-10-2023 13:54:40 basehttp "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4271
+INFO 05-10-2023 13:54:50 basehttp "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4534
+INFO 05-10-2023 13:55:02 basehttp "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 05-10-2023 13:55:02 basehttp "GET /admin/ HTTP/1.1" 200 10059
+INFO 05-10-2023 13:55:07 basehttp "GET /admin/s_fifth_app/product/ HTTP/1.1" 200 13885
+INFO 05-10-2023 13:55:07 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 13:55:13 basehttp "GET /admin/s_fifth_app/product/3/change/ HTTP/1.1" 200 14930
+INFO 05-10-2023 13:55:13 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 13:55:13 basehttp "GET /static/admin/js/collapse.js HTTP/1.1" 200 1803
+INFO 05-10-2023 13:55:57 basehttp "POST /admin/s_fifth_app/product/3/change/ HTTP/1.1" 302 0
+INFO 05-10-2023 13:55:57 basehttp "GET /admin/s_fifth_app/product/ HTTP/1.1" 200 14106
+INFO 05-10-2023 13:55:57 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 17:16:31 autoreload Watching for file changes with StatReloader
+INFO 05-10-2023 17:17:12 autoreload /Users/syscom/PycharmProjects/Django/firstproject/firstproject/settings.py changed, reloading.
+INFO 05-10-2023 17:17:13 autoreload Watching for file changes with StatReloader
+INFO 05-10-2023 17:17:20 basehttp "POST /admin/logout/ HTTP/1.1" 200 3713
+INFO 05-10-2023 17:17:26 basehttp "GET /admin/ HTTP/1.1" 302 0
+INFO 05-10-2023 17:17:26 basehttp "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4271
+INFO 05-10-2023 17:17:34 basehttp "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 05-10-2023 17:17:34 basehttp "GET /admin/ HTTP/1.1" 200 10805
+ERROR 05-10-2023 17:17:38 log Internal Server Error: /admin/lesson_2_app/headstails/
+Traceback (most recent call last):
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: lesson_2_app_headstails
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/views/decorators/cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1926, in changelist_view
+    cl = self.get_changelist_instance(request)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 836, in get_changelist_instance
+    return ChangeList(
+           ^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/contrib/admin/views/main.py", line 123, in __init__
+    self.get_results(request)
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/contrib/admin/views/main.py", line 279, in get_results
+    result_count = paginator.count
+                   ^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/utils/functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/paginator.py", line 93, in count
+    return c()
+           ^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/query.py", line 608, in count
+    return self.query.get_count(using=self.db)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/sql/query.py", line 568, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/sql/query.py", line 554, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: lesson_2_app_headstails
+ERROR 05-10-2023 17:17:38 basehttp "GET /admin/lesson_2_app/headstails/ HTTP/1.1" 500 178210
+INFO 05-10-2023 17:19:54 autoreload /Users/syscom/PycharmProjects/Django/firstproject/lesson_2_app/admin.py changed, reloading.
+INFO 05-10-2023 17:19:54 autoreload Watching for file changes with StatReloader
+INFO 05-10-2023 17:20:07 basehttp "GET /admin/ HTTP/1.1" 200 10784
+INFO 05-10-2023 17:20:10 basehttp "GET /admin/ HTTP/1.1" 200 10784
+INFO 05-10-2023 17:20:13 basehttp "GET /admin/lesson_2_app/author/ HTTP/1.1" 200 14208
+INFO 05-10-2023 17:20:13 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 17:20:17 basehttp "GET /admin/lesson_2_app/author/22/change/ HTTP/1.1" 200 12602
+INFO 05-10-2023 17:20:17 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 17:23:21 autoreload /Users/syscom/PycharmProjects/Django/firstproject/lesson_2_app/admin.py changed, reloading.
+INFO 05-10-2023 17:23:21 autoreload Watching for file changes with StatReloader
+INFO 05-10-2023 17:23:24 basehttp "GET /admin/lesson_2_app/author/22/change/ HTTP/1.1" 200 12921
+INFO 05-10-2023 17:23:24 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 17:23:26 basehttp "GET /admin/lesson_2_app/article/ HTTP/1.1" 200 30180
+INFO 05-10-2023 17:23:26 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 17:23:28 basehttp "GET /admin/lesson_2_app/article/97/change/ HTTP/1.1" 200 16229
+INFO 05-10-2023 17:23:28 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 17:26:30 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/admin.py changed, reloading.
+INFO 05-10-2023 17:26:30 autoreload Watching for file changes with StatReloader
+INFO 05-10-2023 17:26:53 autoreload Watching for file changes with StatReloader
+INFO 05-10-2023 17:28:19 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/admin.py changed, reloading.
+INFO 05-10-2023 17:28:20 autoreload Watching for file changes with StatReloader
+INFO 05-10-2023 17:28:47 basehttp "GET /admin/lesson_2_app/article/97/change/ HTTP/1.1" 200 17439
+INFO 05-10-2023 17:28:47 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 17:28:55 basehttp "GET /admin/hw4_store_app/ HTTP/1.1" 200 6296
+INFO 05-10-2023 17:28:57 basehttp "GET /admin/hw4_store_app/order/ HTTP/1.1" 200 16489
+INFO 05-10-2023 17:28:57 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 17:29:00 basehttp "GET /admin/hw4_store_app/order/11/change/ HTTP/1.1" 200 20458
+INFO 05-10-2023 17:29:00 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 17:29:06 basehttp "GET /admin/hw4_store_app/product/ HTTP/1.1" 200 21669
+INFO 05-10-2023 17:29:06 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 17:29:15 basehttp "GET /admin/hw4_store_app/product/31/change/ HTTP/1.1" 200 14446
+INFO 05-10-2023 17:29:15 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+WARNING 05-10-2023 17:29:20 log Not Found: /media/Ложкин_Переход на новый уровень.jpg
+WARNING 05-10-2023 17:29:20 basehttp "GET /media/%D0%9B%D0%BE%D0%B6%D0%BA%D0%B8%D0%BD_%D0%9F%D0%B5%D1%80%D0%B5%D1%85%D0%BE%D0%B4%20%D0%BD%D0%B0%20%D0%BD%D0%BE%D0%B2%D1%8B%D0%B8%CC%86%20%D1%83%D1%80%D0%BE%D0%B2%D0%B5%D0%BD%D1%8C.jpg HTTP/1.1" 404 4535
+INFO 05-10-2023 17:29:33 basehttp "GET /admin/hw4_store_app/product/31/change/ HTTP/1.1" 200 14446
+INFO 05-10-2023 17:29:41 basehttp "GET /admin/hw4_store_app/product/ HTTP/1.1" 200 21669
+INFO 05-10-2023 17:29:41 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 17:29:44 basehttp "GET /admin/hw4_store_app/product/20/change/ HTTP/1.1" 200 14320
+INFO 05-10-2023 17:29:44 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+WARNING 05-10-2023 17:29:51 log Not Found: /media/Изображение 119.jpg
+WARNING 05-10-2023 17:29:51 basehttp "GET /media/%D0%98%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20119.jpg HTTP/1.1" 404 4361
+INFO 05-10-2023 17:30:09 basehttp "GET /admin/hw4_store_app/product/20/change/ HTTP/1.1" 200 14320
+INFO 05-10-2023 17:35:42 autoreload Watching for file changes with StatReloader
+INFO 05-10-2023 17:42:49 basehttp "GET /admin/hw4_store_app/ HTTP/1.1" 200 6296
+INFO 05-10-2023 17:42:51 basehttp "GET /admin/ HTTP/1.1" 200 12899
+INFO 05-10-2023 17:43:00 basehttp "GET /admin/hw4_store_app/user/add/ HTTP/1.1" 200 13808
+INFO 05-10-2023 17:43:00 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 17:43:23 basehttp "GET /admin/hw4_store_app/user/ HTTP/1.1" 200 16703
+INFO 05-10-2023 17:43:23 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 17:43:27 basehttp "GET /admin/ HTTP/1.1" 200 12899
+INFO 05-10-2023 17:43:31 basehttp "GET /admin/auth/user/ HTTP/1.1" 200 14695
+INFO 05-10-2023 17:43:31 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 17:43:35 basehttp "GET /admin/auth/user/add/ HTTP/1.1" 200 13996
+INFO 05-10-2023 17:43:35 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 17:43:54 basehttp "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+INFO 05-10-2023 17:43:54 basehttp "GET /admin/auth/user/3/change/ HTTP/1.1" 200 30299
+INFO 05-10-2023 17:43:54 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 17:43:59 basehttp "GET /admin/auth/user/add/ HTTP/1.1" 200 13996
+INFO 05-10-2023 17:43:59 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 17:44:17 basehttp "POST /admin/auth/user/add/ HTTP/1.1" 200 14217
+INFO 05-10-2023 17:44:17 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 17:44:36 basehttp "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+INFO 05-10-2023 17:44:36 basehttp "GET /admin/auth/user/add/ HTTP/1.1" 200 14305
+INFO 05-10-2023 17:44:36 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 17:44:51 basehttp "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+INFO 05-10-2023 17:44:51 basehttp "GET /admin/auth/user/5/change/ HTTP/1.1" 200 30299
+INFO 05-10-2023 17:44:51 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 17:44:52 basehttp "GET /admin/auth/user/ HTTP/1.1" 200 15844
+INFO 05-10-2023 17:44:53 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 17:44:58 basehttp "GET /admin/auth/user/3/change/ HTTP/1.1" 200 30002
+INFO 05-10-2023 17:44:58 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 17:45:08 basehttp "POST /admin/auth/user/3/change/ HTTP/1.1" 302 0
+INFO 05-10-2023 17:45:08 basehttp "GET /admin/auth/user/ HTTP/1.1" 200 16065
+INFO 05-10-2023 17:45:08 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 17:45:11 basehttp "GET /admin/auth/user/4/change/ HTTP/1.1" 200 30002
+INFO 05-10-2023 17:45:11 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 17:45:16 basehttp "POST /admin/auth/user/4/change/ HTTP/1.1" 302 0
+INFO 05-10-2023 17:45:16 basehttp "GET /admin/auth/user/ HTTP/1.1" 200 16065
+INFO 05-10-2023 17:45:16 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 17:45:19 basehttp "GET /admin/auth/user/5/change/ HTTP/1.1" 200 30002
+INFO 05-10-2023 17:45:19 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 17:45:25 basehttp "POST /admin/auth/user/5/change/ HTTP/1.1" 302 0
+INFO 05-10-2023 17:45:25 basehttp "GET /admin/auth/user/ HTTP/1.1" 200 16065
+INFO 05-10-2023 17:45:25 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 17:47:25 basehttp "GET /admin/auth/group/ HTTP/1.1" 200 10649
+INFO 05-10-2023 17:47:25 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 17:47:30 basehttp "GET /admin/auth/group/add/ HTTP/1.1" 200 19688
+INFO 05-10-2023 17:47:30 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 17:48:36 basehttp "POST /admin/auth/group/add/ HTTP/1.1" 302 0
+INFO 05-10-2023 17:48:36 basehttp "GET /admin/auth/group/ HTTP/1.1" 200 12114
+INFO 05-10-2023 17:48:36 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 17:48:44 basehttp "GET /admin/auth/group/add/ HTTP/1.1" 200 19688
+INFO 05-10-2023 17:48:44 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 18:29:35 basehttp "POST /admin/auth/group/add/ HTTP/1.1" 302 0
+INFO 05-10-2023 18:29:35 basehttp "GET /admin/auth/group/add/ HTTP/1.1" 200 19976
+INFO 05-10-2023 18:29:35 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 18:29:50 basehttp "POST /admin/auth/group/add/ HTTP/1.1" 302 0
+INFO 05-10-2023 18:29:50 basehttp "GET /admin/auth/group/ HTTP/1.1" 200 12521
+INFO 05-10-2023 18:29:50 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 18:29:54 basehttp "GET /admin/auth/group/1/change/ HTTP/1.1" 200 19920
+INFO 05-10-2023 18:29:54 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 18:30:01 basehttp "GET /admin/auth/user/ HTTP/1.1" 200 16273
+INFO 05-10-2023 18:30:01 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 18:30:03 basehttp "GET /admin/auth/user/3/change/ HTTP/1.1" 200 30122
+INFO 05-10-2023 18:30:03 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 18:30:31 basehttp "POST /admin/auth/user/3/change/ HTTP/1.1" 302 0
+INFO 05-10-2023 18:30:31 basehttp "GET /admin/auth/user/add/ HTTP/1.1" 200 14288
+INFO 05-10-2023 18:30:31 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 18:30:39 basehttp "GET /admin/auth/user/ HTTP/1.1" 200 16273
+INFO 05-10-2023 18:30:39 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 18:30:42 basehttp "GET /admin/auth/user/4/change/ HTTP/1.1" 200 30122
+INFO 05-10-2023 18:30:42 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 18:30:52 basehttp "POST /admin/auth/user/4/change/ HTTP/1.1" 302 0
+INFO 05-10-2023 18:30:52 basehttp "GET /admin/auth/user/ HTTP/1.1" 200 16494
+INFO 05-10-2023 18:30:52 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 18:30:54 basehttp "GET /admin/auth/user/5/change/ HTTP/1.1" 200 30122
+INFO 05-10-2023 18:30:54 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 18:31:03 basehttp "POST /admin/auth/user/5/change/ HTTP/1.1" 302 0
+INFO 05-10-2023 18:31:03 basehttp "GET /admin/auth/user/ HTTP/1.1" 200 16494
+INFO 05-10-2023 18:31:03 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 18:31:08 basehttp "POST /admin/logout/ HTTP/1.1" 200 3713
+INFO 05-10-2023 18:31:10 basehttp "GET /admin/ HTTP/1.1" 302 0
+INFO 05-10-2023 18:31:10 basehttp "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4271
+INFO 05-10-2023 18:31:19 basehttp "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 05-10-2023 18:31:19 basehttp "GET /admin/ HTTP/1.1" 200 5714
+INFO 05-10-2023 18:31:23 basehttp "GET /admin/hw4_store_app/order/ HTTP/1.1" 200 10087
+INFO 05-10-2023 18:31:27 basehttp "GET /admin/hw4_store_app/product/ HTTP/1.1" 200 13001
+INFO 05-10-2023 18:31:28 basehttp "GET /admin/hw4_store_app/product/34/change/ HTTP/1.1" 200 10110
+INFO 05-10-2023 18:31:28 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 18:31:32 basehttp "POST /admin/logout/ HTTP/1.1" 200 3713
+INFO 05-10-2023 18:31:35 basehttp "GET /admin/ HTTP/1.1" 302 0
+INFO 05-10-2023 18:31:35 basehttp "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4271
+INFO 05-10-2023 18:31:45 basehttp "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 05-10-2023 18:31:45 basehttp "GET /admin/ HTTP/1.1" 200 5864
+INFO 05-10-2023 18:31:49 basehttp "GET /admin/hw4_store_app/product/ HTTP/1.1" 200 13287
+INFO 05-10-2023 18:31:53 basehttp "GET /admin/hw4_store_app/product/13/change/ HTTP/1.1" 200 11014
+INFO 05-10-2023 18:31:53 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 05-10-2023 18:31:59 basehttp "GET /admin/hw4_store_app/product/ HTTP/1.1" 200 13287
+INFO 05-10-2023 18:32:03 basehttp "GET /admin/hw4_store_app/product/11/change/ HTTP/1.1" 200 11123
+INFO 05-10-2023 18:32:03 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+WARNING 05-10-2023 18:32:26 log Not Found: /media/goose_with_vine.png
+WARNING 05-10-2023 18:32:26 basehttp "GET /media/goose_with_vine.png HTTP/1.1" 404 4282
+INFO 05-10-2023 18:47:21 basehttp "GET /admin/ HTTP/1.1" 200 5864
+INFO 05-10-2023 18:47:23 basehttp "GET /admin/hw4_store_app/product/ HTTP/1.1" 200 13287
+INFO 05-10-2023 18:47:43 basehttp "GET /admin/ HTTP/1.1" 200 5864
+INFO 05-10-2023 18:50:09 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/admin.py changed, reloading.
+INFO 05-10-2023 18:50:10 autoreload Watching for file changes with StatReloader
+INFO 05-10-2023 18:50:15 basehttp "GET /admin/ HTTP/1.1" 200 5864
+INFO 05-10-2023 18:50:17 basehttp "GET /admin/hw4_store_app/product/ HTTP/1.1" 200 15596
+INFO 05-10-2023 18:51:27 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/admin.py changed, reloading.
+INFO 05-10-2023 18:51:27 autoreload Watching for file changes with StatReloader
+INFO 05-10-2023 18:52:02 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/admin.py changed, reloading.
+INFO 05-10-2023 18:52:02 autoreload Watching for file changes with StatReloader
+INFO 05-10-2023 18:52:07 basehttp "GET /admin/hw4_store_app/product/ HTTP/1.1" 200 15902
+INFO 05-10-2023 18:52:15 basehttp "GET /admin/hw4_store_app/product/?o=2 HTTP/1.1" 200 16966
+INFO 05-10-2023 18:52:17 basehttp "GET /admin/hw4_store_app/product/?o=-2 HTTP/1.1" 200 17009
+INFO 05-10-2023 18:52:18 basehttp "GET /admin/hw4_store_app/product/?o=2 HTTP/1.1" 200 16966
+INFO 05-10-2023 18:52:19 basehttp "GET /admin/hw4_store_app/product/?o=-2 HTTP/1.1" 200 17009
+INFO 05-10-2023 18:54:21 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/admin.py changed, reloading.
+INFO 05-10-2023 18:54:21 autoreload Watching for file changes with StatReloader
+INFO 05-10-2023 18:54:27 basehttp "GET /admin/hw4_store_app/product/?o=-2 HTTP/1.1" 200 18766
+WARNING 05-10-2023 18:54:30 log Not Found: /media/goose_with_vine.png
+WARNING 05-10-2023 18:54:30 basehttp "GET /media/goose_with_vine.png HTTP/1.1" 404 4282
+INFO 05-10-2023 18:55:39 basehttp "GET /admin/hw4_store_app/product/?o=-2 HTTP/1.1" 200 18766
+INFO 06-10-2023 09:09:01 basehttp "GET /admin/hw4_store_app/product/?o=-2 HTTP/1.1" 200 18766
+INFO 06-10-2023 09:09:04 basehttp "GET /admin/hw4_store_app/order/ HTTP/1.1" 200 10369
+INFO 06-10-2023 09:09:08 basehttp "GET /admin/hw4_store_app/product/ HTTP/1.1" 200 17659
+INFO 06-10-2023 09:09:56 basehttp "GET /admin/hw4_store_app/order/ HTTP/1.1" 200 10369
+INFO 06-10-2023 09:11:30 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/admin.py changed, reloading.
+INFO 06-10-2023 09:11:31 autoreload Watching for file changes with StatReloader
+INFO 06-10-2023 09:11:36 basehttp "GET /admin/hw4_store_app/order/ HTTP/1.1" 200 10369
+INFO 06-10-2023 09:11:37 basehttp "GET /admin/hw4_store_app/product/ HTTP/1.1" 200 17659
+INFO 06-10-2023 09:11:52 basehttp "GET /admin/hw4_store_app/order/ HTTP/1.1" 200 10369
+INFO 06-10-2023 09:12:26 autoreload Watching for file changes with StatReloader
+INFO 06-10-2023 09:12:31 basehttp "GET /admin/hw4_store_app/order/ HTTP/1.1" 200 10369
+INFO 06-10-2023 09:12:33 basehttp "GET /admin/hw4_store_app/order/ HTTP/1.1" 200 10369
+INFO 06-10-2023 09:12:36 basehttp "GET /admin/hw4_store_app/product/ HTTP/1.1" 200 17659
+INFO 06-10-2023 09:12:40 basehttp "GET /admin/hw4_store_app/ HTTP/1.1" 200 5842
+INFO 06-10-2023 09:12:43 basehttp "GET /admin/hw4_store_app/product/ HTTP/1.1" 200 17659
+INFO 06-10-2023 09:12:56 basehttp "POST /admin/logout/ HTTP/1.1" 200 3713
+INFO 06-10-2023 09:12:57 basehttp "GET /admin/ HTTP/1.1" 302 0
+INFO 06-10-2023 09:12:57 basehttp "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4271
+INFO 06-10-2023 09:13:18 basehttp "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 06-10-2023 09:13:18 basehttp "GET /admin/ HTTP/1.1" 200 4802
+INFO 06-10-2023 09:13:28 basehttp "POST /admin/logout/ HTTP/1.1" 200 3713
+INFO 06-10-2023 09:13:31 basehttp "GET /admin/ HTTP/1.1" 302 0
+INFO 06-10-2023 09:13:31 basehttp "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4271
+INFO 06-10-2023 09:13:42 basehttp "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 06-10-2023 09:13:42 basehttp "GET /admin/ HTTP/1.1" 200 12871
+INFO 06-10-2023 09:13:44 basehttp "GET /admin/hw4_store_app/user/ HTTP/1.1" 200 16703
+INFO 06-10-2023 09:13:44 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 09:13:50 basehttp "GET /admin/auth/user/ HTTP/1.1" 200 16273
+INFO 06-10-2023 09:13:50 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 09:13:52 basehttp "GET /admin/auth/user/5/change/ HTTP/1.1" 200 30158
+INFO 06-10-2023 09:13:52 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 09:14:03 basehttp "POST /admin/auth/user/5/change/ HTTP/1.1" 302 0
+INFO 06-10-2023 09:14:03 basehttp "GET /admin/auth/user/ HTTP/1.1" 200 16494
+INFO 06-10-2023 09:14:03 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 09:14:38 basehttp "GET /admin/hw4_store_app/product/ HTTP/1.1" 200 26041
+INFO 06-10-2023 09:14:38 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 09:14:48 basehttp "GET /admin/hw4_store_app/order/ HTTP/1.1" 200 16489
+INFO 06-10-2023 09:14:48 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 09:14:57 basehttp "GET /admin/hw4_store_app/user/ HTTP/1.1" 200 16703
+INFO 06-10-2023 09:14:57 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 09:15:12 basehttp "GET /admin/hw4_store_app/product/ HTTP/1.1" 200 26041
+INFO 06-10-2023 09:15:12 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 09:15:26 basehttp "GET /admin/hw4_store_app/order/ HTTP/1.1" 200 16489
+INFO 06-10-2023 09:15:26 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 09:15:29 basehttp "GET /admin/hw4_store_app/product/ HTTP/1.1" 200 26041
+INFO 06-10-2023 09:15:29 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 09:15:49 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/admin.py changed, reloading.
+INFO 06-10-2023 09:15:49 autoreload Watching for file changes with StatReloader
+INFO 06-10-2023 09:15:54 basehttp "GET /admin/hw4_store_app/product/ HTTP/1.1" 200 26356
+INFO 06-10-2023 09:15:54 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 09:16:05 basehttp "GET /admin/hw4_store_app/product/3/change/ HTTP/1.1" 200 14122
+INFO 06-10-2023 09:16:05 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 09:16:13 basehttp "GET /admin/hw4_store_app/product/ HTTP/1.1" 200 26356
+INFO 06-10-2023 09:16:19 basehttp "GET /admin/hw4_store_app/product/?q=3- HTTP/1.1" 200 14072
+INFO 06-10-2023 09:16:19 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 09:17:26 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/admin.py changed, reloading.
+INFO 06-10-2023 09:17:27 autoreload Watching for file changes with StatReloader
+INFO 06-10-2023 09:17:41 basehttp "GET /admin/hw4_store_app/product/?q=3- HTTP/1.1" 200 16963
+INFO 06-10-2023 09:17:41 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 09:17:45 basehttp "GET /admin/hw4_store_app/product/?price=364.63&q=3- HTTP/1.1" 200 14492
+INFO 06-10-2023 09:17:45 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 09:17:54 basehttp "GET /admin/hw4_store_app/product/?price=158.22&q=3- HTTP/1.1" 200 14492
+INFO 06-10-2023 09:17:54 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 09:17:58 basehttp "GET /admin/hw4_store_app/user/ HTTP/1.1" 200 16703
+INFO 06-10-2023 09:17:58 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 09:18:05 basehttp "GET /admin/hw4_store_app/order/ HTTP/1.1" 200 16489
+INFO 06-10-2023 09:18:05 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 09:18:47 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/admin.py changed, reloading.
+INFO 06-10-2023 09:18:47 autoreload Watching for file changes with StatReloader
+INFO 06-10-2023 09:20:08 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/admin.py changed, reloading.
+INFO 06-10-2023 09:20:09 autoreload Watching for file changes with StatReloader
+INFO 06-10-2023 09:21:37 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/admin.py changed, reloading.
+INFO 06-10-2023 09:21:38 autoreload Watching for file changes with StatReloader
+INFO 06-10-2023 09:22:19 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/admin.py changed, reloading.
+INFO 06-10-2023 09:22:19 autoreload Watching for file changes with StatReloader
+INFO 06-10-2023 09:22:29 basehttp "GET /admin/hw4_store_app/order/ HTTP/1.1" 200 16489
+INFO 06-10-2023 09:22:29 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 09:22:35 basehttp "GET /admin/hw4_store_app/user/ HTTP/1.1" 200 16703
+INFO 06-10-2023 09:22:35 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 09:22:40 basehttp "GET /admin/hw4_store_app/product/ HTTP/1.1" 200 28574
+INFO 06-10-2023 09:22:40 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 09:23:18 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/admin.py changed, reloading.
+INFO 06-10-2023 09:23:18 autoreload Watching for file changes with StatReloader
+INFO 06-10-2023 09:26:37 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/admin.py changed, reloading.
+INFO 06-10-2023 09:26:38 autoreload Watching for file changes with StatReloader
+INFO 06-10-2023 09:27:18 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/admin.py changed, reloading.
+INFO 06-10-2023 09:27:18 autoreload Watching for file changes with StatReloader
+INFO 06-10-2023 09:27:59 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/admin.py changed, reloading.
+INFO 06-10-2023 09:27:59 autoreload Watching for file changes with StatReloader
+INFO 06-10-2023 09:28:14 basehttp "GET /admin/hw4_store_app/order/ HTTP/1.1" 200 20755
+INFO 06-10-2023 09:28:14 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 09:28:25 basehttp "GET /admin/hw4_store_app/order/19/change/ HTTP/1.1" 200 20467
+INFO 06-10-2023 09:28:25 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 09:29:10 basehttp "POST /admin/hw4_store_app/order/19/change/ HTTP/1.1" 302 0
+INFO 06-10-2023 09:29:10 basehttp "GET /admin/hw4_store_app/order/ HTTP/1.1" 200 21012
+INFO 06-10-2023 09:29:10 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 09:29:15 basehttp "GET /admin/hw4_store_app/order/7/change/ HTTP/1.1" 200 20462
+INFO 06-10-2023 09:29:15 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 09:29:34 basehttp "POST /admin/hw4_store_app/order/7/change/ HTTP/1.1" 302 0
+INFO 06-10-2023 09:29:34 basehttp "GET /admin/hw4_store_app/order/ HTTP/1.1" 200 21008
+INFO 06-10-2023 09:29:34 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+ERROR 06-10-2023 09:29:53 log Internal Server Error: /admin/hw4_store_app/order/
+Traceback (most recent call last):
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/views/decorators/cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1926, in changelist_view
+    cl = self.get_changelist_instance(request)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 836, in get_changelist_instance
+    return ChangeList(
+           ^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/contrib/admin/views/main.py", line 122, in __init__
+    self.queryset = self.get_queryset(request)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/contrib/admin/views/main.py", line 529, in get_queryset
+    qs, search_may_have_duplicates = self.model_admin.get_search_results(
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1155, in get_search_results
+    queryset = queryset.filter(models.Q.create(term_queries))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/sql/query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/sql/query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/sql/query.py", line 1404, in build_filter
+    return self._add_q(
+           ^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/sql/query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/sql/query.py", line 1404, in build_filter
+    return self._add_q(
+           ^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/sql/query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/sql/query.py", line 1491, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/sql/query.py", line 1312, in build_lookup
+    lhs = self.try_transform(lhs, lookup_name)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/sql/query.py", line 1356, in try_transform
+    raise FieldError(
+django.core.exceptions.FieldError: Unsupported lookup 'icontains' for ForeignKey or join on the field not permitted.
+ERROR 06-10-2023 09:29:53 basehttp "GET /admin/hw4_store_app/order/?q=duct_10 HTTP/1.1" 500 190309
+INFO 06-10-2023 09:30:06 basehttp "GET /admin/hw4_store_app/order/ HTTP/1.1" 200 20751
+ERROR 06-10-2023 09:30:15 log Internal Server Error: /admin/hw4_store_app/order/
+Traceback (most recent call last):
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/views/decorators/cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1926, in changelist_view
+    cl = self.get_changelist_instance(request)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 836, in get_changelist_instance
+    return ChangeList(
+           ^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/contrib/admin/views/main.py", line 122, in __init__
+    self.queryset = self.get_queryset(request)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/contrib/admin/views/main.py", line 529, in get_queryset
+    qs, search_may_have_duplicates = self.model_admin.get_search_results(
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1155, in get_search_results
+    queryset = queryset.filter(models.Q.create(term_queries))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/sql/query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/sql/query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/sql/query.py", line 1404, in build_filter
+    return self._add_q(
+           ^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/sql/query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/sql/query.py", line 1404, in build_filter
+    return self._add_q(
+           ^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/sql/query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/sql/query.py", line 1491, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/sql/query.py", line 1312, in build_lookup
+    lhs = self.try_transform(lhs, lookup_name)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/db/models/sql/query.py", line 1356, in try_transform
+    raise FieldError(
+django.core.exceptions.FieldError: Unsupported lookup 'icontains' for ForeignKey or join on the field not permitted.
+ERROR 06-10-2023 09:30:15 basehttp "GET /admin/hw4_store_app/order/?q=10 HTTP/1.1" 500 190129
+INFO 06-10-2023 09:30:18 basehttp "GET /admin/hw4_store_app/order/ HTTP/1.1" 200 20751
+INFO 06-10-2023 09:30:20 basehttp "GET /admin/hw4_store_app/product/ HTTP/1.1" 200 28574
+INFO 06-10-2023 09:30:20 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 09:30:24 basehttp "GET /admin/hw4_store_app/order/ HTTP/1.1" 200 20751
+INFO 06-10-2023 09:30:24 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 09:30:58 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/admin.py changed, reloading.
+INFO 06-10-2023 09:30:59 autoreload Watching for file changes with StatReloader
+INFO 06-10-2023 09:31:03 basehttp "GET /admin/hw4_store_app/order/ HTTP/1.1" 200 20751
+INFO 06-10-2023 09:31:03 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 09:32:14 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/admin.py changed, reloading.
+INFO 06-10-2023 09:32:14 autoreload Watching for file changes with StatReloader
+INFO 06-10-2023 09:32:19 basehttp "GET /admin/hw4_store_app/order/ HTTP/1.1" 200 20880
+INFO 06-10-2023 09:32:19 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 09:32:40 basehttp "GET /admin/hw4_store_app/user/ HTTP/1.1" 200 16703
+INFO 06-10-2023 09:32:40 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 09:32:44 basehttp "GET /admin/hw4_store_app/user/20/change/ HTTP/1.1" 200 14302
+INFO 06-10-2023 09:32:44 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 09:33:05 basehttp "POST /admin/hw4_store_app/user/20/change/ HTTP/1.1" 302 0
+INFO 06-10-2023 09:33:05 basehttp "GET /admin/hw4_store_app/user/ HTTP/1.1" 200 16974
+INFO 06-10-2023 09:33:05 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 09:33:10 basehttp "GET /admin/hw4_store_app/user/10/change/ HTTP/1.1" 200 14302
+INFO 06-10-2023 09:33:10 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 09:33:31 basehttp "POST /admin/hw4_store_app/user/10/change/ HTTP/1.1" 302 0
+INFO 06-10-2023 09:33:31 basehttp "GET /admin/hw4_store_app/user/ HTTP/1.1" 200 16974
+INFO 06-10-2023 09:33:31 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 09:33:41 basehttp "GET /admin/hw4_store_app/user/18/change/ HTTP/1.1" 200 14302
+INFO 06-10-2023 09:33:41 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 09:33:53 basehttp "POST /admin/hw4_store_app/user/18/change/ HTTP/1.1" 200 14461
+INFO 06-10-2023 09:33:53 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 09:34:02 basehttp "POST /admin/hw4_store_app/user/18/change/ HTTP/1.1" 302 0
+INFO 06-10-2023 09:34:02 basehttp "GET /admin/hw4_store_app/user/ HTTP/1.1" 200 16974
+INFO 06-10-2023 09:34:02 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 09:34:31 basehttp "GET /admin/hw4_store_app/user/18/change/ HTTP/1.1" 200 14302
+INFO 06-10-2023 09:34:31 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 09:34:46 basehttp "POST /admin/hw4_store_app/user/18/change/ HTTP/1.1" 302 0
+INFO 06-10-2023 09:34:46 basehttp "GET /admin/hw4_store_app/user/ HTTP/1.1" 200 16970
+INFO 06-10-2023 09:34:46 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 09:37:27 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/admin.py changed, reloading.
+INFO 06-10-2023 09:37:28 autoreload Watching for file changes with StatReloader
+INFO 06-10-2023 09:37:35 basehttp "GET /admin/hw4_store_app/user/ HTTP/1.1" 200 16701
+INFO 06-10-2023 09:37:35 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 09:37:55 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/admin.py changed, reloading.
+INFO 06-10-2023 09:37:55 autoreload Watching for file changes with StatReloader
+INFO 06-10-2023 09:37:59 basehttp "GET /admin/hw4_store_app/user/ HTTP/1.1" 200 20187
+INFO 06-10-2023 09:37:59 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 09:41:35 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/admin.py changed, reloading.
+INFO 06-10-2023 09:41:36 autoreload Watching for file changes with StatReloader
+INFO 06-10-2023 09:45:45 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/admin.py changed, reloading.
+INFO 06-10-2023 09:45:45 autoreload Watching for file changes with StatReloader
+INFO 06-10-2023 09:46:11 basehttp "GET /admin/hw4_store_app/user/ HTTP/1.1" 200 18673
+INFO 06-10-2023 09:46:11 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 09:46:13 basehttp "GET /admin/hw4_store_app/user/17/change/ HTTP/1.1" 200 14518
+INFO 06-10-2023 09:46:13 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 09:47:30 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/admin.py changed, reloading.
+INFO 06-10-2023 09:47:31 autoreload Watching for file changes with StatReloader
+INFO 06-10-2023 09:47:36 basehttp "GET /admin/hw4_store_app/user/17/change/ HTTP/1.1" 200 14588
+INFO 06-10-2023 09:47:36 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 09:48:13 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/admin.py changed, reloading.
+INFO 06-10-2023 09:48:13 autoreload Watching for file changes with StatReloader
+INFO 06-10-2023 09:48:20 basehttp "GET /admin/hw4_store_app/user/17/change/ HTTP/1.1" 200 14580
+INFO 06-10-2023 09:48:20 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 09:48:56 basehttp "GET /static/admin/img/calendar-icons.svg HTTP/1.1" 200 1094
+INFO 06-10-2023 09:49:08 basehttp "POST /admin/hw4_store_app/user/17/change/ HTTP/1.1" 302 0
+INFO 06-10-2023 09:49:09 basehttp "GET /admin/hw4_store_app/user/ HTTP/1.1" 200 18945
+INFO 06-10-2023 09:49:09 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 09:49:12 basehttp "GET /admin/hw4_store_app/user/?o=5 HTTP/1.1" 200 19402
+INFO 06-10-2023 09:49:12 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 09:49:23 basehttp "GET /admin/hw4_store_app/user/15/change/?_changelist_filters=o%3D5 HTTP/1.1" 200 14668
+INFO 06-10-2023 09:49:23 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 09:49:42 basehttp "POST /admin/hw4_store_app/user/15/change/?_changelist_filters=o%3D5 HTTP/1.1" 200 14831
+INFO 06-10-2023 09:49:42 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 09:49:49 basehttp "POST /admin/hw4_store_app/user/15/change/?_changelist_filters=o%3D5 HTTP/1.1" 302 0
+INFO 06-10-2023 09:49:49 basehttp "GET /admin/hw4_store_app/user/?o=5 HTTP/1.1" 200 19662
+INFO 06-10-2023 09:49:49 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 09:50:03 basehttp "GET /admin/hw4_store_app/user/?o=-5 HTTP/1.1" 200 19400
+INFO 06-10-2023 09:50:03 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 09:50:05 basehttp "GET /admin/hw4_store_app/user/?o=5 HTTP/1.1" 200 19391
+INFO 06-10-2023 09:50:05 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 09:50:11 basehttp "GET /admin/hw4_store_app/user/?all=&o=5 HTTP/1.1" 200 21288
+INFO 06-10-2023 09:50:11 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 09:50:18 basehttp "GET /admin/hw4_store_app/user/15/change/?_changelist_filters=all%3D%26o%3D5 HTTP/1.1" 200 14695
+INFO 06-10-2023 09:50:18 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 09:51:02 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/admin.py changed, reloading.
+INFO 06-10-2023 09:51:03 autoreload Watching for file changes with StatReloader
+INFO 06-10-2023 10:00:44 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/admin.py changed, reloading.
+INFO 06-10-2023 10:00:44 autoreload Watching for file changes with StatReloader
+INFO 06-10-2023 10:02:19 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/admin.py changed, reloading.
+INFO 06-10-2023 10:02:19 autoreload Watching for file changes with StatReloader
+INFO 06-10-2023 10:02:24 basehttp "GET /admin/hw4_store_app/product/ HTTP/1.1" 200 28639
+INFO 06-10-2023 10:02:24 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 10:02:47 basehttp "POST /admin/hw4_store_app/product/ HTTP/1.1" 302 0
+INFO 06-10-2023 10:02:47 basehttp "GET /admin/hw4_store_app/product/ HTTP/1.1" 200 28633
+INFO 06-10-2023 10:02:47 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 10:03:01 basehttp "GET /admin/hw4_store_app/product/?price=5.00 HTTP/1.1" 200 15447
+INFO 06-10-2023 10:03:01 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 10:03:08 basehttp "GET /admin/hw4_store_app/product/? HTTP/1.1" 200 28633
+INFO 06-10-2023 10:03:08 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 10:03:13 basehttp "GET /admin/hw4_store_app/product/?o=3 HTTP/1.1" 200 30374
+INFO 06-10-2023 10:03:13 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 12:52:25 basehttp "GET /admin/hw4_store_app/product/?o=3 HTTP/1.1" 200 30374
+INFO 06-10-2023 12:52:25 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 12:52:26 basehttp "GET /admin/hw4_store_app/product/?o=3 HTTP/1.1" 200 30374
+INFO 06-10-2023 12:52:26 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 12:55:04 autoreload Watching for file changes with StatReloader
+INFO 06-10-2023 12:55:09 basehttp "GET /admin/hw4_store_app/product/?o=3 HTTP/1.1" 200 30374
+INFO 06-10-2023 12:55:09 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 12:55:24 basehttp "GET /admin/lesson_2_app/author/ HTTP/1.1" 200 15737
+INFO 06-10-2023 12:55:24 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 12:55:26 basehttp "GET /admin/lesson_2_app/article/ HTTP/1.1" 200 31390
+INFO 06-10-2023 12:55:26 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 12:57:20 autoreload /Users/syscom/PycharmProjects/Django/firstproject/firstproject/settings.py changed, reloading.
+INFO 06-10-2023 12:57:21 autoreload Watching for file changes with StatReloader
+INFO 06-10-2023 12:57:25 basehttp "GET /admin/lesson_2_app/article/ HTTP/1.1" 200 31390
+INFO 06-10-2023 12:57:25 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 12:57:28 basehttp "GET /admin/ HTTP/1.1" 200 13284
+INFO 06-10-2023 12:57:31 basehttp "GET /admin/ HTTP/1.1" 200 13284
+INFO 06-10-2023 12:58:58 autoreload /Users/syscom/PycharmProjects/Django/firstproject/firstproject/settings.py changed, reloading.
+INFO 06-10-2023 12:58:59 autoreload Watching for file changes with StatReloader
+INFO 06-10-2023 12:59:03 basehttp "GET /admin/ HTTP/1.1" 200 13284
+INFO 06-10-2023 13:00:17 basehttp "GET /admin/ HTTP/1.1" 200 13284
+INFO 06-10-2023 13:02:30 basehttp "POST /admin/logout/ HTTP/1.1" 200 3713
+INFO 06-10-2023 13:07:31 basehttp "POST /admin/logout/ HTTP/1.1" 302 0
+INFO 06-10-2023 13:07:31 basehttp "GET /admin/ HTTP/1.1" 302 0
+INFO 06-10-2023 13:07:31 basehttp "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4271
+INFO 06-10-2023 13:08:30 basehttp "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 06-10-2023 13:08:30 basehttp "GET /admin/ HTTP/1.1" 200 13284
+INFO 06-10-2023 13:08:37 basehttp "GET /admin/hw4_store_app/ HTTP/1.1" 200 6296
+INFO 06-10-2023 13:09:04 basehttp "GET /admin/ HTTP/1.1" 200 13284
+INFO 06-10-2023 13:22:49 basehttp "GET /admin/hw4_store_app/order/ HTTP/1.1" 200 20878
+INFO 06-10-2023 13:22:49 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 13:25:49 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/admin.py changed, reloading.
+INFO 06-10-2023 13:25:50 autoreload Watching for file changes with StatReloader
+INFO 06-10-2023 13:29:32 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/admin.py changed, reloading.
+INFO 06-10-2023 13:29:32 autoreload Watching for file changes with StatReloader
+INFO 06-10-2023 13:29:50 basehttp "GET /admin/hw4_store_app/order/ HTTP/1.1" 200 20952
+INFO 06-10-2023 13:29:50 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 13:30:10 basehttp "POST /admin/hw4_store_app/order/ HTTP/1.1" 302 0
+INFO 06-10-2023 13:30:10 basehttp "GET /admin/hw4_store_app/order/ HTTP/1.1" 200 20950
+INFO 06-10-2023 13:30:10 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 13:30:37 basehttp "GET /admin/ HTTP/1.1" 200 13284
+INFO 06-10-2023 13:31:03 basehttp "GET /admin/hw4_store_app/product/ HTTP/1.1" 200 28633
+INFO 06-10-2023 13:31:03 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 13:31:04 basehttp "GET /admin/hw4_store_app/order/ HTTP/1.1" 200 20950
+INFO 06-10-2023 13:31:04 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 13:31:25 basehttp "POST /admin/hw4_store_app/order/ HTTP/1.1" 302 0
+INFO 06-10-2023 13:31:25 basehttp "GET /admin/hw4_store_app/order/ HTTP/1.1" 200 20948
+INFO 06-10-2023 13:31:25 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 13:33:21 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/admin.py changed, reloading.
+INFO 06-10-2023 13:33:22 autoreload Watching for file changes with StatReloader
+INFO 06-10-2023 13:33:26 basehttp "GET /admin/hw4_store_app/order/ HTTP/1.1" 200 21023
+INFO 06-10-2023 13:33:26 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 13:33:40 basehttp "GET /admin/hw4_store_app/order/10/change/ HTTP/1.1" 200 20454
+INFO 06-10-2023 13:33:40 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 13:33:51 basehttp "GET /admin/hw4_store_app/order/ HTTP/1.1" 200 21023
+INFO 06-10-2023 13:33:58 basehttp "POST /admin/hw4_store_app/order/ HTTP/1.1" 302 0
+INFO 06-10-2023 13:33:58 basehttp "GET /admin/hw4_store_app/order/ HTTP/1.1" 200 21021
+INFO 06-10-2023 13:33:58 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 13:39:27 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/admin.py changed, reloading.
+INFO 06-10-2023 13:39:28 autoreload Watching for file changes with StatReloader
+INFO 06-10-2023 13:39:43 basehttp "GET /admin/hw4_store_app/product/ HTTP/1.1" 200 28633
+INFO 06-10-2023 13:39:43 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+ERROR 06-10-2023 13:39:49 log Internal Server Error: /admin/hw4_store_app/product/34/change/
+Traceback (most recent call last):
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 809, in get_form
+    return modelform_factory(self.model, **defaults)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/forms/models.py", line 642, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/forms/models.py", line 300, in __new__
+    fields = fields_for_model(
+             ^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/forms/models.py", line 198, in fields_for_model
+    raise FieldError(
+django.core.exceptions.FieldError: 'date_added' cannot be specified for Product model form as it is a non-editable field
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/views/decorators/cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1889, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1782, in _changeform_view
+    ModelForm = self.get_form(
+                ^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 811, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: 'date_added' cannot be specified for Product model form as it is a non-editable field. Check fields/fieldsets/exclude attributes of class ProductAdmin.
+ERROR 06-10-2023 13:39:49 basehttp "GET /admin/hw4_store_app/product/34/change/ HTTP/1.1" 500 137254
+INFO 06-10-2023 13:40:12 basehttp "GET /admin/hw4_store_app/product/ HTTP/1.1" 200 28633
+INFO 06-10-2023 13:42:48 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/admin.py changed, reloading.
+INFO 06-10-2023 13:42:48 autoreload Watching for file changes with StatReloader
+INFO 06-10-2023 13:42:54 basehttp "GET /admin/hw4_store_app/product/38/change/ HTTP/1.1" 200 14129
+INFO 06-10-2023 13:42:54 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 13:43:44 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/admin.py changed, reloading.
+INFO 06-10-2023 13:43:44 autoreload Watching for file changes with StatReloader
+INFO 06-10-2023 13:43:52 basehttp "GET /admin/hw4_store_app/product/38/change/ HTTP/1.1" 200 14129
+INFO 06-10-2023 13:43:52 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 13:43:55 basehttp "GET /admin/hw4_store_app/order/ HTTP/1.1" 200 21092
+INFO 06-10-2023 13:43:55 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 13:43:57 basehttp "GET /admin/hw4_store_app/product/ HTTP/1.1" 200 26879
+INFO 06-10-2023 13:43:57 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 13:43:59 basehttp "GET /admin/hw4_store_app/product/35/change/ HTTP/1.1" 200 14129
+INFO 06-10-2023 13:43:59 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 13:44:59 basehttp "GET /admin/hw4_store_app/user/ HTTP/1.1" 200 20182
+INFO 06-10-2023 13:45:00 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 13:45:02 basehttp "GET /admin/hw4_store_app/user/11/change/ HTTP/1.1" 200 14468
+INFO 06-10-2023 13:45:02 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 13:46:25 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/admin.py changed, reloading.
+INFO 06-10-2023 13:46:25 autoreload Watching for file changes with StatReloader
+INFO 06-10-2023 13:46:35 basehttp "GET /admin/hw4_store_app/user/11/change/ HTTP/1.1" 200 14468
+INFO 06-10-2023 13:46:35 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 13:57:10 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/admin.py changed, reloading.
+INFO 06-10-2023 13:57:11 autoreload Watching for file changes with StatReloader
+INFO 06-10-2023 13:57:15 basehttp "GET /admin/hw4_store_app/order/ HTTP/1.1" 200 21092
+INFO 06-10-2023 13:57:15 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 13:57:18 basehttp "GET /admin/hw4_store_app/order/17/change/ HTTP/1.1" 200 20463
+INFO 06-10-2023 13:57:18 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 13:57:26 basehttp "GET /admin/hw4_store_app/product/ HTTP/1.1" 200 26879
+INFO 06-10-2023 13:57:26 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 13:57:27 basehttp "GET /admin/hw4_store_app/product/36/change/ HTTP/1.1" 200 14129
+INFO 06-10-2023 13:57:28 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 13:57:31 basehttp "GET /admin/hw4_store_app/order/ HTTP/1.1" 200 21092
+INFO 06-10-2023 13:57:31 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 13:57:33 basehttp "GET /admin/hw4_store_app/order/16/change/ HTTP/1.1" 200 20463
+INFO 06-10-2023 13:57:33 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 13:58:05 basehttp "GET /admin/hw4_store_app/product/ HTTP/1.1" 200 26879
+INFO 06-10-2023 13:58:05 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 13:58:09 basehttp "GET /admin/hw4_store_app/product/31/change/ HTTP/1.1" 200 14446
+INFO 06-10-2023 13:58:09 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 13:58:20 basehttp "GET /admin/hw4_store_app/user/ HTTP/1.1" 200 20182
+INFO 06-10-2023 13:58:20 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 13:58:29 basehttp "GET /admin/hw4_store_app/user/17/change/ HTTP/1.1" 200 14477
+INFO 06-10-2023 13:58:29 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 13:59:45 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/admin.py changed, reloading.
+INFO 06-10-2023 13:59:45 autoreload Watching for file changes with StatReloader
+INFO 06-10-2023 13:59:50 basehttp "GET /admin/hw4_store_app/user/17/change/ HTTP/1.1" 200 14477
+INFO 06-10-2023 13:59:50 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 13:59:51 basehttp "GET /admin/hw4_store_app/order/ HTTP/1.1" 200 22724
+INFO 06-10-2023 13:59:51 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 14:00:00 basehttp "GET /admin/hw4_store_app/order/20/change/ HTTP/1.1" 200 20463
+INFO 06-10-2023 14:00:00 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 14:02:05 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/admin.py changed, reloading.
+INFO 06-10-2023 14:02:05 autoreload Watching for file changes with StatReloader
+INFO 06-10-2023 14:04:34 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/admin.py changed, reloading.
+INFO 06-10-2023 14:04:35 autoreload Watching for file changes with StatReloader
+INFO 06-10-2023 14:04:42 basehttp "GET /admin/hw4_store_app/product/ HTTP/1.1" 200 26879
+INFO 06-10-2023 14:04:42 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 14:04:45 basehttp "GET /admin/hw4_store_app/order/ HTTP/1.1" 200 21092
+INFO 06-10-2023 14:04:45 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+ERROR 06-10-2023 14:04:47 log Internal Server Error: /admin/hw4_store_app/order/20/change/
+Traceback (most recent call last):
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 809, in get_form
+    return modelform_factory(self.model, **defaults)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/forms/models.py", line 642, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/forms/models.py", line 300, in __new__
+    fields = fields_for_model(
+             ^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/forms/models.py", line 198, in fields_for_model
+    raise FieldError(
+django.core.exceptions.FieldError: 'date_ordered' cannot be specified for Order model form as it is a non-editable field
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/views/decorators/cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1889, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1782, in _changeform_view
+    ModelForm = self.get_form(
+                ^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 811, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: 'date_ordered' cannot be specified for Order model form as it is a non-editable field. Check fields/fieldsets/exclude attributes of class OrderAdmin.
+ERROR 06-10-2023 14:04:47 basehttp "GET /admin/hw4_store_app/order/20/change/ HTTP/1.1" 500 136634
+INFO 06-10-2023 14:06:31 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/admin.py changed, reloading.
+INFO 06-10-2023 14:06:32 autoreload Watching for file changes with StatReloader
+INFO 06-10-2023 14:06:36 basehttp "GET /admin/hw4_store_app/order/20/change/ HTTP/1.1" 200 20463
+INFO 06-10-2023 14:06:36 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 14:08:31 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/models.py changed, reloading.
+INFO 06-10-2023 14:08:31 autoreload Watching for file changes with StatReloader
+INFO 06-10-2023 14:09:42 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/admin.py changed, reloading.
+INFO 06-10-2023 14:09:42 autoreload Watching for file changes with StatReloader
+INFO 06-10-2023 14:09:49 basehttp "GET /admin/hw4_store_app/product/ HTTP/1.1" 200 29667
+INFO 06-10-2023 14:09:49 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 14:09:53 basehttp "GET /admin/hw4_store_app/product/40/change/ HTTP/1.1" 200 14086
+INFO 06-10-2023 14:09:53 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 14:10:20 basehttp "GET /admin/hw4_store_app/product/ HTTP/1.1" 200 29667
+INFO 06-10-2023 14:10:20 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 14:11:17 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/admin.py changed, reloading.
+INFO 06-10-2023 14:11:18 autoreload Watching for file changes with StatReloader
+INFO 06-10-2023 14:11:23 basehttp "GET /admin/hw4_store_app/product/ HTTP/1.1" 200 29667
+INFO 06-10-2023 14:11:23 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+ERROR 06-10-2023 14:11:27 log Internal Server Error: /admin/hw4_store_app/product/22/change/
+Traceback (most recent call last):
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 809, in get_form
+    return modelform_factory(self.model, **defaults)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/forms/models.py", line 642, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/forms/models.py", line 300, in __new__
+    fields = fields_for_model(
+             ^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/forms/models.py", line 198, in fields_for_model
+    raise FieldError(
+django.core.exceptions.FieldError: 'date_added' cannot be specified for Product model form as it is a non-editable field
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/views/decorators/cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1889, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1782, in _changeform_view
+    ModelForm = self.get_form(
+                ^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 811, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: 'date_added' cannot be specified for Product model form as it is a non-editable field. Check fields/fieldsets/exclude attributes of class ProductAdmin.
+ERROR 06-10-2023 14:11:27 basehttp "GET /admin/hw4_store_app/product/22/change/ HTTP/1.1" 500 137212
+INFO 06-10-2023 14:16:03 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/admin.py changed, reloading.
+INFO 06-10-2023 14:16:03 autoreload Watching for file changes with StatReloader
+INFO 06-10-2023 14:16:18 basehttp "GET /admin/hw4_store_app/product/22/change/ HTTP/1.1" 200 14650
+INFO 06-10-2023 14:16:18 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 14:16:25 basehttp "GET /admin/hw4_store_app/product/ HTTP/1.1" 200 26879
+INFO 06-10-2023 14:16:25 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 14:16:28 basehttp "GET /admin/hw4_store_app/product/37/change/ HTTP/1.1" 200 14651
+INFO 06-10-2023 14:16:28 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 14:17:45 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/admin.py changed, reloading.
+INFO 06-10-2023 14:17:45 autoreload Watching for file changes with StatReloader
+INFO 06-10-2023 14:18:29 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/admin.py changed, reloading.
+INFO 06-10-2023 14:18:29 autoreload Watching for file changes with StatReloader
+INFO 06-10-2023 14:18:36 basehttp "GET /admin/hw4_store_app/order/ HTTP/1.1" 200 21092
+INFO 06-10-2023 14:18:36 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 14:18:41 basehttp "GET /admin/hw4_store_app/order/20/change/ HTTP/1.1" 200 20484
+INFO 06-10-2023 14:18:41 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 14:18:52 basehttp "GET /admin/hw4_store_app/user/ HTTP/1.1" 200 20182
+INFO 06-10-2023 14:18:52 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 14:18:57 basehttp "GET /admin/hw4_store_app/user/12/change/ HTTP/1.1" 200 14477
+INFO 06-10-2023 14:18:57 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 14:19:13 basehttp "GET /admin/hw4_store_app/product/ HTTP/1.1" 200 26879
+INFO 06-10-2023 14:19:13 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 14:19:15 basehttp "GET /admin/hw4_store_app/product/39/change/ HTTP/1.1" 200 14651
+INFO 06-10-2023 14:19:15 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 14:19:26 basehttp "GET /admin/hw4_store_app/order/ HTTP/1.1" 200 21092
+INFO 06-10-2023 14:19:26 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 14:20:58 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/admin.py changed, reloading.
+INFO 06-10-2023 14:20:59 autoreload Watching for file changes with StatReloader
+INFO 06-10-2023 14:22:11 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/admin.py changed, reloading.
+INFO 06-10-2023 14:22:12 autoreload Watching for file changes with StatReloader
+INFO 06-10-2023 14:22:22 basehttp "GET /admin/hw4_store_app/order/ HTTP/1.1" 200 23519
+INFO 06-10-2023 14:22:22 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 14:22:45 basehttp "GET /admin/hw4_store_app/order/?o=3.4 HTTP/1.1" 200 24355
+INFO 06-10-2023 14:22:45 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 14:22:54 basehttp "GET /admin/hw4_store_app/order/?o=4 HTTP/1.1" 200 23785
+INFO 06-10-2023 14:22:54 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 14:23:09 basehttp "GET /admin/hw4_store_app/order/?o=-4 HTTP/1.1" 200 23831
+INFO 06-10-2023 14:23:09 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 14:23:21 basehttp "GET /admin/hw4_store_app/order/?o=3.-4 HTTP/1.1" 200 24403
+INFO 06-10-2023 14:23:21 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 14:23:58 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/admin.py changed, reloading.
+INFO 06-10-2023 14:23:58 autoreload Watching for file changes with StatReloader
+INFO 06-10-2023 14:24:04 basehttp "GET /admin/hw4_store_app/order/?o=3.-4 HTTP/1.1" 200 24403
+INFO 06-10-2023 14:24:04 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 14:24:17 basehttp "GET /admin/hw4_store_app/order/?o=3.-4 HTTP/1.1" 200 24403
+INFO 06-10-2023 14:24:18 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 14:24:33 basehttp "GET /admin/hw4_store_app/order/6/change/?_changelist_filters=o%3D3.-4 HTTP/1.1" 200 20573
+INFO 06-10-2023 14:24:33 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 14:24:58 basehttp "GET /admin/hw4_store_app/order/ HTTP/1.1" 200 23519
+INFO 06-10-2023 14:24:58 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 14:29:25 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/admin.py changed, reloading.
+INFO 06-10-2023 14:29:25 autoreload Watching for file changes with StatReloader
+INFO 06-10-2023 14:29:30 basehttp "GET /admin/hw4_store_app/order/ HTTP/1.1" 200 23519
+INFO 06-10-2023 14:29:30 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+ERROR 06-10-2023 14:29:32 log Internal Server Error: /admin/hw4_store_app/order/6/change/
+Traceback (most recent call last):
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 809, in get_form
+    return modelform_factory(self.model, **defaults)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/forms/models.py", line 642, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/forms/models.py", line 300, in __new__
+    fields = fields_for_model(
+             ^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/forms/models.py", line 198, in fields_for_model
+    raise FieldError(
+django.core.exceptions.FieldError: 'date_ordered' cannot be specified for Order model form as it is a non-editable field
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/views/decorators/cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1889, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1782, in _changeform_view
+    ModelForm = self.get_form(
+                ^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 811, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: 'date_ordered' cannot be specified for Order model form as it is a non-editable field. Check fields/fieldsets/exclude attributes of class OrderAdmin.
+ERROR 06-10-2023 14:29:32 basehttp "GET /admin/hw4_store_app/order/6/change/ HTTP/1.1" 500 136697
+INFO 06-10-2023 14:29:52 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/admin.py changed, reloading.
+INFO 06-10-2023 14:29:53 autoreload Watching for file changes with StatReloader
+INFO 06-10-2023 14:52:46 basehttp "GET /admin/hw4_store_app/order/6/change/ HTTP/1.1" 200 20476
+INFO 06-10-2023 14:52:46 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 14:52:59 basehttp "GET /admin/hw4_store_app/ HTTP/1.1" 200 6296
+INFO 06-10-2023 14:56:11 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/admin.py changed, reloading.
+INFO 06-10-2023 14:56:11 autoreload Watching for file changes with StatReloader
+INFO 06-10-2023 14:56:34 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/admin.py changed, reloading.
+INFO 06-10-2023 14:56:34 autoreload Watching for file changes with StatReloader
+INFO 06-10-2023 14:57:01 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/admin.py changed, reloading.
+INFO 06-10-2023 14:57:01 autoreload Watching for file changes with StatReloader
+INFO 06-10-2023 14:57:20 basehttp "GET /admin/hw4_store_app/order/ HTTP/1.1" 200 23519
+INFO 06-10-2023 14:57:20 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 14:57:23 basehttp "GET /admin/hw4_store_app/order/6/change/ HTTP/1.1" 200 20490
+INFO 06-10-2023 14:57:23 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 14:57:29 basehttp "GET /admin/hw4_store_app/order/6/change/ HTTP/1.1" 200 20490
+INFO 06-10-2023 14:57:29 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 14:58:10 basehttp "GET /admin/hw4_store_app/product/add/?_to_field=id&_popup=1 HTTP/1.1" 200 7604
+INFO 06-10-2023 14:58:10 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 14:58:48 basehttp "GET /admin/hw4_store_app/order/6/change/ HTTP/1.1" 200 20490
+INFO 06-10-2023 14:58:48 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 14:59:12 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/admin.py changed, reloading.
+INFO 06-10-2023 14:59:13 autoreload Watching for file changes with StatReloader
+INFO 06-10-2023 15:00:36 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/admin.py changed, reloading.
+INFO 06-10-2023 15:00:37 autoreload Watching for file changes with StatReloader
+INFO 06-10-2023 15:00:47 basehttp "GET /admin/hw4_store_app/order/6/change/ HTTP/1.1" 200 20500
+INFO 06-10-2023 15:00:47 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 15:02:27 autoreload /Users/syscom/PycharmProjects/Django/firstproject/hw4_store_app/admin.py changed, reloading.
+INFO 06-10-2023 15:02:27 autoreload Watching for file changes with StatReloader
+INFO 06-10-2023 15:02:33 basehttp "GET /admin/hw4_store_app/product/ HTTP/1.1" 200 26879
+INFO 06-10-2023 15:02:33 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 15:02:35 basehttp "GET /admin/hw4_store_app/product/39/change/ HTTP/1.1" 200 14613
+INFO 06-10-2023 15:02:35 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 15:13:07 basehttp "GET /admin/hw4_store_app/product/39/change/ HTTP/1.1" 200 14613
+INFO 06-10-2023 15:13:07 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 15:13:08 basehttp "GET /admin/hw4_store_app/product/39/change/ HTTP/1.1" 200 14613
+INFO 06-10-2023 15:13:08 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 15:13:09 basehttp "GET /admin/hw4_store_app/product/39/change/ HTTP/1.1" 200 14613
+INFO 06-10-2023 15:13:09 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 15:13:10 basehttp "GET /admin/hw4_store_app/product/39/change/ HTTP/1.1" 200 14613
+INFO 06-10-2023 15:13:10 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 15:13:10 basehttp "GET /admin/hw4_store_app/product/39/change/ HTTP/1.1" 200 14613
+INFO 06-10-2023 15:13:10 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 15:13:10 basehttp "GET /admin/hw4_store_app/product/39/change/ HTTP/1.1" 200 14613
+INFO 06-10-2023 15:13:10 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 15:28:06 autoreload Watching for file changes with StatReloader
+INFO 06-10-2023 15:28:12 basehttp "GET /admin/hw4_store_app/product/39/change/ HTTP/1.1" 200 14478
+INFO 06-10-2023 15:28:12 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 15:31:27 autoreload /Users/syscom/PycharmProjects/Django/firstproject/firstproject/settings.py changed, reloading.
+INFO 06-10-2023 15:31:27 autoreload Watching for file changes with StatReloader
+INFO 06-10-2023 15:31:33 basehttp "GET /admin/hw4_store_app/product/39/change/ HTTP/1.1" 200 14469
+INFO 06-10-2023 15:31:33 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 15:31:39 basehttp "GET /admin/hw4_store_app/order/ HTTP/1.1" 200 23389
+INFO 06-10-2023 15:31:40 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 15:31:42 basehttp "GET /admin/hw4_store_app/user/ HTTP/1.1" 200 20053
+INFO 06-10-2023 15:31:42 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 15:31:46 basehttp "POST /admin/logout/ HTTP/1.1" 200 2972
+INFO 06-10-2023 15:31:47 basehttp "GET /admin/ HTTP/1.1" 302 0
+INFO 06-10-2023 15:31:47 basehttp "GET /admin/login/?next=/admin/ HTTP/1.1" 200 3547
+INFO 06-10-2023 15:31:56 basehttp "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 06-10-2023 15:31:56 basehttp "GET /admin/ HTTP/1.1" 200 13157
+WARNING 06-10-2023 16:55:38 log Forbidden (CSRF token from POST incorrect.): /hw4/prod_upd/
+WARNING 06-10-2023 16:55:38 basehttp "POST /hw4/prod_upd/ HTTP/1.1" 403 2560
+INFO 06-10-2023 16:55:40 basehttp "GET /hw4/prod_upd/ HTTP/1.1" 200 4112
+INFO 06-10-2023 16:55:53 basehttp "GET /admin/ HTTP/1.1" 200 13218
+INFO 06-10-2023 16:56:51 basehttp "GET /admin/ HTTP/1.1" 200 13218
+INFO 06-10-2023 16:58:21 basehttp "GET /admin/ HTTP/1.1" 200 13157
+INFO 06-10-2023 16:58:32 basehttp "GET /admin/hw4_store_app/ HTTP/1.1" 200 6141
+INFO 06-10-2023 16:58:38 basehttp "GET /admin/hw4_store_app/order/ HTTP/1.1" 200 23389
+INFO 06-10-2023 16:58:38 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 06-10-2023 16:58:47 basehttp "GET /admin/hw4_store_app/product/ HTTP/1.1" 200 26747
+INFO 06-10-2023 16:58:47 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066

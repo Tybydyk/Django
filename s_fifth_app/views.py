@@ -7,4 +7,4 @@ logger = logging.getLogger(__name__)
 
 def index(request):
     logger.info(f'{request}Index page accessed')
-    return HttpResponse("Lesson5 page")
+    return HttpResponse("Lecture_5 page")

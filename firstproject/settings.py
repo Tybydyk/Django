@@ -50,6 +50,8 @@ INSTALLED_APPS = [
     's_t_fourth_app',
     'lesson_4_app',
     'hw4_store_app',
+    's_fifth_app',
+    'lesson_5_app',
 ]
 
 MIDDLEWARE = [
@@ -70,6 +72,7 @@ TEMPLATES = [
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
             BASE_DIR / 'templates',
+            BASE_DIR / 'hw4_store_app/templates',
         ],
         'APP_DIRS': True,
         'OPTIONS': {
@@ -119,9 +122,9 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/4.2/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'ru-ru'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Europe/Moscow'
 
 USE_I18N = True
 
@@ -234,6 +237,11 @@ LOGGING = {
             'propagate': True,
         },
         'hw4_store_app': {
+            'handlers': ['console'],
+            'level': 'DEBUG',
+            'propagate': True,
+        },
+        's_t_f_fifth_app': {
             'handlers': ['console'],
             'level': 'DEBUG',
             'propagate': True,
