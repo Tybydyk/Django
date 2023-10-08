@@ -32,4 +32,6 @@ urlpatterns = [
     path('hw4/', include('hw4_store_app.urls')),
     path('fifth/', include('s_fifth_app.urls')),
     path('lesson5/', include('lesson_5_app.urls')),
+    path('sixth/', include('s_sixth_app.urls')),
+    # path('__debug__/', include('debug_toolbar.urls')),
     ]

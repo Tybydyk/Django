@@ -4545,3 +4545,146 @@ INFO 06-10-2023 16:58:38 basehttp "GET /admin/hw4_store_app/order/ HTTP/1.1" 200
 INFO 06-10-2023 16:58:38 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
 INFO 06-10-2023 16:58:47 basehttp "GET /admin/hw4_store_app/product/ HTTP/1.1" 200 26747
 INFO 06-10-2023 16:58:47 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 08-10-2023 15:11:45 autoreload Watching for file changes with StatReloader
+INFO 08-10-2023 15:12:09 basehttp "GET /admin/hw4_store_app/product/ HTTP/1.1" 200 36948
+INFO 08-10-2023 15:12:09 basehttp "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 08-10-2023 15:12:09 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 08-10-2023 15:12:09 basehttp "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 08-10-2023 15:12:09 basehttp "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 08-10-2023 15:12:09 basehttp "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 08-10-2023 15:12:09 basehttp "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 08-10-2023 15:12:09 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 08-10-2023 15:12:09 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 08-10-2023 15:12:09 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 08-10-2023 15:12:09 basehttp "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 13404
+INFO 08-10-2023 15:12:09 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 08-10-2023 15:12:09 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 08-10-2023 15:12:09 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 08-10-2023 15:12:09 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 08-10-2023 15:12:09 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 08-10-2023 15:12:09 basehttp "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 08-10-2023 15:12:09 basehttp "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 12621
+INFO 08-10-2023 15:12:09 basehttp "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 08-10-2023 15:12:09 basehttp "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO 08-10-2023 15:12:09 basehttp "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+INFO 08-10-2023 15:12:09 basehttp "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+INFO 08-10-2023 15:12:09 basehttp "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 08-10-2023 15:12:09 basehttp "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 08-10-2023 15:12:09 basehttp "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4527
+WARNING 08-10-2023 15:12:10 log Not Found: /favicon.ico
+WARNING 08-10-2023 15:12:10 basehttp "GET /favicon.ico HTTP/1.1" 404 14598
+INFO 08-10-2023 15:12:41 views <WSGIRequest: GET '/'>Index page accessed
+INFO 08-10-2023 15:12:41 basehttp "GET / HTTP/1.1" 200 10
+INFO 08-10-2023 15:12:56 basehttp "GET /sixth HTTP/1.1" 301 0
+INFO 08-10-2023 15:12:56 basehttp "GET /sixth/ HTTP/1.1" 200 16
+INFO 08-10-2023 15:13:07 basehttp "GET /admin/hw4_store_app/product/ HTTP/1.1" 200 36946
+INFO 08-10-2023 15:14:04 basehttp "GET /admin/hw4_store_app/product/ HTTP/1.1" 200 36946
+INFO 08-10-2023 15:14:18 basehttp "GET /admin/hw4_store_app/product/ HTTP/1.1" 200 36947
+INFO 08-10-2023 15:14:18 basehttp "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 08-10-2023 15:14:18 basehttp "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 08-10-2023 15:14:18 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 08-10-2023 15:14:18 basehttp "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 08-10-2023 15:14:18 basehttp "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 08-10-2023 15:14:49 basehttp "GET /admin/hw4_store_app/product/ HTTP/1.1" 200 36947
+INFO 08-10-2023 15:14:49 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 08-10-2023 15:15:01 basehttp "GET /admin/hw4_store_app/ HTTP/1.1" 200 16319
+INFO 08-10-2023 15:15:01 basehttp "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 08-10-2023 15:15:01 basehttp "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 08-10-2023 15:15:18 basehttp "GET /sixth/ HTTP/1.1" 200 16
+INFO 08-10-2023 15:15:40 basehttp "GET /admin/ HTTP/1.1" 200 23314
+INFO 08-10-2023 15:18:35 basehttp "GET /__debug__/render_panel/?store_id=21306887eb854112815d44cb433e3372&panel_id=HistoryPanel HTTP/1.1" 200 25614
+INFO 08-10-2023 15:18:35 basehttp "GET /static/debug_toolbar/js/history.js HTTP/1.1" 200 3330
+INFO 08-10-2023 15:18:55 basehttp "GET /__debug__/render_panel/?store_id=21306887eb854112815d44cb433e3372&panel_id=SQLPanel HTTP/1.1" 200 48763
+INFO 08-10-2023 15:19:49 basehttp "GET /__debug__/render_panel/?store_id=21306887eb854112815d44cb433e3372&panel_id=StaticFilesPanel HTTP/1.1" 200 34357
+INFO 08-10-2023 15:20:46 basehttp "GET /__debug__/render_panel/?store_id=21306887eb854112815d44cb433e3372&panel_id=TemplatesPanel HTTP/1.1" 200 106995
+INFO 08-10-2023 15:23:03 basehttp "GET /__debug__/render_panel/?store_id=21306887eb854112815d44cb433e3372&panel_id=CachePanel HTTP/1.1" 200 1737
+INFO 08-10-2023 16:08:34 autoreload Watching for file changes with StatReloader
+INFO 08-10-2023 16:08:50 autoreload /Users/syscom/PycharmProjects/Django/firstproject/s_sixth_app/urls.py changed, reloading.
+INFO 08-10-2023 16:08:51 autoreload Watching for file changes with StatReloader
+INFO 08-10-2023 16:09:11 basehttp "GET /sixth/ HTTP/1.1" 200 16
+ERROR 08-10-2023 16:09:20 log Internal Server Error: /sixth/db/
+Traceback (most recent call last):
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/firstproject/s_sixth_app/views.py", line 22, in total_in_db
+    return render(request, 's_sixth/total_count.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: s_sixth/total_count.html
+ERROR 08-10-2023 16:09:20 basehttp "GET /sixth/db/ HTTP/1.1" 500 93580
+INFO 08-10-2023 16:09:20 basehttp "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 08-10-2023 16:09:20 basehttp "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 08-10-2023 16:09:20 basehttp "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 08-10-2023 16:09:20 basehttp "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 08-10-2023 16:11:23 autoreload /Users/syscom/PycharmProjects/Django/firstproject/s_sixth_app/views.py changed, reloading.
+INFO 08-10-2023 16:11:23 autoreload Watching for file changes with StatReloader
+INFO 08-10-2023 16:11:29 basehttp "GET /sixth/db/ HTTP/1.1" 200 10524
+INFO 08-10-2023 16:11:34 basehttp "GET /__debug__/render_panel/?store_id=68373e2de11549a5b33664c7732af036&panel_id=HistoryPanel HTTP/1.1" 200 2514
+INFO 08-10-2023 16:11:34 basehttp "GET /static/debug_toolbar/js/history.js HTTP/1.1" 304 0
+INFO 08-10-2023 16:11:38 basehttp "GET /__debug__/render_panel/?store_id=68373e2de11549a5b33664c7732af036&panel_id=TimerPanel HTTP/1.1" 200 2270
+INFO 08-10-2023 16:11:38 basehttp "GET /static/debug_toolbar/js/timer.js HTTP/1.1" 200 3686
+INFO 08-10-2023 16:18:50 basehttp "GET /__debug__/render_panel/?store_id=68373e2de11549a5b33664c7732af036&panel_id=VersionsPanel HTTP/1.1" 200 760
+INFO 08-10-2023 16:21:20 autoreload /Users/syscom/PycharmProjects/Django/firstproject/s_sixth_app/views.py changed, reloading.
+INFO 08-10-2023 16:21:21 autoreload Watching for file changes with StatReloader
+INFO 08-10-2023 16:21:50 autoreload /Users/syscom/PycharmProjects/Django/firstproject/s_sixth_app/urls.py changed, reloading.
+INFO 08-10-2023 16:21:50 autoreload Watching for file changes with StatReloader
+INFO 08-10-2023 16:22:13 basehttp "GET /sixth/view/ HTTP/1.1" 200 10509
+INFO 08-10-2023 16:22:13 basehttp "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 08-10-2023 16:22:13 basehttp "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 08-10-2023 16:22:13 basehttp "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 08-10-2023 16:22:13 basehttp "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 08-10-2023 16:22:20 basehttp "GET /__debug__/render_panel/?store_id=061dfb9b61c7495dbed534d7ae5f61a7&panel_id=HistoryPanel HTTP/1.1" 200 2516
+INFO 08-10-2023 16:22:20 basehttp "GET /static/debug_toolbar/js/history.js HTTP/1.1" 304 0
+INFO 08-10-2023 16:22:25 basehttp "GET /__debug__/render_panel/?store_id=061dfb9b61c7495dbed534d7ae5f61a7&panel_id=TimerPanel HTTP/1.1" 200 2270
+INFO 08-10-2023 16:22:25 basehttp "GET /static/debug_toolbar/js/timer.js HTTP/1.1" 304 0
+INFO 08-10-2023 16:28:10 autoreload /Users/syscom/PycharmProjects/Django/firstproject/s_fifth_app/models.py changed, reloading.
+INFO 08-10-2023 16:28:11 autoreload Watching for file changes with StatReloader
+INFO 08-10-2023 16:28:43 autoreload /Users/syscom/PycharmProjects/Django/firstproject/s_sixth_app/views.py changed, reloading.
+INFO 08-10-2023 16:28:44 autoreload Watching for file changes with StatReloader
+ERROR 08-10-2023 16:28:56 log Internal Server Error: /sixth/template/
+Traceback (most recent call last):
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/firstproject/s_sixth_app/views.py", line 38, in total_in_template
+    return render(request, 'myapp6/total_count.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/syscom/PycharmProjects/Django/venv/lib/python3.11/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp6/total_count.html
+ERROR 08-10-2023 16:28:56 basehttp "GET /sixth/template/ HTTP/1.1" 500 93516
+INFO 08-10-2023 16:29:20 autoreload /Users/syscom/PycharmProjects/Django/firstproject/s_sixth_app/views.py changed, reloading.
+INFO 08-10-2023 16:29:21 autoreload Watching for file changes with StatReloader
+INFO 08-10-2023 16:29:28 basehttp "GET /sixth/template/ HTTP/1.1" 200 10493
+INFO 08-10-2023 18:20:35 autoreload /Users/syscom/PycharmProjects/Django/firstproject/firstproject/settings.py changed, reloading.
+INFO 08-10-2023 18:20:35 autoreload Watching for file changes with StatReloader
+INFO 08-10-2023 18:22:28 autoreload /Users/syscom/PycharmProjects/Django/firstproject/firstproject/settings.py changed, reloading.
+INFO 08-10-2023 18:22:28 autoreload Watching for file changes with StatReloader
+INFO 08-10-2023 18:35:31 autoreload /Users/syscom/PycharmProjects/Django/firstproject/firstproject/settings.py changed, reloading.
+INFO 08-10-2023 18:35:32 autoreload Watching for file changes with StatReloader
+INFO 08-10-2023 18:36:20 autoreload /Users/syscom/PycharmProjects/Django/firstproject/firstproject/settings.py changed, reloading.
+INFO 08-10-2023 18:36:20 autoreload Watching for file changes with StatReloader
+INFO 08-10-2023 18:37:25 autoreload /Users/syscom/PycharmProjects/Django/firstproject/firstproject/settings.py changed, reloading.
+INFO 08-10-2023 18:37:26 autoreload Watching for file changes with StatReloader
+INFO 08-10-2023 18:38:36 autoreload /Users/syscom/PycharmProjects/Django/firstproject/firstproject/settings.py changed, reloading.
+INFO 08-10-2023 18:38:36 autoreload Watching for file changes with StatReloader
